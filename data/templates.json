@@ -29,7 +29,7 @@
             "label": "Why Choose Us"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "TeamBreadcrumb": {
         "title": "Our Team",
@@ -42,7 +42,7 @@
             "label": "Our Team"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "TeamDetailBreadcrumb": {
         "title": "Team Member",
@@ -59,7 +59,7 @@
             "label": "Team Member"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "ServicesBreadcrumb": {
         "title": "Our Services",
@@ -72,7 +72,7 @@
             "label": "Services"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "ServiceDetailBreadcrumb": {
         "title": "Service Details",
@@ -89,7 +89,7 @@
             "label": "Service Details"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "BookRepairBreadcrumb": {
         "title": "Book A Repair",
@@ -102,7 +102,7 @@
             "label": "Book A Repair"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "PricingBreadcrumb": {
         "title": "Pricing",
@@ -115,7 +115,7 @@
             "label": "Pricing"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "TestimonialsBreadcrumb": {
         "title": "Testimonials",
@@ -128,7 +128,7 @@
             "label": "Testimonials"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "GalleryBreadcrumb": {
         "title": "Gallery",
@@ -141,7 +141,7 @@
             "label": "Gallery"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "FaqBreadcrumb": {
         "title": "FAQ",
@@ -154,7 +154,7 @@
             "label": "FAQ"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "WarrantyPolicyBreadcrumb": {
         "title": "Warranty Policy",
@@ -167,7 +167,7 @@
             "label": "Warranty Policy"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "CancellationPolicyBreadcrumb": {
         "title": "Cancellation / Refund Policy",
@@ -180,7 +180,7 @@
             "label": "Cancellation & Refund"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "PrivacyPolicyBreadcrumb": {
         "title": "Privacy Policy",
@@ -193,7 +193,7 @@
             "label": "Privacy Policy"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "TermsConditionsBreadcrumb": {
         "title": "Terms & Conditions",
@@ -206,7 +206,7 @@
             "label": "Terms & Conditions"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "ContactBreadcrumb": {
         "title": "Contact Us",
@@ -219,7 +219,7 @@
             "label": "Contact Us"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "BlogBreadcrumb": {
         "title": "Our Blog",
@@ -232,7 +232,7 @@
             "label": "Our Blog"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "CareersBreadcrumb": {
         "title": "Careers",
@@ -245,7 +245,7 @@
             "label": "Careers"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
       },
       "SitemapBreadcrumb": {
         "title": "Sitemap",
@@ -258,7 +258,20 @@
             "label": "Sitemap"
           }
         ],
-        "bgImage": "/main logo/breadcrumb.webp"
+        "bgImage": "/banner/bg-11.webp"
+      },
+      "MissionVisionBreadcrumb": {
+        "title": "Mission & Vision",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Mission & Vision"
+          }
+        ]
       }
     },
     "Footer": {
@@ -375,7 +388,7 @@
         ]
       },
       "bottomSection": {
-        "copyright": "Copyright 2026 wanderly All Rights Reserved. Powered by Lestow",
+        "copyright": "©Copyright 2026 Wanderly All Rights Reserved. Powered by Lestow",
         "bottomLinks": [
           {
             "id": "bl-1",
@@ -448,6 +461,34 @@
                 {
                   "key": "Footer",
                   "component": "Footer"
+                }
+              ]
+            },
+            "mission-vision": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "WanderlyTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "WanderlyHeader1"
+                },
+                {
+                  "key": "MissionVision",
+                  "component": "WanderlyMissionVision1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "WanderlyFooter1"
+                },
+                {
+                  "key": "WhyWeExist",
+                  "component": "WanderlyWhyWeExist1"
+                },
+                {
+                  "key": "CoreValues",
+                  "component": "WanderlyCoreValues1"
                 }
               ]
             }
@@ -1057,6 +1098,127 @@
               "phoneIcon": "FaPhoneAlt",
               "buttonText": "Plan Your Trip",
               "buttonLink": "/contact"
+            }
+          }
+        },
+        "MissionVision": {
+          "variants": {
+            "WanderlyMissionVision1": {
+              "subtitle": "WHO WE ARE",
+              "titlePart1": "Mission &",
+              "titleHighlight": "Vision",
+              "titlePart2": "",
+              "description": "Our mission and vision drive everything we do. They define our purpose, shape our decisions and inspire us to deliver the best every day.",
+              "centerImage": "/about/ab1.webp",
+              "mission": {
+                "title": "Our Mission",
+                "icon": "FaBullseye",
+                "description1": "Our mission is to provide reliable, innovative and high-quality travel experiences that make exploring the world seamless for everyone.",
+                "description2": "We are committed to delivering quick, affordable and trustworthy solutions while ensuring an exceptional customer experience at every step.",
+                "points": [
+                  {
+                    "id": "m1",
+                    "text": "Fast & reliable travel solutions"
+                  },
+                  {
+                    "id": "m2",
+                    "text": "Affordable pricing with transparency"
+                  },
+                  {
+                    "id": "m3",
+                    "text": "Trained professionals & quality service"
+                  },
+                  {
+                    "id": "m4",
+                    "text": "Customer satisfaction at every step"
+                  },
+                  {
+                    "id": "m5",
+                    "text": "Constant innovation & improvement"
+                  }
+                ]
+              },
+              "vision": {
+                "title": "Our Vision",
+                "icon": "FaEye",
+                "description1": "Our vision is to become the most trusted and preferred travel brand, recognized for our professionalism, innovation and customer satisfaction.",
+                "description2": "We aim to set new standards in the travel industry by embracing technology and building lasting relationships with our customers.",
+                "points": [
+                  {
+                    "id": "v1",
+                    "text": "Be a leader in travel industry"
+                  },
+                  {
+                    "id": "v2",
+                    "text": "Embrace technology & innovation"
+                  },
+                  {
+                    "id": "v3",
+                    "text": "Deliver exceptional customer experience"
+                  },
+                  {
+                    "id": "v4",
+                    "text": "Build long-term customer relationships"
+                  },
+                  {
+                    "id": "v5",
+                    "text": "Expand our reach across the globe"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "WhyWeExist": {
+          "variants": {
+            "WanderlyWhyWeExist1": {
+              "title": "Why We Exist",
+              "description": "The world is full of breathtaking places waiting to be discovered, yet planning a trip can be overwhelming. We exist to take that stress away by crafting seamless, unforgettable travel experiences that let you simply pack your bags, disconnect from the routine, and explore the beauty of the world.",
+              "icon": "FaHandHoldingHeart",
+              "image": "/about/ab2.webp"
+            }
+          }
+        },
+        "CoreValues": {
+          "variants": {
+            "WanderlyCoreValues1": {
+              "items": [
+                {
+                  "id": "cv-1",
+                  "icon": "FaShieldAlt",
+                  "title": "Integrity",
+                  "description": "We believe in honesty, transparency and doing what's right for our customers.",
+                  "color": "#12424b"
+                },
+                {
+                  "id": "cv-2",
+                  "icon": "FaAward",
+                  "title": "Quality",
+                  "description": "We never compromise on the quality of our services and parts we use.",
+                  "color": "#0971b8"
+                },
+                {
+                  "id": "cv-3",
+                  "icon": "FaStopwatch",
+                  "title": "Reliability",
+                  "description": "We deliver on our promises with timely, dependable and efficient solutions.",
+                  "color": "#12424b"
+                },
+                {
+                  "id": "cv-4",
+                  "icon": "FaUsers",
+                  "title": "Customer First",
+                  "description": "Our customers are at the heart of everything we do and their satisfaction is our success.",
+                  "color": "#0971b8"
+                },
+                {
+                  "id": "cv-5",
+                  "icon": "FaLightbulb",
+                  "title": "Innovation",
+                  "description": "We embrace new technologies and better ways to serve you.",
+                  "color": "#fbbc04"
+                }
+              ]
             }
           }
         }

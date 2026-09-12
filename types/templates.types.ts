@@ -286,6 +286,48 @@ export interface CallToActionData {
   buttonLink: string;
 }
 
+export interface MissionVisionData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  centerImage: string;
+  mission: {
+    title: string;
+    icon: string;
+    description1: string;
+    description2: string;
+    points: { id: string; text: string }[];
+  };
+  vision: {
+    title: string;
+    icon: string;
+    description1: string;
+    description2: string;
+    points: { id: string; text: string }[];
+  };
+}
+
+export interface WhyWeExistData {
+  title: string;
+  description: string;
+  icon: string;
+  image: string;
+}
+
+export interface CoreValueItem {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+  color: string;
+}
+
+export interface CoreValuesData {
+  items: CoreValueItem[];
+}
+
 export interface CounterItem {
   id: string;
   icon: string;
@@ -959,6 +1001,21 @@ export interface WanderlyTemplateData {
         CTA?: {
           variants: {
             WanderlyCTA1: CallToActionData;
+          };
+        };
+        MissionVision?: {
+          variants: {
+            WanderlyMissionVision1: MissionVisionData;
+          };
+        };
+        WhyWeExist?: {
+          variants: {
+            WanderlyWhyWeExist1: WhyWeExistData;
+          };
+        };
+        CoreValues?: {
+          variants: {
+            WanderlyCoreValues1: CoreValuesData;
           };
         };
       };
