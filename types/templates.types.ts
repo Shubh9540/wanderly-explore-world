@@ -133,6 +133,101 @@ export interface TourCard {
   buttonUrl: string;
 }
 
+export interface TourPackageCategory {
+  id: string;
+  title: string;
+  icon: string;
+}
+
+export interface TourPackageItem {
+  id: string;
+  image: string;
+  title: string;
+  rating: number;
+  ratingText: string;
+  price: string;
+  priceSuffix: string;
+  url: string;
+}
+
+export interface TourPackagesPageData {
+  sidebar: {
+    title: string;
+    categories: TourPackageCategory[];
+    helpBox: {
+      title: string;
+      description: string;
+      phone: string;
+      buttonText: string;
+      buttonUrl: string;
+    };
+  };
+  tours: TourPackageItem[];
+}
+
+export interface TourDetailBasicInfo {
+  destination: string;
+  duration: string;
+  startPoint: string;
+  endPoint: string;
+  tourType: string;
+  bestTimeToVisit: string;
+  tourCategory: string;
+  language: string;
+  tourDifficulty: string;
+}
+
+export interface TourDetailDayPlan {
+  id: string;
+  dayNumber: number;
+  title: string;
+  description: string;
+}
+
+export interface TourDetailLocation {
+  id: string;
+  name: string;
+  description: string;
+}
+
+export interface TourDetailWhyWanderly {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface TourDetailData {
+  id: string;
+  title: string;
+  location: string;
+  duration: string;
+  mainImage: string;
+  topGallery: string[];
+  description: string[];
+  highlights: string[];
+  basicInfo: TourDetailBasicInfo;
+  included: string[];
+  excluded: string[];
+  tourPlan: TourDetailDayPlan[];
+  mapImage: string;
+  locations: TourDetailLocation[];
+  bottomGallery: string[];
+  
+  sidebar: {
+    formTitle: string;
+    formSubtitle: string;
+    whyWanderlyTitle: string;
+    whyWanderlyFeatures: TourDetailWhyWanderly[];
+    helpBox: {
+      title: string;
+      description: string;
+      phone: string;
+      buttonText: string;
+    };
+  };
+}
+
 export interface ToursData {
   bgImage: string;
   subtitle: string;
@@ -1144,6 +1239,16 @@ export interface WanderlyTemplateData {
         SitemapSection?: {
           variants: {
             WanderlySitemap1: SitemapData;
+          };
+        };
+        TourPackagesPage?: {
+          variants: {
+            WanderlyTourPackagesPage1: TourPackagesPageData;
+          };
+        };
+        TourDetail?: {
+          variants: {
+            WanderlyTourDetail1: TourDetailData;
           };
         };
         Tours?: {

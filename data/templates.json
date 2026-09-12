@@ -3409,6 +3409,380 @@
               ]
             }
           }
+        },
+        "TourPackagesPage": {
+          "variants": {
+            "WanderlyTourPackagesPage1": {
+              "sidebar": {
+                "title": "Tour Packages",
+                "categories": [
+                  {
+                    "id": "cat-1",
+                    "title": "Family Tour Packages",
+                    "icon": "FaUsers"
+                  },
+                  {
+                    "id": "cat-2",
+                    "title": "Honeymoon Tour Packages",
+                    "icon": "FaHeart"
+                  },
+                  {
+                    "id": "cat-3",
+                    "title": "Group Tour Packages",
+                    "icon": "FaUsersCog"
+                  },
+                  {
+                    "id": "cat-4",
+                    "title": "Couple Tour Packages",
+                    "icon": "FaUserFriends"
+                  },
+                  {
+                    "id": "cat-5",
+                    "title": "Adventure Tour Packages",
+                    "icon": "FaMountain"
+                  },
+                  {
+                    "id": "cat-6",
+                    "title": "Luxury Tour Packages",
+                    "icon": "FaCrown"
+                  },
+                  {
+                    "id": "cat-7",
+                    "title": "Budget Tour Packages",
+                    "icon": "FaWallet"
+                  },
+                  {
+                    "id": "cat-8",
+                    "title": "Pilgrimage Tour Packages",
+                    "icon": "FaPlaceOfWorship"
+                  },
+                  {
+                    "id": "cat-9",
+                    "title": "Wildlife Tour Packages",
+                    "icon": "FaPaw"
+                  },
+                  {
+                    "id": "cat-10",
+                    "title": "Weekend Tour Packages",
+                    "icon": "FaCalendarAlt"
+                  }
+                ],
+                "helpBox": {
+                  "title": "Need Help Choosing?",
+                  "description": "Our travel experts are here to help you plan the perfect trip.",
+                  "phone": "+1 234 567 8900",
+                  "buttonText": "Contact Us",
+                  "buttonUrl": "/contact"
+                }
+              },
+              "tours": [
+                {
+                  "id": "tour-pkg-1",
+                  "image": "/destination/d-2.jpg",
+                  "title": "Italy Tour Package 1",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-1"
+                },
+                {
+                  "id": "tour-pkg-2",
+                  "image": "/destination/d-3.jpg",
+                  "title": "Dubai Tour Package 2",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-2"
+                },
+                {
+                  "id": "tour-pkg-3",
+                  "image": "/destination/d-4.jpg",
+                  "title": "Italy Tour Package 3",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-3"
+                },
+                {
+                  "id": "tour-pkg-4",
+                  "image": "/destination/d-5.jpg",
+                  "title": "Dubai Tour Package 4",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-4"
+                },
+                {
+                  "id": "tour-pkg-5",
+                  "image": "/destination/d-1.jpg",
+                  "title": "Italy Tour Package 5",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-5"
+                },
+                {
+                  "id": "tour-pkg-6",
+                  "image": "/destination/d-2.jpg",
+                  "title": "Dubai Tour Package 6",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-6"
+                },
+                {
+                  "id": "tour-pkg-7",
+                  "image": "/destination/d-3.jpg",
+                  "title": "Italy Tour Package 7",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-7"
+                },
+                {
+                  "id": "tour-pkg-8",
+                  "image": "/destination/d-4.jpg",
+                  "title": "Dubai Tour Package 8",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-8"
+                },
+                {
+                  "id": "tour-pkg-9",
+                  "image": "/destination/d-5.jpg",
+                  "title": "Italy Tour Package 9",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-9"
+                },
+                {
+                  "id": "tour-pkg-10",
+                  "image": "/destination/d-1.jpg",
+                  "title": "Dubai Tour Package 10",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-10"
+                },
+                {
+                  "id": "tour-pkg-11",
+                  "image": "/destination/d-2.jpg",
+                  "title": "Italy Tour Package 11",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-11"
+                },
+                {
+                  "id": "tour-pkg-12",
+                  "image": "/destination/d-3.jpg",
+                  "title": "Dubai Tour Package 12",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-12"
+                },
+                {
+                  "id": "tour-pkg-13",
+                  "image": "/destination/d-4.jpg",
+                  "title": "Italy Tour Package 13",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-13"
+                },
+                {
+                  "id": "tour-pkg-14",
+                  "image": "/destination/d-5.jpg",
+                  "title": "Dubai Tour Package 14",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-14"
+                },
+                {
+                  "id": "tour-pkg-15",
+                  "image": "/destination/d-1.jpg",
+                  "title": "Italy Tour Package 15",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/tour-pkg-15"
+                }
+              ]
+            }
+          }
+        },
+        "TourDetail": {
+          "variants": {
+            "WanderlyTourDetail1": {
+              "id": "tour-pkg-dummy",
+              "title": "Greece Tour Package",
+              "location": "Greece",
+              "duration": "5 Days / 4 Nights",
+              "mainImage": "/destination/d-1.jpg",
+              "topGallery": [
+                "/destination/d-1.jpg",
+                "/destination/d-2.jpg",
+                "/destination/d-3.jpg",
+                "/destination/d-4.jpg",
+                "/destination/d-5.jpg"
+              ],
+              "description": [
+                "Experience the magic of Greece with its breathtaking islands, ancient history, stunning architecture, and crystal-clear waters. A perfect blend of relaxation and adventure awaits you!"
+              ],
+              "highlights": [
+                "Experience the magic of Greece with its breathtaking islands, ancient history, stunning architecture, and crystal-clear waters. A perfect blend of relaxation and adventure awaits you!",
+                "Experience the magic of Greece with its breathtaking islands, ancient history, stunning architecture, and crystal-clear waters. A perfect blend of relaxation and adventure awaits you!"
+              ],
+              "basicInfo": {
+                "destination": "Greece",
+                "duration": "5 Days / 4 Nights",
+                "startPoint": "Athens",
+                "endPoint": "Athens",
+                "tourType": "International",
+                "bestTimeToVisit": "Apr – Oct",
+                "tourCategory": "Leisure Tour",
+                "language": "English",
+                "tourDifficulty": "Easy"
+              },
+              "included": [
+                "4 Nights accommodation in 4-star hotels",
+                "Daily Breakfast",
+                "Airport pickup and drop",
+                "All sightseeing as per itinerary",
+                "Aegean Sea Cruise",
+                "All transfers in private vehicle",
+                "Professional English-speaking guide",
+                "All applicable taxes"
+              ],
+              "excluded": [
+                "International Flights",
+                "Visa Fees",
+                "Travel Insurance",
+                "Lunch & Dinner",
+                "Personal expenses",
+                "Tips and gratuities",
+                "Anything not mentioned in included"
+              ],
+              "tourPlan": [
+                {
+                  "id": "day-1",
+                  "dayNumber": 1,
+                  "title": "Arrival in Athens",
+                  "description": "Arrival in Athens, meet our representative and transfer to hotel. Check-in and relax. Evening free for leisure."
+                },
+                {
+                  "id": "day-2",
+                  "dayNumber": 2,
+                  "title": "Athens City Tour",
+                  "description": "Visit Acropolis, Parthenon, Temple of Zeus and more. Evening free for shopping and leisure."
+                },
+                {
+                  "id": "day-3",
+                  "dayNumber": 3,
+                  "title": "Santorini Island Tour",
+                  "description": "Fly to Santorini. Explore the village of Oia and enjoy breathtaking sunset views."
+                },
+                {
+                  "id": "day-4",
+                  "dayNumber": 4,
+                  "title": "Aegean Sea Cruise",
+                  "description": "Enjoy a full-day cruise in the Aegean Sea with swimming, snorkeling and onboard lunch."
+                },
+                {
+                  "id": "day-5",
+                  "dayNumber": 5,
+                  "title": "Departure",
+                  "description": "Check out from hotel and transfer to airport for your return flight with wonderful memories."
+                }
+              ],
+              "mapImage": "/banner/map-placeholder.jpg",
+              "locations": [
+                {
+                  "id": "loc-1",
+                  "name": "Athens",
+                  "description": "Historic city of Greece, home to the Acropolis and rich history."
+                },
+                {
+                  "id": "loc-2",
+                  "name": "Santorini",
+                  "description": "Famous for its white houses, stunning sunsets and volcanic views."
+                },
+                {
+                  "id": "loc-3",
+                  "name": "Mykonos",
+                  "description": "Known for vibrant nightlife, charming streets and history."
+                },
+                {
+                  "id": "loc-4",
+                  "name": "Aegean Sea",
+                  "description": "Enjoy a relaxing cruise in the crystal-clear waters."
+                }
+              ],
+              "bottomGallery": [
+                "/destination/d-1.jpg",
+                "/destination/d-2.jpg",
+                "/destination/d-3.jpg",
+                "/destination/d-4.jpg",
+                "/destination/d-5.jpg"
+              ],
+              "sidebar": {
+                "formTitle": "Enquiry / Book This Tour",
+                "formSubtitle": "Fill in your details and our travel expert will get back to you.",
+                "whyWanderlyTitle": "Why Travel With Wanderly?",
+                "whyWanderlyFeatures": [
+                  {
+                    "id": "feat-1",
+                    "icon": "FaRegCheckCircle",
+                    "title": "Best Price Guarantee",
+                    "description": "Get the best deals and discounts on every booking."
+                  },
+                  {
+                    "id": "feat-2",
+                    "icon": "FaUsers",
+                    "title": "Expert Travel Support",
+                    "description": "Our travel experts are available 24/7 to assist you."
+                  },
+                  {
+                    "id": "feat-3",
+                    "icon": "FaShieldAlt",
+                    "title": "Safe & Secure Booking",
+                    "description": "Your payment and personal details are always safe with us."
+                  },
+                  {
+                    "id": "feat-4",
+                    "icon": "FaThumbsUp",
+                    "title": "Trusted Travel Partner",
+                    "description": "Thousands of happy travelers trust us for memorable trips."
+                  }
+                ],
+                "helpBox": {
+                  "title": "Need Help?",
+                  "description": "Our travel experts are here to help you plan your perfect trip.",
+                  "phone": "+1 234 567 8900",
+                  "buttonText": "Call Us Now"
+                }
+              }
+            }
+          }
         }
       }
     }
