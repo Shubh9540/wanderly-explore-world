@@ -39,11 +39,11 @@ export const RecognizedBy = ({ data }: { data?: RecognizedByData }) => {
           </div>
 
           {/* Right Logos Content */}
-          <div className="flex-1 flex flex-wrap items-center justify-center lg:justify-between gap-4 md:gap-6 w-full">
+          <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-4 w-full justify-items-center">
             {data.logos.map((logo) => (
               <div 
                 key={logo.id} 
-                className="bg-white rounded-2xl w-[120px] h-[90px] md:w-[140px] md:h-[100px] flex items-center justify-center p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+                className="bg-white rounded-2xl w-full max-w-[140px] aspect-[4/3] flex items-center justify-center p-3 md:p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
               >
                 <div className="relative w-full h-full">
                   {/* We use an image if present, or generic text fallback */}
