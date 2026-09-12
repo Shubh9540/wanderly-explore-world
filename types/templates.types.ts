@@ -233,6 +233,56 @@ export interface ServiceDetailContentData {
   }[];
 }
 
+export interface WanderlyServiceDetail {
+  id: string;
+  tagline: string;
+  title: string;
+  description: string;
+  topFeatures: {
+    icon: string;
+    title: string;
+    description: string;
+  }[];
+  whyChooseUs: {
+    title: string;
+    description: string;
+    features: {
+      icon: string;
+      title: string;
+      description: string;
+    }[];
+  };
+  process: {
+    title: string;
+    steps: {
+      icon: string;
+      title: string;
+      description: string;
+    }[];
+  };
+  included: {
+    title: string;
+    items: {
+      icon: string;
+      title: string;
+      description: string;
+    }[];
+  };
+  sidebar: {
+    image: string;
+    form: {
+      title: string;
+      subtitle: string;
+    };
+    helpBox: {
+      title: string;
+      subtitle: string;
+      phone: string;
+    };
+    relatedServicesTitle: string;
+  };
+}
+
 
 export interface WhyChooseUsFeature {
   id: string;
@@ -325,6 +375,7 @@ export interface CoreValueItem {
 }
 
 export interface CoreValuesData {
+  title?: string;
   items: CoreValueItem[];
 }
 
@@ -960,9 +1011,16 @@ export interface WanderlyTemplateData {
             WanderlyServiceSlider1: ServiceSliderData;
           };
         };
-        Services?: {
+        Services: {
           variants: {
-            WanderlyServices1: ServicesData;
+            WanderlyServices1?: ServicesData;
+          };
+        };
+        ServiceDetails?: {
+          variants: {
+            WanderlyServiceDetails1?: {
+              services: WanderlyServiceDetail[];
+            };
           };
         };
         ServicesGridSection?: {

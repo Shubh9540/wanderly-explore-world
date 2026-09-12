@@ -24,7 +24,7 @@ export const Commitment = ({ data }: { data?: CoreValuesData }) => {
         {/* Heading */}
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-[#12424b] mb-4">
-            Our Commitment to Excellence
+            {data.title || 'Our Commitment to Excellence'}
           </h2>
           <div className="flex items-center justify-center gap-2">
             <div className="w-10 h-[2px] bg-[#12424b]/40"></div>

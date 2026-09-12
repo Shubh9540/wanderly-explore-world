@@ -20,11 +20,11 @@ const renderIcon = (iconName: string) => {
   }
 };
 
-export const Services = ({ data }: { data?: ServicesData }) => {
+export const Services = ({ data, hideButton }: { data?: ServicesData, hideButton?: boolean }) => {
   if (!data) return null;
 
   return (
-    <section className="relative w-full overflow-hidden bg-[#fdfaf6] py-12 lg:py-16">
+    <section className="relative w-full overflow-hidden bg-[#fdfaf6] py-8 lg:py-12">
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-8 lg:px-24 relative z-10 flex flex-col items-center">
         
         {/* Heading Section */}
@@ -38,7 +38,7 @@ export const Services = ({ data }: { data?: ServicesData }) => {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full mb-12 items-start">
+        <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full items-start ${hideButton ? '' : 'mb-8'}`}>
           {data.services.map((service) => (
             <div 
               key={service.id} 
@@ -86,11 +86,13 @@ export const Services = ({ data }: { data?: ServicesData }) => {
         </div>
 
         {/* View All Button */}
-        <div className="flex justify-center w-full mt-4 relative z-10">
-          <Button href={data.viewAllButton.url} variant="decorated" className="bg-[var(--color-primary)] text-white hover:bg-[var(--color-accent)]">
-            {data.viewAllButton.text}
-          </Button>
-        </div>
+        {(!hideButton && data.viewAllButton) && (
+          <div className="flex justify-center w-full mt-4 relative z-10">
+            <Button href={data.viewAllButton.url} variant="decorated" className="bg-[#fbbc04] hover:bg-[#e0a800] text-[#12424b] font-bold">
+              {data.viewAllButton.text}
+            </Button>
+          </div>
+        )}
 
       </div>
     </section>
