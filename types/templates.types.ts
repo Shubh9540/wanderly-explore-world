@@ -328,6 +328,32 @@ export interface CoreValuesData {
   items: CoreValueItem[];
 }
 
+export interface AwardItem {
+  id: string;
+  year: string;
+  image: string;
+  title: string;
+  organization: string;
+  color: string;
+}
+
+export interface AwardsData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  subheading: string;
+  items: AwardItem[];
+}
+
+export interface RecognizedByData {
+  title: string;
+  description: string;
+  icon: string;
+  logos: { id: string; image: string }[];
+}
+
 export interface CounterItem {
   id: string;
   icon: string;
@@ -1016,6 +1042,21 @@ export interface WanderlyTemplateData {
         CoreValues?: {
           variants: {
             WanderlyCoreValues1: CoreValuesData;
+          };
+        };
+        Awards?: {
+          variants: {
+            WanderlyAwards1: AwardsData;
+          };
+        };
+        RecognizedBy?: {
+          variants: {
+            WanderlyRecognizedBy1: RecognizedByData;
+          };
+        };
+        Commitment?: {
+          variants: {
+            WanderlyCommitment1: CoreValuesData;
           };
         };
       };

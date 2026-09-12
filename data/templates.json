@@ -272,6 +272,19 @@
             "label": "Mission & Vision"
           }
         ]
+      },
+      "AwardsBreadcrumb": {
+        "title": "Awards & Recognition",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Awards"
+          }
+        ]
       }
     },
     "Footer": {
@@ -489,6 +502,34 @@
                 {
                   "key": "CoreValues",
                   "component": "WanderlyCoreValues1"
+                }
+              ]
+            },
+            "awards": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "WanderlyTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "WanderlyHeader1"
+                },
+                {
+                  "key": "Awards",
+                  "component": "WanderlyAwards1"
+                },
+                {
+                  "key": "RecognizedBy",
+                  "component": "WanderlyRecognizedBy1"
+                },
+                {
+                  "key": "Commitment",
+                  "component": "WanderlyCommitment1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "WanderlyFooter1"
                 }
               ]
             }
@@ -1217,6 +1258,163 @@
                   "title": "Innovation",
                   "description": "We embrace new technologies and better ways to serve you.",
                   "color": "#fbbc04"
+                }
+              ]
+            }
+          }
+        },
+        "Awards": {
+          "variants": {
+            "WanderlyAwards1": {
+              "subtitle": "OUR ACHIEVEMENTS",
+              "titlePart1": "Awards &",
+              "titleHighlight": "Recognition",
+              "titlePart2": "",
+              "description": "These awards reflect our commitment to excellence, innovation and customer satisfaction. We are proud to be recognized for delivering exceptional travel experiences.",
+              "subheading": "Our Prestigious Awards",
+              "items": [
+                {
+                  "id": "aw-1",
+                  "year": "2024",
+                  "title": "Best Travel Agency of the Year",
+                  "organization": "National Tourism Excellence Awards",
+                  "color": "#12424b",
+                  "image": "/award/award_1.png"
+                },
+                {
+                  "id": "aw-2",
+                  "year": "2023",
+                  "title": "Excellence in Customer Service",
+                  "organization": "Travel & Hospitality Awards",
+                  "color": "#0971b8",
+                  "image": "/award/award_2.png"
+                },
+                {
+                  "id": "aw-3",
+                  "year": "2022",
+                  "title": "Most Trusted Travel Brand",
+                  "organization": "Global Travel Awards",
+                  "color": "#fbbc04",
+                  "image": "/award/award_3.png"
+                },
+                {
+                  "id": "aw-4",
+                  "year": "2021",
+                  "title": "Innovation in Travel Services",
+                  "organization": "Tourism Innovation Summit",
+                  "color": "#0971b8",
+                  "image": "/award/award_4.png"
+                },
+                {
+                  "id": "aw-5",
+                  "year": "2020",
+                  "title": "Rising Star in Tourism Industry",
+                  "organization": "Travel Industry Recognition Awards",
+                  "color": "#12424b",
+                  "image": "/award/award_1.png"
+                },
+                {
+                  "id": "aw-6",
+                  "year": "2024",
+                  "title": "Best Travel Agency of the Year",
+                  "organization": "National Tourism Excellence Awards",
+                  "color": "#12424b",
+                  "image": "/award/award_2.png"
+                },
+                {
+                  "id": "aw-7",
+                  "year": "2023",
+                  "title": "Excellence in Customer Service",
+                  "organization": "Travel & Hospitality Awards",
+                  "color": "#0971b8",
+                  "image": "/award/award_3.png"
+                },
+                {
+                  "id": "aw-8",
+                  "year": "2022",
+                  "title": "Most Trusted Travel Brand",
+                  "organization": "Global Travel Awards",
+                  "color": "#fbbc04",
+                  "image": "/award/award_4.png"
+                },
+                {
+                  "id": "aw-9",
+                  "year": "2021",
+                  "title": "Innovation in Travel Services",
+                  "organization": "Tourism Innovation Summit",
+                  "color": "#0971b8",
+                  "image": "/award/award_1.png"
+                },
+                {
+                  "id": "aw-10",
+                  "year": "2020",
+                  "title": "Rising Star in Tourism Industry",
+                  "organization": "Travel Industry Recognition Awards",
+                  "color": "#12424b",
+                  "image": "/award/award_2.png"
+                }
+              ]
+            }
+          }
+        },
+        "RecognizedBy": {
+          "variants": {
+            "WanderlyRecognizedBy1": {
+              "title": "Recognized By Leading Organizations",
+              "description": "We are honored to be acknowledged by reputed organizations in the travel and tourism industry.",
+              "icon": "FaMedal",
+              "logos": [
+                {
+                  "id": "l-1",
+                  "image": "/award/award_1.png"
+                },
+                {
+                  "id": "l-2",
+                  "image": "/award/award_2.png"
+                },
+                {
+                  "id": "l-3",
+                  "image": "/award/award_3.png"
+                },
+                {
+                  "id": "l-4",
+                  "image": "/award/award_4.png"
+                }
+              ]
+            }
+          }
+        },
+        "Commitment": {
+          "variants": {
+            "WanderlyCommitment1": {
+              "items": [
+                {
+                  "id": "c-1",
+                  "icon": "FaBullseye",
+                  "title": "Excellence",
+                  "description": "We strive for the highest standards in everything we do.",
+                  "color": "#12424b"
+                },
+                {
+                  "id": "c-2",
+                  "icon": "FaLightbulb",
+                  "title": "Innovation",
+                  "description": "We embrace new ideas to create better travel experiences.",
+                  "color": "#0971b8"
+                },
+                {
+                  "id": "c-3",
+                  "icon": "FaHandshake",
+                  "title": "Trust",
+                  "description": "We build lasting relationships through transparency and reliability.",
+                  "color": "#fbbc04"
+                },
+                {
+                  "id": "c-4",
+                  "icon": "FaHeart",
+                  "title": "Customer First",
+                  "description": "Our customers are at the heart of every decision we make.",
+                  "color": "#12424b"
                 }
               ]
             }
