@@ -33,16 +33,16 @@
       },
       "TeamBreadcrumb": {
         "title": "Our Team",
+        "bgImage": "/banner/bg-11.webp",
         "paths": [
           {
             "label": "Home",
             "url": "/"
           },
           {
-            "label": "Our Team"
+            "label": "Team"
           }
-        ],
-        "bgImage": "/banner/bg-11.webp"
+        ]
       },
       "TeamDetailBreadcrumb": {
         "title": "Team Member",
@@ -566,6 +566,50 @@
                 {
                   "key": "CTA",
                   "component": "WanderlyCTA1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "WanderlyFooter1"
+                }
+              ]
+            },
+            "team": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "WanderlyTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "WanderlyHeader1"
+                },
+                {
+                  "key": "TeamGrid",
+                  "component": "WanderlyTeamGrid1"
+                },
+                {
+                  "key": "CTA",
+                  "component": "WanderlyCTA1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "WanderlyFooter1"
+                }
+              ]
+            },
+            "team-detail": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "WanderlyTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "WanderlyHeader1"
+                },
+                {
+                  "key": "TeamDetail",
+                  "component": "Dynamic"
                 },
                 {
                   "key": "Footer",
@@ -1542,6 +1586,801 @@
                 "Trusted by thousands of happy travelers",
                 "24/7 support before, during & after your trip",
                 "Comfortable travel with quality service"
+              ]
+            }
+          }
+        },
+        "TeamGrid": {
+          "variants": {
+            "WanderlyTeamGrid1": {
+              "subtitle": "MEET OUR EXPERTS",
+              "title": "Our Team",
+              "description": "Our passionate and experienced team is dedicated to making your travel experiences unforgettable.",
+              "members": [
+                {
+                  "id": "tm-1",
+                  "name": "Rahul Sharma",
+                  "title": "Tourist Guide",
+                  "image": "/team/1.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Rahul is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Rahul specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Rahul loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "rahul@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-2",
+                  "name": "Priya Verma",
+                  "title": "Tourist Guide",
+                  "image": "/team/02.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Priya is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Priya specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Priya loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "priya@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-3",
+                  "name": "Amit Patel",
+                  "title": "Tourist Guide",
+                  "image": "/team/03.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Amit is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Amit specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Amit loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "amit@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-4",
+                  "name": "Sneha Iyer",
+                  "title": "Tourist Guide",
+                  "image": "/team/04.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Sneha is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Sneha specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Sneha loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "sneha@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-5",
+                  "name": "Vikram Mehta",
+                  "title": "Tourist Guide",
+                  "image": "/team/1.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Vikram is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Vikram specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Vikram loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "vikram@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-6",
+                  "name": "Neha Singh",
+                  "title": "Tourist Guide",
+                  "image": "/team/02.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Neha is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Neha specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Neha loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "neha@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-7",
+                  "name": "Rohit Kumar",
+                  "title": "Tourist Guide",
+                  "image": "/team/03.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Rohit is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Rohit specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Rohit loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "rohit@example.com",
+                    "location": "New Delhi, India"
+                  }
+                },
+                {
+                  "id": "tm-8",
+                  "name": "Anjali Desai",
+                  "title": "Tourist Guide",
+                  "image": "/team/04.webp",
+                  "socialLinks": [
+                    {
+                      "icon": "FaFacebookF",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaTwitter",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaInstagram",
+                      "url": "#"
+                    },
+                    {
+                      "icon": "FaLinkedinIn",
+                      "url": "#"
+                    }
+                  ],
+                  "experience": "6+ Years",
+                  "specialization": "Cultural Tours",
+                  "languages": "Hindi, English",
+                  "nationality": "Indian",
+                  "bio": "Anjali is a passionate traveler and experienced guide with over 6 years of expertise in delivering unforgettable travel experiences. Anjali specializes in cultural tours, adventure trips and offbeat destinations.",
+                  "about": "Anjali loves exploring new places and sharing stories that bring destinations to life. Friendly nature, deep knowledge and commitment to customer satisfaction make them a trusted guide for travelers from around the world.",
+                  "skills": [
+                    {
+                      "name": "Destination Knowledge",
+                      "percentage": 95
+                    },
+                    {
+                      "name": "Cultural Understanding",
+                      "percentage": 93
+                    },
+                    {
+                      "name": "Communication",
+                      "percentage": 90
+                    },
+                    {
+                      "name": "Problem Solving",
+                      "percentage": 88
+                    },
+                    {
+                      "name": "Customer Service",
+                      "percentage": 92
+                    },
+                    {
+                      "name": "Leadership",
+                      "percentage": 90
+                    }
+                  ],
+                  "experienceTimeline": [
+                    {
+                      "role": "Senior Tourist Guide",
+                      "company": "Wanderlust Travels",
+                      "duration": "2021 - Present",
+                      "description": "Leading group tours, customizing itineraries and ensuring memorable travel experiences for clients."
+                    },
+                    {
+                      "role": "Tourist Guide",
+                      "company": "Adventure India Tours",
+                      "duration": "2018 - 2021",
+                      "description": "Conducted city tours, adventure trips and cultural experiences for domestic and international travelers."
+                    },
+                    {
+                      "role": "Travel Assistant",
+                      "company": "Explore World Holidays",
+                      "duration": "2016 - 2018",
+                      "description": "Assisted in planning tours, managing bookings and supporting guests during travel."
+                    }
+                  ],
+                  "achievements": [
+                    {
+                      "title": "Best Tour Guide Award",
+                      "description": "Recognized for excellent service and traveler satisfaction in 2023.",
+                      "icon": "FaTrophy"
+                    },
+                    {
+                      "title": "Top Customer Rating",
+                      "description": "Consistently received 5-star reviews from travelers.",
+                      "icon": "FaCog"
+                    },
+                    {
+                      "title": "Expert in Offbeat Tours",
+                      "description": "Special appreciation for curating unique and offbeat travel experiences.",
+                      "icon": "FaMapMarkerAlt"
+                    }
+                  ],
+                  "contact": {
+                    "phone": "+91 98765 43210",
+                    "email": "anjali@example.com",
+                    "location": "New Delhi, India"
+                  }
+                }
               ]
             }
           }

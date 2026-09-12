@@ -385,6 +385,49 @@ export interface WhatMakesUsDifferentData {
   items: string[];
 }
 
+export interface TeamMemberSkill {
+  name: string;
+  percentage: number;
+}
+
+export interface TeamMemberExperience {
+  role: string;
+  company: string;
+  duration: string;
+  description: string;
+}
+
+export interface TeamMemberAchievement {
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface WanderlyTeamMember {
+  id: string;
+  name: string;
+  title: string;
+  image: string;
+  socialLinks: { icon: string; url: string }[];
+  experience: string;
+  specialization: string;
+  languages: string;
+  nationality: string;
+  bio: string;
+  about: string;
+  skills: TeamMemberSkill[];
+  experienceTimeline: TeamMemberExperience[];
+  achievements: TeamMemberAchievement[];
+  contact: { phone: string; email: string; location: string };
+}
+
+export interface TeamGridData {
+  subtitle: string;
+  title: string;
+  description: string;
+  members: WanderlyTeamMember[];
+}
+
 export interface CounterItem {
   id: string;
   icon: string;
@@ -1103,6 +1146,11 @@ export interface WanderlyTemplateData {
         WhatMakesUsDifferent?: {
           variants: {
             WanderlyWhatMakesUsDifferent1: WhatMakesUsDifferentData;
+          };
+        };
+        TeamGrid?: {
+          variants: {
+            WanderlyTeamGrid1: TeamGridData;
           };
         };
       };
