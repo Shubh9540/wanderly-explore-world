@@ -16,7 +16,7 @@ const renderIcon = (iconName: string) => {
   }
 };
 
-export const AboutUs = ({ data }: { data?: AboutUsData }) => {
+export const AboutUs = ({ data, hideButton = false }: { data?: AboutUsData, hideButton?: boolean }) => {
   if (!data) return null;
 
   return (
@@ -71,16 +71,18 @@ export const AboutUs = ({ data }: { data?: AboutUsData }) => {
           )}
 
           {/* Button */}
-          <div className="flex items-center gap-4 relative">
-            {data.button && (
-              <Link
-                href={data.button.url}
-                className="bg-[var(--color-primary)] text-white font-semibold px-6 py-3 rounded-full inline-flex items-center gap-3 hover:bg-[var(--color-accent)] transition-colors duration-300 w-fit text-sm shadow-xl z-20 relative"
-              >
-                {data.button.text} <FaArrowRight className="text-[12px]" />
-              </Link>
-            )}
-          </div>
+          {!hideButton && (
+            <div className="flex items-center gap-4 relative">
+              {data.button && (
+                <Link
+                  href={data.button.url}
+                  className="bg-[var(--color-primary)] text-white font-semibold px-6 py-3 rounded-full inline-flex items-center gap-3 hover:bg-[var(--color-accent)] transition-colors duration-300 w-fit text-sm shadow-xl z-20 relative"
+                >
+                  {data.button.text} <FaArrowRight className="text-[12px]" />
+                </Link>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Right Side: Images Composition (Takes 7 columns) */}
