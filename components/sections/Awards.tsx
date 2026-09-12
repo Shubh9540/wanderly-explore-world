@@ -9,7 +9,7 @@ export const Awards = ({ data }: { data?: AwardsData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-16 lg:py-12 bg-white relative overflow-hidden">
+    <section className="py-8 lg:py-12 bg-white relative overflow-hidden">
 
       {/* Background Decorative Dots */}
       <div className="absolute top-0 left-0 w-64 h-64 opacity-20 pointer-events-none" style={{ backgroundImage: 'radial-gradient(#12424b 2px, transparent 2px)', backgroundSize: '24px 24px' }}></div>

@@ -18,7 +18,7 @@ export const Commitment = ({ data }: { data?: CoreValuesData }) => {
   if (!data) return null;
 
   return (
-    <section className="py-12 lg:py-12 bg-white relative">
+    <section className="py-8 lg:py-12 bg-white relative">
       <div className="max-w-[1250px] mx-auto px-4 md:px-6">
 
         {/* Heading */}

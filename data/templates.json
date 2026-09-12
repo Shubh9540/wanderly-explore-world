@@ -20,6 +20,7 @@
       },
       "WhyChooseUsBreadcrumb": {
         "title": "Why Choose Us",
+        "bgImage": "/banner/bg-11.webp",
         "paths": [
           {
             "label": "Home",
@@ -28,8 +29,7 @@
           {
             "label": "Why Choose Us"
           }
-        ],
-        "bgImage": "/banner/bg-11.webp"
+        ]
       },
       "TeamBreadcrumb": {
         "title": "Our Team",
@@ -526,6 +526,46 @@
                 {
                   "key": "Commitment",
                   "component": "WanderlyCommitment1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "WanderlyFooter1"
+                }
+              ]
+            },
+            "why-choose-us": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "WanderlyTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "WanderlyHeader1"
+                },
+                {
+                  "key": "WhyChooseUs",
+                  "component": "WanderlyWhyChooseUs1"
+                },
+                {
+                  "key": "TravelAdvantages",
+                  "component": "WanderlyTravelAdvantages1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "WanderlyCounter1"
+                },
+                {
+                  "key": "TravelProcess",
+                  "component": "WanderlyTravelProcess1"
+                },
+                {
+                  "key": "WhatMakesUsDifferent",
+                  "component": "WanderlyWhatMakesUsDifferent1"
+                },
+                {
+                  "key": "CTA",
+                  "component": "WanderlyCTA1"
                 },
                 {
                   "key": "Footer",
@@ -1416,6 +1456,92 @@
                   "description": "Our customers are at the heart of every decision we make.",
                   "color": "#12424b"
                 }
+              ]
+            }
+          }
+        },
+        "TravelAdvantages": {
+          "variants": {
+            "WanderlyTravelAdvantages1": {
+              "title": "Our Travel Advantages",
+              "items": [
+                {
+                  "id": "ta-1",
+                  "icon": "FaDollarSign",
+                  "title": "Best Price Guarantee",
+                  "description": "We ensure you get the best value for your money."
+                },
+                {
+                  "id": "ta-2",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Handpicked Destinations",
+                  "description": "Curated locations for unforgettable experiences."
+                },
+                {
+                  "id": "ta-3",
+                  "icon": "FaShieldAlt",
+                  "title": "Safe & Secure Travel",
+                  "description": "Your safety is our top priority at every step."
+                },
+                {
+                  "id": "ta-4",
+                  "icon": "FaUserTie",
+                  "title": "Personalized Itineraries",
+                  "description": "Customized trips tailored to your needs."
+                }
+              ]
+            }
+          }
+        },
+        "TravelProcess": {
+          "variants": {
+            "WanderlyTravelProcess1": {
+              "title": "Our Simple Travel Process",
+              "steps": [
+                {
+                  "id": "tp-1",
+                  "icon": "FaGlobeAmericas",
+                  "stepNumber": "01",
+                  "title": "Choose Destination",
+                  "description": "Pick your dream destination from our best options."
+                },
+                {
+                  "id": "tp-2",
+                  "icon": "FaClipboardList",
+                  "stepNumber": "02",
+                  "title": "Customize Trip",
+                  "description": "Personalize your itinerary as per your preferences."
+                },
+                {
+                  "id": "tp-3",
+                  "icon": "FaTicketAlt",
+                  "stepNumber": "03",
+                  "title": "Confirm Booking",
+                  "description": "Secure your booking with easy & quick process."
+                },
+                {
+                  "id": "tp-4",
+                  "icon": "FaSuitcaseRolling",
+                  "stepNumber": "04",
+                  "title": "Enjoy Your Journey",
+                  "description": "Pack your bags and create memories for a lifetime."
+                }
+              ]
+            }
+          }
+        },
+        "WhatMakesUsDifferent": {
+          "variants": {
+            "WanderlyWhatMakesUsDifferent1": {
+              "title": "What Makes Us Different?",
+              "image": "/about/ab1.webp",
+              "items": [
+                "Local expertise & insider knowledge",
+                "Transparent pricing with no hidden charges",
+                "Flexible plans to match your schedule",
+                "Trusted by thousands of happy travelers",
+                "24/7 support before, during & after your trip",
+                "Comfortable travel with quality service"
               ]
             }
           }

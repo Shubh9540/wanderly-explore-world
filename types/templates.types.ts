@@ -354,6 +354,37 @@ export interface RecognizedByData {
   logos: { id: string; image: string }[];
 }
 
+export interface TravelAdvantageItem {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface TravelAdvantagesData {
+  title: string;
+  items: TravelAdvantageItem[];
+}
+
+export interface TravelProcessStep {
+  id: string;
+  icon: string;
+  stepNumber: string;
+  title: string;
+  description: string;
+}
+
+export interface TravelProcessData {
+  title: string;
+  steps: TravelProcessStep[];
+}
+
+export interface WhatMakesUsDifferentData {
+  title: string;
+  image: string;
+  items: string[];
+}
+
 export interface CounterItem {
   id: string;
   icon: string;
@@ -1057,6 +1088,21 @@ export interface WanderlyTemplateData {
         Commitment?: {
           variants: {
             WanderlyCommitment1: CoreValuesData;
+          };
+        };
+        TravelAdvantages?: {
+          variants: {
+            WanderlyTravelAdvantages1: TravelAdvantagesData;
+          };
+        };
+        TravelProcess?: {
+          variants: {
+            WanderlyTravelProcess1: TravelProcessData;
+          };
+        };
+        WhatMakesUsDifferent?: {
+          variants: {
+            WanderlyWhatMakesUsDifferent1: WhatMakesUsDifferentData;
           };
         };
       };
