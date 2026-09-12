@@ -1,0 +1,1066 @@
+{
+  "common": {
+    "globalUI": {
+      "loading": "Loading...",
+      "notFound": "Page not found"
+    },
+    "breadcrumbs": {
+      "AboutBreadcrumb": {
+        "title": "About Us",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "About Us"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "WhyChooseUsBreadcrumb": {
+        "title": "Why Choose Us",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Why Choose Us"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "TeamBreadcrumb": {
+        "title": "Our Team",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Team"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "TeamDetailBreadcrumb": {
+        "title": "Team Member",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Team",
+            "url": "/team"
+          },
+          {
+            "label": "Team Member"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "ServicesBreadcrumb": {
+        "title": "Our Services",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Services"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "ServiceDetailBreadcrumb": {
+        "title": "Service Details",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Services",
+            "url": "/services"
+          },
+          {
+            "label": "Service Details"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "BookRepairBreadcrumb": {
+        "title": "Book A Repair",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Book A Repair"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "PricingBreadcrumb": {
+        "title": "Pricing",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Pricing"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "TestimonialsBreadcrumb": {
+        "title": "Testimonials",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Testimonials"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "GalleryBreadcrumb": {
+        "title": "Gallery",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Gallery"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "FaqBreadcrumb": {
+        "title": "FAQ",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "FAQ"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "WarrantyPolicyBreadcrumb": {
+        "title": "Warranty Policy",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Warranty Policy"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "CancellationPolicyBreadcrumb": {
+        "title": "Cancellation / Refund Policy",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Cancellation & Refund"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "PrivacyPolicyBreadcrumb": {
+        "title": "Privacy Policy",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Privacy Policy"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "TermsConditionsBreadcrumb": {
+        "title": "Terms & Conditions",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Terms & Conditions"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "ContactBreadcrumb": {
+        "title": "Contact Us",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Contact Us"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "BlogBreadcrumb": {
+        "title": "Our Blog",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Blog"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "CareersBreadcrumb": {
+        "title": "Careers",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Careers"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      },
+      "SitemapBreadcrumb": {
+        "title": "Sitemap",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Sitemap"
+          }
+        ],
+        "bgImage": "/main logo/breadcrumb.webp"
+      }
+    },
+    "Footer": {
+      "topSection": {
+        "callTitle": "Call Us 24/7",
+        "phone": "+1 (123) 456-7890",
+        "callSubtext": "We are always here to help you!",
+        "subscribeTitle": "Subscribe Us",
+        "subscribeSubtext": "Get latest updates and offers straight to your inbox.",
+        "emailPlaceholder": "Enter your email"
+      },
+      "middleSection": {
+        "logo": "/main logo/footer-logo.png",
+        "description": "We provide fast, reliable and affordable mobile repair solutions with quality parts and expert technicians you can trust.",
+        "socialLinks": [
+          {
+            "id": "fb",
+            "icon": "FaFacebookF",
+            "url": "#"
+          },
+          {
+            "id": "ig",
+            "icon": "FaInstagram",
+            "url": "#"
+          },
+          {
+            "id": "yt",
+            "icon": "FaYoutube",
+            "url": "#"
+          },
+          {
+            "id": "in",
+            "icon": "FaLinkedinIn",
+            "url": "#"
+          }
+        ],
+        "exploreTitle": "Explore",
+        "exploreLinks": [
+          {
+            "id": "ex-1",
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "id": "ex-2",
+            "label": "About Us",
+            "url": "/about"
+          },
+          {
+            "id": "ex-3",
+            "label": "Services",
+            "url": "/services"
+          },
+          {
+            "id": "ex-4",
+            "label": "Pricing",
+            "url": "/pricing"
+          },
+          {
+            "id": "ex-5",
+            "label": "Testimonials",
+            "url": "/testimonials"
+          },
+          {
+            "id": "ex-6",
+            "label": "Gallery",
+            "url": "/gallery"
+          },
+          {
+            "id": "ex-7",
+            "label": "FAQs",
+            "url": "/faq"
+          },
+          {
+            "id": "ex-8",
+            "label": "Contact Us",
+            "url": "/contact"
+          }
+        ],
+        "contactTitle": "Contact Us",
+        "address": "123 Repair Street, Tech City, CA 90210, USA",
+        "phoneLines": [
+          "+1 (123) 456-7890",
+          "+1 (123) 555-0123"
+        ],
+        "email": "info@fixaro.com",
+        "workingHours": [
+          "Mon - Sat: 9:00 AM - 8:00 PM",
+          "Sunday: 10:00 AM - 6:00 PM"
+        ],
+        "recentPostsTitle": "Recent Posts",
+        "recentPosts": [
+          {
+            "id": "rp-1",
+            "title": "5 Signs Your Phone Needs Professional Repair",
+            "date": "20 May, 2024",
+            "image": "/blog/blog1.webp",
+            "url": "/blog/5-signs-phone-needs-repair"
+          },
+          {
+            "id": "rp-2",
+            "title": "How to Extend Your Phone Battery Life",
+            "date": "15 May, 2024",
+            "image": "/blog/blog1.webp",
+            "url": "/blog/extend-phone-battery-life"
+          },
+          {
+            "id": "rp-3",
+            "title": "Latest Smartphone Launches in 2024",
+            "date": "10 May, 2024",
+            "image": "/blog/blog1.webp",
+            "url": "/blog/latest-smartphone-launches-2024"
+          }
+        ]
+      },
+      "bottomSection": {
+        "copyright": "Copyright 2026 wanderly All Rights Reserved. Powered by Lestow",
+        "bottomLinks": [
+          {
+            "id": "bl-1",
+            "label": "Privacy Policy",
+            "url": "/privacy-policy"
+          },
+          {
+            "id": "bl-2",
+            "label": "Terms & Conditions",
+            "url": "/terms-conditions"
+          },
+          {
+            "id": "bl-3",
+            "label": "Sitemap",
+            "url": "/sitemap"
+          }
+        ],
+        "paymentImage": "/main logo/fopay.webp"
+      }
+    }
+  },
+  "categories": {
+    "Wanderly": {
+      "templateComponents": {
+        "Wanderly": {
+          "shared": {
+            "Topbar": "WanderlyTopBar1",
+            "Header": "WanderlyHeader1",
+            "Footer": "Footer"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "WanderlyTopBar1"
+                },
+                {
+                  "key": "Header",
+                  "component": "WanderlyHeader1"
+                },
+                {
+                  "key": "Tours",
+                  "component": "WanderlyTours1"
+                },
+                {
+                  "key": "Services",
+                  "component": "WanderlyServices1"
+                },
+                {
+                  "key": "WhyChooseUs",
+                  "component": "WanderlyWhyChooseUs1"
+                },
+                {
+                  "key": "Counter",
+                  "component": "WanderlyCounter1"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "WanderlyTestimonials1"
+                },
+                {
+                  "key": "Blogs",
+                  "component": "WanderlyBlogs1"
+                },
+                {
+                  "key": "CTA",
+                  "component": "WanderlyCTA1"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "WanderlyTopBar1": {
+              "address": "45 New Eskaton Road, Austria",
+              "addressIcon": "FaMapMarkerAlt",
+              "workingHours": "Sun to Friday: 8.00 am - 7.00 pm",
+              "workingHoursIcon": "FaRegClock",
+              "socialTitle": "Follow Us:",
+              "socialLinks": [
+                {
+                  "id": "social-facebook",
+                  "icon": "FaFacebookF",
+                  "url": "#"
+                },
+                {
+                  "id": "social-instagram",
+                  "icon": "FaInstagram",
+                  "url": "#"
+                },
+                {
+                  "id": "social-twitter",
+                  "icon": "FaTwitter",
+                  "url": "#"
+                },
+                {
+                  "id": "social-linkedin",
+                  "icon": "FaLinkedinIn",
+                  "url": "#"
+                },
+                {
+                  "id": "social-youtube",
+                  "icon": "FaYoutube",
+                  "url": "#"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "WanderlyHeader1": {
+              "image": "/main logo/footer-logo.png",
+              "imageAlt": "Wanderly Logo",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nav-destination",
+                  "label": "Destination",
+                  "subLinks": [
+                    {
+                      "id": "sub-dest-1",
+                      "label": "Europe",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-service",
+                  "label": "Service",
+                  "subLinks": [
+                    {
+                      "id": "sub-srv-1",
+                      "label": "Tour Guide",
+                      "url": "#"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Our Teams",
+                  "url": "/team"
+                },
+                {
+                  "id": "nav-gallery",
+                  "label": "Gallery",
+                  "url": "/gallery"
+                },
+                {
+                  "id": "nav-blog",
+                  "label": "Blog",
+                  "subLinks": [
+                    {
+                      "id": "sub-blog-1",
+                      "label": "Travel Tips",
+                      "url": "#"
+                    }
+                  ]
+                }
+              ],
+              "contactButton": {
+                "text": "Book Now",
+                "url": "/book-repair",
+                "icon": "FaArrowRight"
+              }
+            }
+          }
+        },
+        "HeroSlider": {
+          "variants": {
+            "WanderlyHeroSlider1": {
+              "slides": [
+                {
+                  "id": "hero-slide-1",
+                  "bgImage": "/banner/hero_bg_1.jpg",
+                  "subtitleText": "Explore The World",
+                  "subtitleSuffix": "plane_path",
+                  "titleLine1": "It's Time For",
+                  "titleLine2Highlight": "New Adventures",
+                  "titleLine2Text": "",
+                  "description": "Discover amazing places with us and create unforgettable memories.",
+                  "buttonText": "Explore Tours",
+                  "buttonUrl": "/tours"
+                },
+                {
+                  "id": "hero-slide-2",
+                  "bgImage": "/banner/hero_bg_2.jpg",
+                  "subtitleText": "Explore The World",
+                  "subtitleSuffix": "plane_path",
+                  "titleLine1": "It's Time For",
+                  "titleLine2Highlight": "New Adventures",
+                  "titleLine2Text": "",
+                  "description": "Discover amazing places with us and create unforgettable memories.",
+                  "buttonText": "Explore Tours",
+                  "buttonUrl": "/tours"
+                },
+                {
+                  "id": "hero-slide-3",
+                  "bgImage": "/banner/hero_bg_3.jpg",
+                  "subtitleText": "Explore The World",
+                  "subtitleSuffix": "plane_path",
+                  "titleLine1": "It's Time For",
+                  "titleLine2Highlight": "New Adventures",
+                  "titleLine2Text": "",
+                  "description": "Discover amazing places with us and create unforgettable memories.",
+                  "buttonText": "Explore Tours",
+                  "buttonUrl": "/tours"
+                }
+              ]
+            }
+          }
+        },
+        "DestinationGrid": {
+          "variants": {
+            "WanderlyDestinationGrid1": {
+              "subtitle": "Top Searched",
+              "subtitleSuffix": "plane_path",
+              "title": "Destinations",
+              "description": "Top destinations based on customer search",
+              "destinations": [
+                {
+                  "id": "dest-1",
+                  "image": "/destination/international/Amsterdam.webp",
+                  "city": "Amsterdam",
+                  "tourCount": "376 Tours",
+                  "url": "/destinations/amsterdam"
+                },
+                {
+                  "id": "dest-2",
+                  "image": "/destination/international/Paris.webp",
+                  "city": "Paris",
+                  "tourCount": "396 Tours",
+                  "url": "/destinations/paris"
+                },
+                {
+                  "id": "dest-3",
+                  "image": "/destination/international/Dubai.webp",
+                  "city": "Dubai",
+                  "tourCount": "256 Tours",
+                  "url": "/destinations/dubai"
+                },
+                {
+                  "id": "dest-4",
+                  "image": "/destination/international/Istanbul.webp",
+                  "city": "Istanbul",
+                  "tourCount": "326 Tours",
+                  "url": "/destinations/istanbul"
+                },
+                {
+                  "id": "dest-5",
+                  "image": "/destination/international/Venice.webp",
+                  "city": "Venice",
+                  "tourCount": "350 Tours",
+                  "url": "/destinations/venice"
+                },
+                {
+                  "id": "dest-6",
+                  "image": "/destination/international/London.webp",
+                  "city": "London",
+                  "tourCount": "306 Tours",
+                  "url": "/destinations/london"
+                },
+                {
+                  "id": "dest-7",
+                  "image": "/destination/international/Switzerland.webp",
+                  "city": "Switzerland",
+                  "tourCount": "156 Tours",
+                  "url": "/destinations/switzerland"
+                },
+                {
+                  "id": "dest-8",
+                  "image": "/destination/international/Japan.webp",
+                  "city": "Japan",
+                  "tourCount": "356 Tours",
+                  "url": "/destinations/japan"
+                }
+              ],
+              "viewAllButton": {
+                "text": "View All",
+                "url": "/destinations"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "WanderlyAboutUs1": {
+              "image1": "/about/ab1.webp",
+              "image2": "/about/ab2.webp",
+              "image3": "/about/ab3.webp",
+              "subtitle": "ABOUT US",
+              "title": "We Make Your Travel Experience",
+              "titleCursive": "Better",
+              "description": "Wanderly is a full-service travel agency providing best travel solutions around the world. We bring you the best destinations, comfortable stays and unforgettable experiences.",
+              "features": [
+                {
+                  "id": "feat-1",
+                  "icon": "FaShieldAlt",
+                  "title": "Best Price Guarantee",
+                  "description": ""
+                },
+                {
+                  "id": "feat-2",
+                  "icon": "FaBriefcase",
+                  "title": "Handpicked Hotels",
+                  "description": ""
+                },
+                {
+                  "id": "feat-3",
+                  "icon": "FaHeadset",
+                  "title": "24/7 Customer Support",
+                  "description": ""
+                },
+                {
+                  "id": "feat-4",
+                  "icon": "FaUserAlt",
+                  "title": "100% Customer Satisfaction",
+                  "description": ""
+                }
+              ],
+              "button": {
+                "text": "Know More About Us",
+                "url": "/about"
+              }
+            }
+          }
+        },
+        "Tours": {
+          "variants": {
+            "WanderlyTours1": {
+              "bgImage": "/banner/bg-02.webp",
+              "subtitle": "Best Place For You",
+              "titlePart1": "Most Popular Tour",
+              "titlePart2": "",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+              "tours": [
+                {
+                  "id": "t1",
+                  "image": "/tour/Dubai.webp",
+                  "title": "Dubai Tour Package",
+                  "rating": 5,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/tours/dubai"
+                },
+                {
+                  "id": "t2",
+                  "image": "/tour/Istanbul.webp",
+                  "title": "Turkey Tour Package",
+                  "rating": 5,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/tours/turkey"
+                },
+                {
+                  "id": "t3",
+                  "image": "/tour/London.webp",
+                  "title": "London Tour Package",
+                  "rating": 5,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/tours/london"
+                },
+                {
+                  "id": "t4",
+                  "image": "/tour/Switzerland.webp",
+                  "title": "Switzerland Tour",
+                  "rating": 5,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "buttonText": "Book Now",
+                  "buttonUrl": "/tours/switzerland"
+                }
+              ],
+              "viewAllButton": {
+                "text": "View All Tours",
+                "url": "/tours"
+              }
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "WanderlyServices1": {
+              "subtitle": "Our",
+              "titlePart1": "Services",
+              "titlePart2": "",
+              "description": "We provide the best travel services to make your journey comfortable, hassle-free and memorable.",
+              "services": [
+                {
+                  "id": "srv-1",
+                  "title": "Flight Booking",
+                  "description": "Book domestic and international flights at the best prices.",
+                  "image": "/service/1.jpg",
+                  "icon": "FaPlane",
+                  "url": "/services/flight-booking"
+                },
+                {
+                  "id": "srv-2",
+                  "title": "Hotel Booking",
+                  "description": "Comfortable stays for every budget and every destination.",
+                  "image": "/service/2.jpg",
+                  "icon": "FaBuilding",
+                  "url": "/services/hotel-booking"
+                },
+                {
+                  "id": "srv-3",
+                  "title": "Tour Packages",
+                  "description": "Curated tour packages for family, couples and groups.",
+                  "image": "/service/3.jpg",
+                  "icon": "FaMapMarkedAlt",
+                  "url": "/services/tour-packages"
+                },
+                {
+                  "id": "srv-4",
+                  "title": "Transport Services",
+                  "description": "Reliable airport transfers and local transport for your convenience.",
+                  "image": "/service/4.jpg",
+                  "icon": "FaBus",
+                  "url": "/services/transport-services"
+                },
+                {
+                  "id": "srv-5",
+                  "title": "Visa Assistance",
+                  "description": "Hassle-free visa support for your international travel.",
+                  "image": "/service/5.jpg",
+                  "icon": "FaPassport",
+                  "url": "/services/visa-assistance"
+                },
+                {
+                  "id": "srv-6",
+                  "title": "Travel Insurance",
+                  "description": "Travel with peace of mind and complete protection.",
+                  "image": "/service/6.jpg",
+                  "icon": "FaShieldAlt",
+                  "url": "/services/travel-insurance"
+                },
+                {
+                  "id": "srv-7",
+                  "title": "Travel Guide",
+                  "description": "Expert guidance to help you explore the best places.",
+                  "image": "/service/7.jpg",
+                  "icon": "FaUserTie",
+                  "url": "/services/travel-guide"
+                },
+                {
+                  "id": "srv-8",
+                  "title": "24/7 Support",
+                  "description": "We are here to assist you anytime, anywhere.",
+                  "image": "/service/8.jpg",
+                  "icon": "FaHeadset",
+                  "url": "/services/support"
+                }
+              ],
+              "viewAllButton": {
+                "text": "Explore All Services",
+                "url": "/services"
+              }
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "WanderlyWhyChooseUs1": {
+              "subtitle": "WHY CHOOSE US",
+              "subtitleSuffix": "plane_path",
+              "titlePart1": "Trusted By Thousands Of Travelers",
+              "titleHighlight": "Worldwide",
+              "titlePart2": "",
+              "description": "We go the extra mile to make your travel experience smooth, safe, and unforgettable. Discover why thousands of travelers trust us for their journeys around the world.",
+              "features": [
+                {
+                  "id": "wcu-feat-1",
+                  "icon": "FaSuitcaseRolling",
+                  "title": "Expertly Crafted Tours",
+                  "description": "Handpicked packages by real travel experts"
+                },
+                {
+                  "id": "wcu-feat-2",
+                  "icon": "FaHeadset",
+                  "title": "24/7 Customer Support",
+                  "description": "Got a question or facing an issue? No worries!"
+                }
+              ],
+              "buttonText": "Talk to Our Team",
+              "buttonLink": "/contact",
+              "image1": "/about/ab1.webp",
+              "image2": "/about/ab2.webp",
+              "logo": "/main logo/header-logo.png",
+              "overlayTitle": "ADVENTURE TRAVEL",
+              "overlaySubtitle": "Trusted by thousands of travelers",
+              "overlayBottomText": "TRAVEL"
+            }
+          }
+        },
+        "Counter": {
+          "variants": {
+            "WanderlyCounter1": {
+              "counters": [
+                {
+                  "id": "c1",
+                  "icon": "FaSmile",
+                  "number": 71,
+                  "label": "Happy Travelers",
+                  "suffix": "K+"
+                },
+                {
+                  "id": "c2",
+                  "icon": "FaSuitcaseRolling",
+                  "number": 250,
+                  "label": "Tour Packages",
+                  "suffix": "+"
+                },
+                {
+                  "id": "c3",
+                  "icon": "FaGlobe",
+                  "number": 50,
+                  "label": "Destinations Covered",
+                  "suffix": "+"
+                },
+                {
+                  "id": "c4",
+                  "icon": "FaAward",
+                  "number": 10,
+                  "label": "Years of Experience",
+                  "suffix": "+"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "WanderlyTestimonials1": {
+              "subtitle": "TESTIMONIALS",
+              "titlePart1": "What Our Travelers Say",
+              "titleHighlight": "",
+              "description": "Real stories from happy travelers who explored the world with us and had unforgettable experiences.",
+              "testimonials": [
+                {
+                  "id": "testi-1",
+                  "name": "Sophia Johnson",
+                  "location": "Traveller",
+                  "image": "/team/1.webp",
+                  "text": "Our trip was absolutely amazing! Every detail was perfectly planned and we got to explore places we had only dreamed of. Highly recommend Wanderly!",
+                  "rating": 5,
+                  "repairedDevice": ""
+                },
+                {
+                  "id": "testi-2",
+                  "name": "Maria Doe",
+                  "location": "Traveller",
+                  "image": "/team/02.webp",
+                  "text": "Wanderly made our vacation truly unforgettable. From seamless bookings to 24/7 support, everything was top-notch. Can't wait for our next adventure!",
+                  "rating": 5,
+                  "repairedDevice": ""
+                },
+                {
+                  "id": "testi-3",
+                  "name": "Andrew Simmons",
+                  "location": "Traveller",
+                  "image": "/team/03.webp",
+                  "text": "The team at Wanderly is amazing! They customized our itinerary perfectly and gave us the best travel experience. Thank you for the memories!",
+                  "rating": 5,
+                  "repairedDevice": ""
+                },
+                {
+                  "id": "testi-4",
+                  "name": "Jessica Alba",
+                  "location": "Traveller",
+                  "image": "/team/04.webp",
+                  "text": "Best travel agency! They literally take care of everything so you can just relax and enjoy your trip. A 10/10 experience.",
+                  "rating": 5,
+                  "repairedDevice": ""
+                },
+                {
+                  "id": "testi-5",
+                  "name": "Robert Downey",
+                  "location": "Traveller",
+                  "image": "/team/1.webp",
+                  "text": "We booked our honeymoon through Wanderly and it was magical. The hotels they picked were luxurious and perfectly located.",
+                  "rating": 5,
+                  "repairedDevice": ""
+                },
+                {
+                  "id": "testi-6",
+                  "name": "Emily Clark",
+                  "location": "Traveller",
+                  "image": "/team/02.webp",
+                  "text": "I loved the group tour! Met amazing people and the guide was so knowledgeable. Everything went smooth without a single hitch.",
+                  "rating": 5,
+                  "repairedDevice": ""
+                }
+              ]
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "WanderlyBlogs1": {
+              "subtitle": "TRAVEL BLOG",
+              "titlePart1": "Travel Stories &",
+              "titleHighlight": "Inspiration",
+              "titlePart2": "",
+              "description": "Tips, guides and real experiences from around the world to inspire your next adventure.",
+              "blogs": [
+                {
+                  "id": "blog-1",
+                  "date": "Jan 15, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegClock",
+                  "title": "Experiencing Paradise in The Maldives",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blogs/maldives-paradise"
+                },
+                {
+                  "id": "blog-2",
+                  "date": "Sep 05, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "7 Min Read",
+                  "categoryIcon": "FaRegClock",
+                  "title": "Discovering Paradise in The Indonesia Bali",
+                  "excerpt": "Explore the culture, food, and amazing landscapes.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blogs/bali-paradise"
+                },
+                {
+                  "id": "blog-3",
+                  "date": "Sep 27, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "6 Min Read",
+                  "categoryIcon": "FaRegClock",
+                  "title": "Journey to Paradise in The Wang Beach In London",
+                  "excerpt": "A fantastic guide to an unforgettable experience.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blogs/wang-beach-london"
+                }
+              ],
+              "viewAllText": "View All Blogs",
+              "viewAllLink": "/blogs"
+            }
+          }
+        },
+        "CTA": {
+          "variants": {
+            "WanderlyCTA1": {
+              "titlePart1": "Ready to Explore",
+              "titleHighlight": "Your Next Destination?",
+              "titlePart2": "",
+              "description": "Let us help you plan the perfect trip with unforgettable experiences and memories that last a lifetime.",
+              "bgImage": "/banner/hero_bg_1.jpg",
+              "phone": "Contact Us",
+              "phoneIcon": "FaPhoneAlt",
+              "buttonText": "Plan Your Trip",
+              "buttonLink": "/contact"
+            }
+          }
+        }
+      }
+    }
+  }
+}

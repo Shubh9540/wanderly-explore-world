@@ -1,0 +1,967 @@
+export interface TopBarData {
+  phone?: string;
+  phoneIcon?: string;
+  email?: string;
+  emailIcon?: string;
+  address?: string;
+  addressIcon?: string;
+  workingHours?: string;
+  workingHoursIcon?: string;
+  socialTitle?: string;
+  socialLinks?: {
+    id: string;
+    icon: string;
+    url: string;
+  }[];
+}
+
+export interface LinkItem {
+  id: string;
+  label: string;
+  url?: string;
+  subLinks?: {
+    id: string;
+    label: string;
+    url: string;
+  }[];
+}
+
+export interface HeaderData {
+  image: string;
+  imageAlt: string;
+  navLinks: LinkItem[];
+  contactBox?: {
+    title: string;
+    phone: string;
+    icon: string;
+  };
+  contactButton?: {
+    text: string;
+    url: string;
+    icon?: string;
+  };
+}
+
+export interface BreadcrumbPath {
+  label: string;
+  url?: string;
+}
+
+export interface BreadcrumbData {
+  title: string;
+  paths: BreadcrumbPath[];
+  bgImage: string;
+}
+
+export interface HeroSlide {
+  id: string;
+  bgImage: string;
+  subtitleText: string;
+  subtitleSuffix: string;
+  titleLine1: string;
+  titleLine2Highlight: string;
+  titleLine2Text: string;
+  description: string;
+  buttonText?: string;
+  buttonUrl?: string;
+}
+
+export interface HeroSliderData {
+  slides: HeroSlide[];
+}
+
+export interface DestinationCard {
+  id: string;
+  image: string;
+  city: string;
+  tourCount: string;
+  url: string;
+}
+
+export interface DestinationGridData {
+  subtitle: string;
+  subtitleSuffix?: string;
+  title: string;
+  description: string;
+  destinations: DestinationCard[];
+  viewAllButton: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface AboutFeature {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface AboutListItem {
+  id: string;
+  text: string;
+}
+
+export interface AboutUsData {
+  image1: string;
+  image2: string;
+  image3?: string;
+  experienceYears?: string;
+  experienceText1?: string;
+  experienceText2?: string;
+  subtitle: string;
+  title: string;
+  titleCursive?: string;
+  description: string;
+  features: AboutFeature[];
+  listItems?: AboutListItem[];
+  button: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface TourCard {
+  id: string;
+  image: string;
+  title: string;
+  rating: number;
+  ratingText: string;
+  price: string;
+  priceSuffix: string;
+  buttonText: string;
+  buttonUrl: string;
+}
+
+export interface ToursData {
+  bgImage: string;
+  subtitle: string;
+  titlePart1: string;
+  titlePart2: string;
+  description: string;
+  tours: TourCard[];
+  viewAllButton: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface ServiceCard {
+  id: string;
+  title: string;
+  image: string;
+  icon: string;
+  linkText: string;
+  linkUrl: string;
+  fullDescription?: string;
+  features?: string[];
+  benefitImage?: string;
+  detailContent?: ServiceDetailContentData;
+}
+
+export interface ServiceSliderData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  services: ServiceCard[];
+}
+
+export interface ServiceGridItem {
+  id: string;
+  title: string;
+  description: string;
+  image: string;
+  icon: string;
+  url: string;
+}
+
+export interface ServicesData {
+  subtitle: string;
+  titlePart1: string;
+  titlePart2: string;
+  description: string;
+  services: ServiceGridItem[];
+  viewAllButton: {
+    text: string;
+    url: string;
+  };
+}
+
+export interface ServicesGridSectionData {
+  subtitle?: string;
+  titlePart1?: string;
+  titleHighlight?: string;
+  titlePart2?: string;
+  description?: string;
+  services: ServiceCard[];
+}
+
+export interface ServiceDetailSidebarData {
+  servicesTitle: string;
+  servicesList: {
+    id: string;
+    title: string;
+    url: string;
+  }[];
+  contactBox: {
+    title: string;
+    subtitle: string;
+    phone: string;
+    email: string;
+    address: string;
+    buttonText: string;
+    buttonUrl: string;
+    licensedText: string;
+    licensedSubtext: string;
+  };
+}
+
+export interface ServiceDetailContentData {
+  image: string;
+  title: string;
+  titleHighlight?: string;
+  description1: string;
+  description2: string;
+  features: string[];
+  bottomCards: {
+    id: string;
+    icon: string;
+    title: string;
+    description: string;
+  }[];
+}
+
+
+export interface WhyChooseUsFeature {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface WhyChooseUsData {
+  subtitle: string;
+  subtitleSuffix?: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2?: string;
+  description: string;
+  features: WhyChooseUsFeature[];
+  buttonText: string;
+  buttonLink: string;
+  image1: string;
+  image2: string;
+  logo: string;
+  overlayTitle: string;
+  overlaySubtitle: string;
+  overlayBottomText: string;
+}
+
+export interface PartnerBrand {
+  id: string;
+  name: string;
+  image: string;
+}
+
+export interface PartnerSliderData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  bgImage: string;
+  brands: PartnerBrand[];
+}
+
+export interface CallToActionData {
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  bgImage: string;
+  phone: string;
+  phoneIcon: string;
+  buttonText: string;
+  buttonLink: string;
+}
+
+export interface CounterItem {
+  id: string;
+  icon: string;
+  number: number;
+  label: string;
+  suffix?: string;
+}
+
+export interface CounterData {
+  counters: CounterItem[];
+}
+
+export interface SocialLink {
+  id: string;
+  icon: string;
+  url: string;
+}
+
+export interface TeamSkill {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  designation: string;
+  roleBadge?: string;
+  image: string;
+  experience?: string;
+  about?: string;
+  email?: string;
+  phone?: string;
+  location?: string;
+  socialLinks?: SocialLink[];
+  skills?: TeamSkill[];
+}
+
+export interface TeamSliderData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  members: TeamMember[];
+}
+
+export interface BlogItem {
+  id: string;
+  date: string;
+  image: string;
+  category: string;
+  categoryIcon: string;
+  title: string;
+  excerpt: string;
+  linkText: string;
+  linkUrl: string;
+}
+
+export interface BlogsData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  blogs: BlogItem[];
+  viewAllText?: string;
+  viewAllLink?: string;
+}
+
+export interface BlogDetailData {
+  blog: {
+    id: string;
+    image: string;
+    author: string;
+    date: string;
+    title: string;
+    paragraphs: string[];
+    blockquote: {
+      text: string;
+      author: string;
+    };
+    bottomParagraphs: string[];
+  };
+  sidebar: {
+    recentPostsTitle: string;
+    recentPosts: {
+      id: string;
+      title: string;
+      date: string;
+      image: string;
+      url: string;
+    }[];
+    ctaBox: {
+      titlePart1: string;
+      titlePart2: string;
+      description: string;
+      buttonText: string;
+      buttonUrl: string;
+    };
+  };
+}
+
+export interface FooterData {
+  topSection: {
+    callTitle: string;
+    phone: string;
+    callSubtext: string;
+    subscribeTitle: string;
+    subscribeSubtext: string;
+    emailPlaceholder: string;
+  };
+  middleSection: {
+    logo: string;
+    description: string;
+    socialLinks: { id: string; icon: string; url: string }[];
+    exploreTitle: string;
+    exploreLinks: { id: string; label: string; url: string }[];
+    contactTitle: string;
+    address: string;
+    phoneLines: string[];
+    email: string;
+    workingHours: string[];
+    recentPostsTitle: string;
+    recentPosts: { id: string; title: string; date: string; image: string; url: string }[];
+  };
+  bottomSection: {
+    copyright: string;
+    bottomLinks: { id: string; label: string; url: string }[];
+    paymentImage: string;
+  };
+}
+export interface RepairProcessItem {
+  id: string;
+  number: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface RepairProcessData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  steps: RepairProcessItem[];
+  bannerIcon: string;
+  bannerTitle: string;
+  bannerText: string;
+}
+
+export interface OurExpertiseItem {
+  id: string;
+  image: string;
+  title: string;
+}
+
+export interface OurExpertiseData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  items: OurExpertiseItem[];
+}
+
+
+export interface BookRepairBenefit {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface BookRepairData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  formTitle1: string;
+  formTitle2: string;
+  brandPlaceholder: string;
+  modelPlaceholder: string;
+  issuePlaceholder: string;
+  conditionPlaceholder: string;
+  brands: string[];
+  models: string[];
+  issues: string[];
+  conditions: string[];
+  agreeText: string;
+  buttonText: string;
+  whyBookTitle: string;
+  whyBookBenefits: BookRepairBenefit[];
+  helpTitle: string;
+  helpPhone: string;
+  helpEmail: string;
+  helpAddress: string;
+}
+
+
+export interface PricingItem {
+  id: string;
+  icon: string;
+  serviceName: string;
+  estimatedCost: string;
+}
+
+export interface PricingData {
+  title: string;
+  infoTextPart1: string;
+  infoTextPart2: string;
+  tableHeaders: {
+    service: string;
+    cost: string;
+  };
+  services: PricingItem[];
+}
+
+export interface TestimonialItem {
+  id: string;
+  name: string;
+  location: string;
+  image: string;
+  text: string;
+  rating: number;
+  repairedDevice: string;
+}
+
+export interface TestimonialsData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  testimonials: TestimonialItem[];
+}
+
+export interface GalleryImage {
+  id: string;
+  src: string;
+  alt: string;
+}
+
+export interface GalleryVideo {
+  id: string;
+  thumbnail: string;
+  videoUrl: string;
+  title: string;
+  duration: string;
+}
+
+export interface PhotoGalleryData {
+  subtitle?: string;
+  titlePart1?: string;
+  titleHighlight?: string;
+  description?: string;
+  photos: GalleryImage[];
+}
+
+export interface VideoGalleryData {
+  videos: GalleryVideo[];
+}
+
+export interface FaqItem {
+  id: string;
+  question: string;
+  answer: string;
+}
+
+export interface FaqCategory {
+  id: string;
+  categoryName: string;
+  questions: FaqItem[];
+}
+
+export interface FaqSidebar {
+  contactBox: {
+    title: string;
+    subtitle: string;
+    buttonText: string;
+    buttonUrl: string;
+  };
+  businessHours: {
+    title: string;
+    weekdays: string;
+    weekdaysTime: string;
+    weekend: string;
+    weekendTime: string;
+    emergencyText: string;
+    emergencyPhone: string;
+  };
+}
+
+export interface FaqData {
+  subtitle?: string;
+  titlePart1?: string;
+  titleHighlight?: string;
+  description?: string;
+  categories: FaqCategory[];
+  sidebar: FaqSidebar;
+}
+
+export interface LegalSection {
+  id: string;
+  title: string;
+  content: string[];
+}
+
+export interface LegalData {
+  title: string;
+  lastUpdated: string;
+  introBox?: {
+    title: string;
+    text: string;
+    image: string;
+  };
+  sections: LegalSection[];
+}
+
+export interface NotFoundFeature {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface NotFoundData {
+  errorCode: string;
+  titlePart1: string;
+  titlePart2: string;
+  description: string;
+  primaryButtonText: string;
+  primaryButtonUrl: string;
+  secondaryButtonText: string;
+  secondaryButtonUrl: string;
+  image: string;
+  features: NotFoundFeature[];
+}
+
+export interface SitemapLink {
+  id: string;
+  label: string;
+  url: string;
+}
+
+export interface SitemapCategory {
+  id: string;
+  title: string;
+  icon: string;
+  links: SitemapLink[];
+}
+
+export interface SitemapData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  description: string;
+  heading: string;
+  links: SitemapLink[];
+  categories: SitemapCategory[];
+}
+
+export interface CareerBenefit {
+
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface CareerJob {
+  id: string;
+  title: string;
+  type: string;
+  location: string;
+  experience: string;
+  postedOn: string;
+  excerpt: string;
+  applyButtonText: string;
+  payRange?: string;
+  aboutRole: string;
+  responsibilities: string[];
+  requirements: string[];
+  whyJoinUs: string[];
+  image: string;
+}
+
+export interface CareersData {
+  subtitle: string;
+  titlePart1: string;
+  titleHighlight: string;
+  titlePart2: string;
+  description: string;
+  benefits: CareerBenefit[];
+  openPositionsTitle: string;
+  openPositionsDescription: string;
+  jobs: CareerJob[];
+  footerText: string;
+  footerEmail: string;
+  sidebar: {
+    title: string;
+    perks: {
+      id: string;
+      icon: string;
+      text: string;
+    }[];
+    image: string;
+    quote: string;
+  };
+}
+
+export interface CareerDetailData {
+  job: CareerJob;
+  applyForm: {
+    title: string;
+    fields: {
+      fullName: string;
+      email: string;
+      phone: string;
+      coverLetter: string;
+      resumeLabel: string;
+      submitButton: string;
+    };
+  };
+  aboutBox: {
+    title: string;
+    stats: {
+      id: string;
+      icon: string;
+      value: string;
+      label: string;
+    }[];
+  };
+}
+
+export interface ContactInfoItem {
+  id: string;
+  icon: string;
+  title: string;
+  detail1: string;
+  detail2: string;
+}
+
+export interface ContactData {
+  subtitle: string;
+  titlePart1: string;
+  titlePart2: string;
+  description: string;
+  contactInfoTitle: string;
+  contactInfoItems: ContactInfoItem[];
+  formTitle: string;
+  formDescription: string;
+  formPlaceholders: {
+    name: string;
+    email: string;
+    phone: string;
+    subject: string;
+    message: string;
+  };
+  formButtonText: string;
+  mapBox: {
+    mapEmbedUrl?: string;
+    bgImage: string;
+    title: string;
+    address: string;
+    buttonText: string;
+    buttonUrl: string;
+  };
+}
+
+export interface WanderlyTemplateData {
+  common: {
+    globalUI: {
+      loading: string;
+      notFound: string;
+    };
+    breadcrumbs?: {
+      AboutBreadcrumb: BreadcrumbData;
+      [key: string]: BreadcrumbData;
+    };
+    Footer?: FooterData;
+  };
+  categories: {
+    Wanderly: {
+      templateComponents: {
+        Wanderly: {
+          shared: any;
+          pages: {
+            [key: string]: {
+              components: {
+                key: string;
+                component: string;
+              }[];
+            };
+          };
+        };
+      };
+      sections: {
+        TopBar?: {
+          variants: {
+            WanderlyTopBar1: TopBarData;
+          };
+        };
+        Header?: {
+          variants: {
+            WanderlyHeader1: HeaderData;
+          };
+        };
+        AboutBreadcrumb?: {
+          variants: {
+            WanderlyAboutBreadcrumb1: BreadcrumbData;
+          };
+        };
+        HeroSlider?: {
+          variants: {
+            WanderlyHeroSlider1: HeroSliderData;
+          };
+        };
+        DestinationGrid?: {
+          variants: {
+            WanderlyDestinationGrid1: DestinationGridData;
+          };
+        };
+        AboutUs?: {
+          variants: {
+            WanderlyAboutUs1: AboutUsData;
+          };
+        };
+        ServiceSlider?: {
+          variants: {
+            WanderlyServiceSlider1: ServiceSliderData;
+          };
+        };
+        Services?: {
+          variants: {
+            WanderlyServices1: ServicesData;
+          };
+        };
+        ServicesGridSection?: {
+          variants: {
+            WanderlyServicesGridSection1: ServicesGridSectionData;
+          };
+        };
+        ServiceDetailSidebar?: {
+          variants: {
+            WanderlyServiceDetailSidebar1: ServiceDetailSidebarData;
+          };
+        };
+        ServiceDetailContent?: {
+          variants: {
+            WanderlyServiceDetailContent1: ServiceDetailContentData;
+          };
+        };
+        WhyChooseUs?: {
+          variants: {
+            WanderlyWhyChooseUs1: WhyChooseUsData;
+          };
+        };
+        PartnerSlider?: {
+          variants: {
+            WanderlyPartnerSlider1: PartnerSliderData;
+          };
+        };
+        CallToAction?: {
+          variants: {
+            WanderlyCallToAction1: CallToActionData;
+          };
+        };
+        Counter?: {
+          variants: {
+            WanderlyCounter1: CounterData;
+          };
+        };
+        TeamSlider?: {
+          variants: {
+            WanderlyTeamSlider1: TeamSliderData;
+          };
+        };
+        Blogs?: {
+          variants: {
+            WanderlyBlogs1: BlogsData;
+          };
+        };
+        BlogDetailContent?: {
+          variants: {
+            [key: string]: BlogDetailData;
+          };
+        };
+        RepairProcess?: {
+          variants: {
+            WanderlyRepairProcess1: RepairProcessData;
+          };
+        };
+        OurExpertise?: {
+          variants: {
+            WanderlyOurExpertise1: OurExpertiseData;
+          };
+        };
+        BookRepair?: {
+          variants: {
+            WanderlyBookRepair1: BookRepairData;
+          };
+        };
+        Pricing?: {
+          variants: {
+            WanderlyPricing1: PricingData;
+          };
+        };
+        TestimonialsGrid?: {
+          variants: {
+            WanderlyTestimonialsGrid1: TestimonialsData;
+          };
+        };
+        PhotoGallery?: {
+          variants: {
+            WanderlyPhotoGallery1: PhotoGalleryData;
+          };
+        };
+        VideoGallery?: {
+          variants: {
+            WanderlyVideoGallery1: VideoGalleryData;
+          };
+        };
+        FaqSection?: {
+          variants: {
+            WanderlyFaqSection1: FaqData;
+          };
+        };
+        LegalContent?: {
+          variants: {
+            WanderlyWarrantyPolicy: LegalData;
+            WanderlyCancellationPolicy: LegalData;
+            WanderlyPrivacyPolicy: LegalData;
+            WanderlyTermsConditions: LegalData;
+          };
+        };
+        NotFoundSection?: {
+          variants: {
+            WanderlyNotFound1: NotFoundData;
+          };
+        };
+        ContactSection?: {
+          variants: {
+            WanderlyContact1: ContactData;
+          };
+        };
+        CareersSection?: {
+          variants: {
+            WanderlyCareers1: CareersData;
+          };
+        };
+        CareerDetailContent?: {
+          variants: {
+            [key: string]: CareerDetailData;
+          };
+        };
+        SitemapSection?: {
+          variants: {
+            WanderlySitemap1: SitemapData;
+          };
+        };
+        Tours?: {
+          variants: {
+            WanderlyTours1: ToursData;
+          };
+        };
+        Testimonials?: {
+          variants: {
+            WanderlyTestimonials1: TestimonialsData;
+          };
+        };
+        CTA?: {
+          variants: {
+            WanderlyCTA1: CallToActionData;
+          };
+        };
+      };
+    };
+  };
+}
