@@ -23,7 +23,7 @@ export default async function BlogDetailPage({ params }: { params: Promise<{ id:
   
   const blogPost = blogPageData?.blogs.find(b => b.id === id);
   
-  if (!blogPost) return <div>{commonData?.globalUI?.notFound || 'Blog not found'}</div>;
+  if (!blogPost) return <div>{commonData?.globalUI?.notFound?.subtitle || 'Blog not found'}</div>;
 
   // Clone breadcrumb data and update the last item's label to the blog title
   const dynamicBreadcrumb = breadcrumbData ? {

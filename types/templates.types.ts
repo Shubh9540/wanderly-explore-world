@@ -427,6 +427,7 @@ export interface CallToActionData {
   bgImage: string;
   phone: string;
   phoneIcon: string;
+  phoneLink?: string;
   buttonText: string;
   buttonLink: string;
 }
@@ -850,6 +851,52 @@ export interface TestimonialItem {
   repairedDevice?: string;
 }
 
+export interface PartnerLogo {
+  id: string;
+  image: string;
+  name: string;
+}
+
+export interface PartnerData {
+  subtitle?: string;
+  titlePart1?: string;
+  titleHighlight?: string;
+  description?: string;
+  logos: PartnerLogo[];
+}
+
+export interface ContactOfficeInfo {
+  image: string;
+  title: string;
+  description: string;
+  email: string;
+  phone: string;
+  address: string;
+  hours: string;
+}
+
+export interface ContactFormData {
+  subtitle: string;
+  title: string;
+  description: string;
+  formTitle: string;
+  formSubtitle: string;
+  officeInfo: ContactOfficeInfo;
+}
+
+export interface ContactAssistanceCard {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface ContactAssistanceData {
+  subtitle: string;
+  title: string;
+  cards: ContactAssistanceCard[];
+}
+
 export interface TestimonialsData {
   subtitle?: string;
   title?: string;
@@ -949,19 +996,29 @@ export interface FaqData {
 
 export interface LegalSection {
   id: string;
+  icon: string;
   title: string;
-  content: string[];
+  content: string;
+}
+
+export interface LegalSidebar {
+  title: string;
+  subtitle: string;
+  description: string;
+  image: string;
+  email: string;
+  phone: string;
+  address: string;
+  buttonText: string;
+  buttonLink: string;
 }
 
 export interface LegalData {
   title: string;
-  lastUpdated: string;
-  introBox?: {
-    title: string;
-    text: string;
-    image: string;
-  };
+  introText: string;
   sections: LegalSection[];
+  sidebar: LegalSidebar;
+  effectiveDate?: string;
 }
 
 export interface NotFoundFeature {
@@ -1001,6 +1058,7 @@ export interface SitemapData {
   subtitle: string;
   titlePart1: string;
   titleHighlight: string;
+  titlePart2?: string;
   description: string;
   heading: string;
   links: SitemapLink[];
@@ -1115,11 +1173,44 @@ export interface ContactData {
   };
 }
 
+
+export interface EnquirySidebarItem {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+}
+
+export interface EnquiryHelpBox {
+  title: string;
+  description: string;
+  phone: string;
+  buttonText: string;
+  buttonLink: string;
+}
+
+export interface EnquiryData {
+  subtitle?: string;
+  title: string;
+  description: string;
+  whyTravelWithUsTitle: string;
+  sidebarItems: EnquirySidebarItem[];
+  helpBox: EnquiryHelpBox;
+}
+
 export interface WanderlyTemplateData {
   common: {
     globalUI: {
       loading: string;
-      notFound: string;
+      notFound: {
+        title: string;
+        subtitle: string;
+        description: string;
+        homeButtonText: string;
+        exploreButtonText: string;
+        homeButtonUrl: string;
+        exploreButtonUrl: string;
+      };
     };
     breadcrumbs?: {
       AboutBreadcrumb: BreadcrumbData;
@@ -1143,6 +1234,11 @@ export interface WanderlyTemplateData {
         };
       };
       sections: {
+        EnquiryContent?: {
+          variants: {
+            WanderlyEnquiry1: EnquiryData;
+          };
+        };
         TopBar?: {
           variants: {
             WanderlyTopBar1: TopBarData;
@@ -1287,10 +1383,12 @@ export interface WanderlyTemplateData {
         };
         LegalContent?: {
           variants: {
-            WanderlyWarrantyPolicy: LegalData;
-            WanderlyCancellationPolicy: LegalData;
-            WanderlyPrivacyPolicy: LegalData;
-            WanderlyTermsConditions: LegalData;
+            WanderlyWarrantyPolicy?: LegalData;
+            WanderlyCancellationPolicy?: LegalData;
+            WanderlyPrivacyPolicy?: LegalData;
+            WanderlyTermsConditions?: LegalData;
+            WanderlyRefundPolicy?: LegalData;
+            WanderlyPaymentPolicy?: LegalData;
           };
         };
         NotFoundSection?: {
@@ -1356,6 +1454,21 @@ export interface WanderlyTemplateData {
         Testimonials?: {
           variants: {
             WanderlyTestimonials1: TestimonialsData;
+          };
+        };
+        Partner?: {
+          variants: {
+            WanderlyPartner1: PartnerData;
+          };
+        };
+        ContactForm?: {
+          variants: {
+            WanderlyContactForm1: ContactFormData;
+          };
+        };
+        ContactAssistance?: {
+          variants: {
+            WanderlyContactAssistance1: ContactAssistanceData;
           };
         };
         CTA?: {

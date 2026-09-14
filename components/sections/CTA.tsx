@@ -68,12 +68,21 @@ export const CTA = ({ data }: { data?: CallToActionData }) => {
 
               {/* Outline Button / Phone */}
               {data.phone && (
-                <a 
-                  href={`tel:${data.phone.replace(/[^0-9+]/g, '')}`}
-                  className="bg-transparent border border-white/50 hover:bg-white/10 text-white font-bold py-3.5 px-8 rounded-full flex items-center justify-center gap-2 transition-colors shadow-lg whitespace-nowrap"
-                >
-                  <FaPhoneAlt /> {data.phone}
-                </a>
+                data.phoneLink ? (
+                  <Link 
+                    href={data.phoneLink}
+                    className="bg-transparent border border-white/50 hover:bg-white/10 text-white font-bold py-3.5 px-8 rounded-full flex items-center justify-center gap-2 transition-colors shadow-lg whitespace-nowrap"
+                  >
+                    <FaPhoneAlt /> {data.phone}
+                  </Link>
+                ) : (
+                  <a 
+                    href={`tel:${data.phone.replace(/[^0-9+]/g, '')}`}
+                    className="bg-transparent border border-white/50 hover:bg-white/10 text-white font-bold py-3.5 px-8 rounded-full flex items-center justify-center gap-2 transition-colors shadow-lg whitespace-nowrap"
+                  >
+                    <FaPhoneAlt /> {data.phone}
+                  </a>
+                )
               )}
 
             </div>

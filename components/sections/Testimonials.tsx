@@ -66,17 +66,12 @@ export const Testimonials = ({ data }: { data?: TestimonialsData }) => {
 
       <div className="max-w-[1250px] mx-auto px-4 md:px-6 relative z-10">
 
-        {/* Top Left Airplane SVG */}
-        <div className="absolute -left-10 lg:-left-20 top-0 opacity-70 w-32 md:w-48 lg:w-64 rotate-[-10deg]">
-          <AirplaneTrackIcon className="w-full text-[#0c5c6f]" />
-        </div>
-
         {/* Header Section */}
         <SectionHeading
           subtitle={data.subtitle}
           title={data.title as string}
           description={data.description}
-          showPlaneTrack={false}
+          showPlaneTrack={true}
         />
 
         {/* Slider Container */}

@@ -2,7 +2,15 @@
   "common": {
     "globalUI": {
       "loading": "Loading...",
-      "notFound": "Page not found"
+      "notFound": {
+        "title": "Oops!",
+        "subtitle": "Page Not Found",
+        "description": "Looks like you've taken a wrong turn.<br />Let's get you back to where you want to go.",
+        "homeButtonText": "Back to Home",
+        "exploreButtonText": "Explore Destinations",
+        "homeButtonUrl": "/",
+        "exploreButtonUrl": "/tour-packages"
+      }
     },
     "breadcrumbs": {
       "AboutBreadcrumb": {
@@ -228,6 +236,110 @@
             "label": "Blog Details"
           }
         ]
+      },
+      "PartnerBreadcrumb": {
+        "title": "Partners",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Partners"
+          }
+        ]
+      },
+      "ContactBreadcrumb": {
+        "title": "Contact Us",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Contact Us"
+          }
+        ]
+      },
+      "Breadcrumb_privacy-policy": {
+        "title": "Privacy Policy",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Privacy Policy"
+          }
+        ]
+      },
+      "Breadcrumb_terms-conditions": {
+        "title": "Terms & Conditions",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Terms & Conditions"
+          }
+        ]
+      },
+      "Breadcrumb_refund-policy": {
+        "title": "Refund Policy",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Refund Policy"
+          }
+        ]
+      },
+      "Breadcrumb_payment-policy": {
+        "title": "Payment Policy",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Payment Policy"
+          }
+        ]
+      },
+      "Breadcrumb_enquiry": {
+        "title": "Enquiry",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Enquiry"
+          }
+        ]
+      },
+      "SitemapBreadcrumb": {
+        "title": "Sitemap",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Sitemap"
+          }
+        ]
       }
     },
     "Footer": {
@@ -283,8 +395,8 @@
           },
           {
             "id": "ex-4",
-            "label": "Pricing",
-            "url": "/pricing"
+            "label": "Tour Packages",
+            "url": "/tour-packages"
           },
           {
             "id": "ex-5",
@@ -623,6 +735,198 @@
                   "component": "Footer"
                 }
               ]
+            },
+            "partner": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "PartnerBreadcrumb"
+                },
+                {
+                  "key": "Partner",
+                  "component": "PartnerContent"
+                },
+                {
+                  "key": "CTA",
+                  "component": "CTA"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "contact": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "ContactBreadcrumb"
+                },
+                {
+                  "key": "ContactForm",
+                  "component": "ContactPageContent"
+                },
+                {
+                  "key": "ContactAssistance",
+                  "component": "ContactAssistance"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "privacy-policy": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "Breadcrumb_privacy-policy"
+                },
+                {
+                  "key": "LegalContent",
+                  "component": "LegalContent"
+                },
+                {
+                  "key": "CTA",
+                  "component": "CTA"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "terms-conditions": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "Breadcrumb_terms-conditions"
+                },
+                {
+                  "key": "LegalContent",
+                  "component": "LegalContent"
+                },
+                {
+                  "key": "CTA",
+                  "component": "CTA"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "refund-policy": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "Breadcrumb_refund-policy"
+                },
+                {
+                  "key": "LegalContent",
+                  "component": "LegalContent"
+                },
+                {
+                  "key": "CTA",
+                  "component": "CTA"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "payment-policy": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "Breadcrumb_payment-policy"
+                },
+                {
+                  "key": "LegalContent",
+                  "component": "LegalContent"
+                },
+                {
+                  "key": "CTA",
+                  "component": "CTA"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "enquiry": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb_enquiry",
+                  "component": "Breadcrumb"
+                },
+                {
+                  "key": "EnquiryContent",
+                  "component": "EnquiryContent"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
             }
           }
         }
@@ -678,57 +982,165 @@
                   "url": "/"
                 },
                 {
-                  "id": "nav-about",
+                  "id": "nav-about-us",
                   "label": "About Us",
-                  "url": "/about"
-                },
-                {
-                  "id": "nav-destination",
-                  "label": "Destination",
                   "subLinks": [
                     {
-                      "id": "sub-dest-1",
-                      "label": "Europe",
-                      "url": "#"
+                      "id": "nav-about",
+                      "label": "About",
+                      "url": "/about"
+                    },
+                    {
+                      "id": "nav-mission",
+                      "label": "Mission & Vision",
+                      "url": "/mission-vision"
+                    },
+                    {
+                      "id": "nav-awards",
+                      "label": "Awards & Recognition",
+                      "url": "/awards"
+                    },
+                    {
+                      "id": "nav-why-choose",
+                      "label": "Why Choose Us",
+                      "url": "/why-choose-us"
+                    },
+                    {
+                      "id": "nav-team",
+                      "label": "Team",
+                      "url": "/team"
+                    },
+                    {
+                      "id": "nav-team-detail",
+                      "label": "Team Detail",
+                      "url": "/team/tm-1"
                     }
                   ]
                 },
                 {
-                  "id": "nav-service",
-                  "label": "Service",
+                  "id": "nav-services",
+                  "label": "Services",
                   "subLinks": [
                     {
-                      "id": "sub-srv-1",
-                      "label": "Tour Guide",
-                      "url": "#"
+                      "id": "nav-our-services",
+                      "label": "Our Services",
+                      "url": "/services"
+                    },
+                    {
+                      "id": "nav-service-detail",
+                      "label": "Service Detail",
+                      "url": "/services/srv-1"
                     }
                   ]
                 },
                 {
-                  "id": "nav-team",
-                  "label": "Our Teams",
-                  "url": "/team"
-                },
-                {
-                  "id": "nav-gallery",
-                  "label": "Gallery",
-                  "url": "/gallery"
-                },
-                {
-                  "id": "nav-blog",
-                  "label": "Blog",
+                  "id": "nav-tour",
+                  "label": "Tour",
                   "subLinks": [
                     {
-                      "id": "sub-blog-1",
-                      "label": "Travel Tips",
-                      "url": "#"
+                      "id": "nav-destinations",
+                      "label": "Destinations",
+                      "url": "/destination"
+                    },
+                    {
+                      "id": "nav-tour-packages",
+                      "label": "Tour Packages",
+                      "url": "/tour-packages"
+                    },
+                    {
+                      "id": "nav-package-detail",
+                      "label": "Package Detail",
+                      "url": "/tour-packages/delhi"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-blogs",
+                  "label": "Blogs",
+                  "subLinks": [
+                    {
+                      "id": "nav-blog",
+                      "label": "Blog",
+                      "url": "/blog"
+                    },
+                    {
+                      "id": "nav-blog-detail",
+                      "label": "Blog Detail",
+                      "url": "/blog/top-10-beaches-you-must-visit-in-thailand"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-pages",
+                  "label": "Pages",
+                  "subLinks": [
+                    {
+                      "id": "nav-contact",
+                      "label": "Contact Us",
+                      "url": "/contact"
+                    },
+                    {
+                      "id": "nav-enquiry",
+                      "label": "Enquiry",
+                      "url": "/enquiry"
+                    },
+                    {
+                      "id": "nav-faq",
+                      "label": "FAQ",
+                      "url": "/faq"
+                    },
+                    {
+                      "id": "nav-gallery",
+                      "label": "Gallery",
+                      "url": "/gallery"
+                    },
+                    {
+                      "id": "nav-testimonials",
+                      "label": "Testimonials",
+                      "url": "/testimonials"
+                    },
+                    {
+                      "id": "nav-partner",
+                      "label": "Partner with Us",
+                      "url": "/partner"
+                    },
+                    {
+                      "id": "nav-404",
+                      "label": "404",
+                      "url": "/404-not-found"
+                    }
+                  ]
+                },
+                {
+                  "id": "nav-policies",
+                  "label": "Policies",
+                  "subLinks": [
+                    {
+                      "id": "nav-privacy",
+                      "label": "Privacy Policy",
+                      "url": "/privacy-policy"
+                    },
+                    {
+                      "id": "nav-terms",
+                      "label": "Terms & Conditions",
+                      "url": "/terms-conditions"
+                    },
+                    {
+                      "id": "nav-refund",
+                      "label": "Refund Policy",
+                      "url": "/refund-policy"
+                    },
+                    {
+                      "id": "nav-payment",
+                      "label": "Payment Policy",
+                      "url": "/payment-policy"
                     }
                   ]
                 }
               ],
               "contactButton": {
                 "text": "Book Now",
-                "url": "/book-repair",
+                "url": "/enquiry",
                 "icon": "FaArrowRight"
               }
             }
@@ -1229,7 +1641,8 @@
               "phone": "Contact Us",
               "phoneIcon": "FaPhoneAlt",
               "buttonText": "Plan Your Trip",
-              "buttonLink": "/contact"
+              "buttonLink": "/tour-packages",
+              "phoneLink": "/contact"
             }
           }
         },
@@ -5200,6 +5613,575 @@
                   "buttonLink": "/contact"
                 }
               }
+            }
+          }
+        },
+        "Partner": {
+          "variants": {
+            "WanderlyPartner1": {
+              "subtitle": "PARTNERS",
+              "titlePart1": "Our Trusted",
+              "titleHighlight": "Partners",
+              "description": "We work with the best in the industry to ensure your travel experience is exceptional.",
+              "logos": [
+                {
+                  "id": "partner-1",
+                  "image": "/partner/w1.webp",
+                  "name": "Partner 1"
+                },
+                {
+                  "id": "partner-2",
+                  "image": "/partner/w2.webp",
+                  "name": "Partner 2"
+                },
+                {
+                  "id": "partner-3",
+                  "image": "/partner/w3.webp",
+                  "name": "Partner 3"
+                },
+                {
+                  "id": "partner-4",
+                  "image": "/partner/w4.webp",
+                  "name": "Partner 4"
+                },
+                {
+                  "id": "partner-5",
+                  "image": "/partner/w5.webp",
+                  "name": "Partner 5"
+                },
+                {
+                  "id": "partner-6",
+                  "image": "/partner/w6.webp",
+                  "name": "Partner 6"
+                },
+                {
+                  "id": "partner-7",
+                  "image": "/partner/w7.webp",
+                  "name": "Partner 7"
+                },
+                {
+                  "id": "partner-8",
+                  "image": "/partner/w8.webp",
+                  "name": "Partner 8"
+                },
+                {
+                  "id": "partner-9",
+                  "image": "/partner/w9.webp",
+                  "name": "Partner 9"
+                },
+                {
+                  "id": "partner-10",
+                  "image": "/partner/w10.webp",
+                  "name": "Partner 10"
+                },
+                {
+                  "id": "partner-11",
+                  "image": "/partner/w11.webp",
+                  "name": "Partner 11"
+                },
+                {
+                  "id": "partner-12",
+                  "image": "/partner/w12.webp",
+                  "name": "Partner 12"
+                },
+                {
+                  "id": "partner-13",
+                  "image": "/partner/w13.webp",
+                  "name": "Partner 13"
+                },
+                {
+                  "id": "partner-14",
+                  "image": "/partner/w14.webp",
+                  "name": "Partner 14"
+                },
+                {
+                  "id": "partner-15",
+                  "image": "/partner/w15.webp",
+                  "name": "Partner 15"
+                },
+                {
+                  "id": "partner-16",
+                  "image": "/partner/w16.webp",
+                  "name": "Partner 16"
+                }
+              ]
+            }
+          }
+        },
+        "ContactForm": {
+          "variants": {
+            "WanderlyContactForm1": {
+              "subtitle": "GET IN TOUCH",
+              "title": "Contact Us",
+              "description": "We're here to help! Have questions or need assistance planning your next trip? Reach out to us anytime.",
+              "formTitle": "Send Us a Message",
+              "formSubtitle": "Have a question or need travel assistance? Fill out the form below and our team will get back to you shortly.",
+              "officeInfo": {
+                "image": "/banner/bg-11.webp",
+                "title": "Visit Our Office",
+                "description": "We'd love to meet you in person. Feel free to visit our office for any travel inquiries or support.",
+                "email": "info@wanderly.com",
+                "phone": "+01 234 567 890",
+                "address": "789 Inner Lane, Holy park, California, USA",
+                "hours": "Mon - Fri: 9:00 AM - 6:00 PM\nSat - Sun: 10:00 AM - 4:00 PM"
+              }
+            }
+          }
+        },
+        "ContactAssistance": {
+          "variants": {
+            "WanderlyContactAssistance1": {
+              "subtitle": "WE ARE HERE TO HELP",
+              "title": "How Can We Assist You?",
+              "cards": [
+                {
+                  "id": "assist-general",
+                  "icon": "FaPlane",
+                  "title": "General Inquiries",
+                  "description": "Have a general question about our services or need help choosing the perfect destination?"
+                },
+                {
+                  "id": "assist-booking",
+                  "icon": "FaSuitcaseRolling",
+                  "title": "Booking Support",
+                  "description": "Need help with your booking or have questions about your reservation?"
+                },
+                {
+                  "id": "assist-support",
+                  "icon": "FaHeadset",
+                  "title": "24/7 Support",
+                  "description": "Our support team is available 24/7 to assist you before, during, and after your trip."
+                }
+              ]
+            }
+          }
+        },
+        "LegalContent": {
+          "variants": {
+            "WanderlyPrivacyPolicy": {
+              "title": "Privacy Policy",
+              "introText": "At Wanderly, we value your trust. This Privacy Policy explains our practices and policies to ensure you have a seamless experience.",
+              "sidebar": {
+                "title": "We're Here",
+                "subtitle": "To Help You!",
+                "description": "Have questions about our policies? Reach out to us anytime.",
+                "image": "/banner/ban1.jpg",
+                "email": "info@wanderly.com",
+                "phone": "+01 234 567 890",
+                "address": "789 Inner Lane, Holy park, California, USA",
+                "buttonText": "Contact Us",
+                "buttonLink": "/contact"
+              },
+              "effectiveDate": "May 20, 2025",
+              "sections": [
+                {
+                  "id": "privacy-policy-sec-1",
+                  "icon": "FaUserCheck",
+                  "title": "1. Information We Collect",
+                  "content": "We collect personal information that you provide to us, such as your name, email address, phone number, and payment details when you book a trip or contact us."
+                },
+                {
+                  "id": "privacy-policy-sec-2",
+                  "icon": "FaCog",
+                  "title": "2. How We Use Your Information",
+                  "content": "Your information helps us provide and improve our services, process bookings and payments, communicate with you, and personalize your travel experience."
+                },
+                {
+                  "id": "privacy-policy-sec-3",
+                  "icon": "FaUsers",
+                  "title": "3. Information Sharing",
+                  "content": "We do not sell or rent your personal information. We may share your data with trusted partners and service providers only to complete your bookings."
+                },
+                {
+                  "id": "privacy-policy-sec-4",
+                  "icon": "FaShieldAlt",
+                  "title": "4. Data Security",
+                  "content": "We implement industry-standard security measures to protect your information from unauthorized access, alteration, or disclosure."
+                },
+                {
+                  "id": "privacy-policy-sec-5",
+                  "icon": "FaUserCog",
+                  "title": "5. Your Rights",
+                  "content": "You have the right to access, update, or delete your personal information. You can also opt out of marketing communications at any time."
+                }
+              ]
+            },
+            "WanderlyTermsConditions": {
+              "title": "Terms & Conditions",
+              "introText": "At Wanderly, we value your trust. This Terms & Conditions explains our practices and policies to ensure you have a seamless experience.",
+              "sidebar": {
+                "title": "We're Here",
+                "subtitle": "To Help You!",
+                "description": "Have questions about our policies? Reach out to us anytime.",
+                "image": "/banner/ban1.jpg",
+                "email": "info@wanderly.com",
+                "phone": "+01 234 567 890",
+                "address": "789 Inner Lane, Holy park, California, USA",
+                "buttonText": "Contact Us",
+                "buttonLink": "/contact"
+              },
+              "effectiveDate": "May 20, 2025",
+              "sections": [
+                {
+                  "id": "terms-conditions-sec-1",
+                  "icon": "FaUserCheck",
+                  "title": "1. Information We Collect",
+                  "content": "We collect personal information that you provide to us, such as your name, email address, phone number, and payment details when you book a trip or contact us."
+                },
+                {
+                  "id": "terms-conditions-sec-2",
+                  "icon": "FaCog",
+                  "title": "2. How We Use Your Information",
+                  "content": "Your information helps us provide and improve our services, process bookings and payments, communicate with you, and personalize your travel experience."
+                },
+                {
+                  "id": "terms-conditions-sec-3",
+                  "icon": "FaUsers",
+                  "title": "3. Information Sharing",
+                  "content": "We do not sell or rent your personal information. We may share your data with trusted partners and service providers only to complete your bookings."
+                },
+                {
+                  "id": "terms-conditions-sec-4",
+                  "icon": "FaShieldAlt",
+                  "title": "4. Data Security",
+                  "content": "We implement industry-standard security measures to protect your information from unauthorized access, alteration, or disclosure."
+                },
+                {
+                  "id": "terms-conditions-sec-5",
+                  "icon": "FaUserCog",
+                  "title": "5. Your Rights",
+                  "content": "You have the right to access, update, or delete your personal information. You can also opt out of marketing communications at any time."
+                }
+              ]
+            },
+            "WanderlyRefundPolicy": {
+              "title": "Refund Policy",
+              "introText": "At Wanderly, we value your trust. This Refund Policy explains our practices and policies to ensure you have a seamless experience.",
+              "sidebar": {
+                "title": "We're Here",
+                "subtitle": "To Help You!",
+                "description": "Have questions about our policies? Reach out to us anytime.",
+                "image": "/banner/ban1.jpg",
+                "email": "info@wanderly.com",
+                "phone": "+01 234 567 890",
+                "address": "789 Inner Lane, Holy park, California, USA",
+                "buttonText": "Contact Us",
+                "buttonLink": "/contact"
+              },
+              "effectiveDate": "May 20, 2025",
+              "sections": [
+                {
+                  "id": "refund-policy-sec-1",
+                  "icon": "FaUserCheck",
+                  "title": "1. Information We Collect",
+                  "content": "We collect personal information that you provide to us, such as your name, email address, phone number, and payment details when you book a trip or contact us."
+                },
+                {
+                  "id": "refund-policy-sec-2",
+                  "icon": "FaCog",
+                  "title": "2. How We Use Your Information",
+                  "content": "Your information helps us provide and improve our services, process bookings and payments, communicate with you, and personalize your travel experience."
+                },
+                {
+                  "id": "refund-policy-sec-3",
+                  "icon": "FaUsers",
+                  "title": "3. Information Sharing",
+                  "content": "We do not sell or rent your personal information. We may share your data with trusted partners and service providers only to complete your bookings."
+                },
+                {
+                  "id": "refund-policy-sec-4",
+                  "icon": "FaShieldAlt",
+                  "title": "4. Data Security",
+                  "content": "We implement industry-standard security measures to protect your information from unauthorized access, alteration, or disclosure."
+                },
+                {
+                  "id": "refund-policy-sec-5",
+                  "icon": "FaUserCog",
+                  "title": "5. Your Rights",
+                  "content": "You have the right to access, update, or delete your personal information. You can also opt out of marketing communications at any time."
+                }
+              ]
+            },
+            "WanderlyPaymentPolicy": {
+              "title": "Payment Policy",
+              "introText": "At Wanderly, we value your trust. This Payment Policy explains our practices and policies to ensure you have a seamless experience.",
+              "sidebar": {
+                "title": "We're Here",
+                "subtitle": "To Help You!",
+                "description": "Have questions about our policies? Reach out to us anytime.",
+                "image": "/banner/ban1.jpg",
+                "email": "info@wanderly.com",
+                "phone": "+01 234 567 890",
+                "address": "789 Inner Lane, Holy park, California, USA",
+                "buttonText": "Contact Us",
+                "buttonLink": "/contact"
+              },
+              "effectiveDate": "May 20, 2025",
+              "sections": [
+                {
+                  "id": "payment-policy-sec-1",
+                  "icon": "FaUserCheck",
+                  "title": "1. Information We Collect",
+                  "content": "We collect personal information that you provide to us, such as your name, email address, phone number, and payment details when you book a trip or contact us."
+                },
+                {
+                  "id": "payment-policy-sec-2",
+                  "icon": "FaCog",
+                  "title": "2. How We Use Your Information",
+                  "content": "Your information helps us provide and improve our services, process bookings and payments, communicate with you, and personalize your travel experience."
+                },
+                {
+                  "id": "payment-policy-sec-3",
+                  "icon": "FaUsers",
+                  "title": "3. Information Sharing",
+                  "content": "We do not sell or rent your personal information. We may share your data with trusted partners and service providers only to complete your bookings."
+                },
+                {
+                  "id": "payment-policy-sec-4",
+                  "icon": "FaShieldAlt",
+                  "title": "4. Data Security",
+                  "content": "We implement industry-standard security measures to protect your information from unauthorized access, alteration, or disclosure."
+                },
+                {
+                  "id": "payment-policy-sec-5",
+                  "icon": "FaUserCog",
+                  "title": "5. Your Rights",
+                  "content": "You have the right to access, update, or delete your personal information. You can also opt out of marketing communications at any time."
+                }
+              ]
+            }
+          }
+        },
+        "EnquiryContent": {
+          "variants": {
+            "WanderlyEnquiry1": {
+              "subtitle": "ENQUIRY NOW",
+              "title": "Tour Enquiry Form",
+              "description": "Please provide your details and preferences. Our travel expert will contact you shortly with the best recommendations.",
+              "whyTravelWithUsTitle": "Why Travel With Us?",
+              "sidebarItems": [
+                {
+                  "id": "item-1",
+                  "icon": "FaTags",
+                  "title": "Best Price Guarantee",
+                  "description": "Get the best deals and discounts on every booking."
+                },
+                {
+                  "id": "item-2",
+                  "icon": "FaHeadset",
+                  "title": "Expert Travel Support",
+                  "description": "Our travel experts are available 24/7 to assist you."
+                },
+                {
+                  "id": "item-3",
+                  "icon": "FaShieldAlt",
+                  "title": "Safe & Secure Booking",
+                  "description": "Your payment and personal details are always safe with us."
+                },
+                {
+                  "id": "item-4",
+                  "icon": "FaThumbsUp",
+                  "title": "Trusted Travel Partner",
+                  "description": "Thousands of happy travelers trust us for memorable trips."
+                }
+              ],
+              "helpBox": {
+                "title": "Need Help?",
+                "description": "Our travel experts are here to help you plan your perfect trip.",
+                "phone": "+1 234 567 8900",
+                "buttonText": "Call Us Now",
+                "buttonLink": "tel:+12345678900"
+              }
+            }
+          }
+        },
+        "SitemapSection": {
+          "variants": {
+            "WanderlySitemap1": {
+              "subtitle": "Overview",
+              "titlePart1": "Site",
+              "titleHighlight": "map",
+              "titlePart2": "",
+              "description": "Find what you're looking for easily with our complete site structure.",
+              "heading": "Website Structure",
+              "links": [
+                {
+                  "id": "link-home",
+                  "label": "Home",
+                  "url": "/"
+                }
+              ],
+              "categories": [
+                {
+                  "id": "cat-about",
+                  "title": "About Us",
+                  "icon": "FaInfoCircle",
+                  "links": [
+                    {
+                      "id": "link-about",
+                      "label": "About Us",
+                      "url": "/about"
+                    },
+                    {
+                      "id": "link-mission",
+                      "label": "Mission & Vision",
+                      "url": "/mission-vision"
+                    },
+                    {
+                      "id": "link-awards",
+                      "label": "Awards & Recognition",
+                      "url": "/awards"
+                    },
+                    {
+                      "id": "link-why-choose",
+                      "label": "Why Choose Us",
+                      "url": "/why-choose-us"
+                    }
+                  ]
+                },
+                {
+                  "id": "cat-team",
+                  "title": "Our Team",
+                  "icon": "FaUsers",
+                  "links": [
+                    {
+                      "id": "link-team",
+                      "label": "Our Team",
+                      "url": "/team"
+                    },
+                    {
+                      "id": "link-team-detail",
+                      "label": "Team Detail",
+                      "url": "/team/tm-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "cat-services",
+                  "title": "Our Services",
+                  "icon": "FaBriefcase",
+                  "links": [
+                    {
+                      "id": "link-services",
+                      "label": "Our Services",
+                      "url": "/services"
+                    },
+                    {
+                      "id": "link-service-detail",
+                      "label": "Service Detail",
+                      "url": "/services/srv-1"
+                    }
+                  ]
+                },
+                {
+                  "id": "cat-tours",
+                  "title": "Tour Packages",
+                  "icon": "FaMapMarkedAlt",
+                  "links": [
+                    {
+                      "id": "link-tours",
+                      "label": "Tour Packages",
+                      "url": "/tour-packages"
+                    },
+                    {
+                      "id": "link-tour-detail",
+                      "label": "Package Detail",
+                      "url": "/tour-packages/delhi"
+                    }
+                  ]
+                },
+                {
+                  "id": "cat-destinations",
+                  "title": "Destinations",
+                  "icon": "FaGlobe",
+                  "links": [
+                    {
+                      "id": "link-destinations",
+                      "label": "Destinations",
+                      "url": "/destination"
+                    }
+                  ]
+                },
+                {
+                  "id": "cat-info",
+                  "title": "Information & Support",
+                  "icon": "FaQuestionCircle",
+                  "links": [
+                    {
+                      "id": "link-blog",
+                      "label": "Blog",
+                      "url": "/blog"
+                    },
+                    {
+                      "id": "link-blog-detail",
+                      "label": "Blog Detail",
+                      "url": "/blog/top-10-beaches-you-must-visit-in-thailand"
+                    },
+                    {
+                      "id": "link-contact",
+                      "label": "Contact Us",
+                      "url": "/contact"
+                    },
+                    {
+                      "id": "link-enquiry",
+                      "label": "Enquiry",
+                      "url": "/enquiry"
+                    },
+                    {
+                      "id": "link-faq",
+                      "label": "FAQ",
+                      "url": "/faq"
+                    },
+                    {
+                      "id": "link-gallery",
+                      "label": "Gallery",
+                      "url": "/gallery"
+                    },
+                    {
+                      "id": "link-testimonials",
+                      "label": "Testimonials",
+                      "url": "/testimonials"
+                    },
+                    {
+                      "id": "link-partner",
+                      "label": "Partner with Us",
+                      "url": "/partner"
+                    },
+                    {
+                      "id": "link-404",
+                      "label": "404 Error Page",
+                      "url": "/404-not-found"
+                    }
+                  ]
+                },
+                {
+                  "id": "cat-legal",
+                  "title": "Legal & Policies",
+                  "icon": "FaBalanceScale",
+                  "links": [
+                    {
+                      "id": "link-privacy",
+                      "label": "Privacy Policy",
+                      "url": "/privacy-policy"
+                    },
+                    {
+                      "id": "link-terms",
+                      "label": "Terms & Conditions",
+                      "url": "/terms-conditions"
+                    },
+                    {
+                      "id": "link-refund",
+                      "label": "Refund Policy",
+                      "url": "/refund-policy"
+                    },
+                    {
+                      "id": "link-payment",
+                      "label": "Payment Policy",
+                      "url": "/payment-policy"
+                    }
+                  ]
+                }
+              ]
             }
           }
         }
