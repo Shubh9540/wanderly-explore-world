@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import { TestimonialsData } from '@/types/templates.types';
 import { FaStar, FaQuoteRight } from 'react-icons/fa';
-import { AirplaneTrackIcon } from '@/components/ui/AirplaneTrackIcon';
+import { SectionHeading } from '@/components/ui/SectionHeading';
 
 export const TestimonialsPageContent = ({ data }: { data?: TestimonialsData }) => {
   if (!data || !data.testimonials) return null;
@@ -13,31 +13,12 @@ export const TestimonialsPageContent = ({ data }: { data?: TestimonialsData }) =
     <section className="pt-12 lg:pt-12 pb-4 lg:pb-8 bg-[#fdfaf6] overflow-hidden">
       <div className="max-w-[1300px] mx-auto px-4 md:px-6 relative">
 
-        {/* Decorative Airplane Icon (Left Side) */}
-        <div className="absolute -left-10 lg:left-10 top-0 w-32 lg:w-40 h-32 lg:h-40 text-[#09a3c8] opacity-70 hidden md:block">
-          <AirplaneTrackIcon className="w-full h-full transform -scale-x-100 rotate-[30deg]" />
-        </div>
-
-        {/* Header Section */}
-        <div className="text-center max-w-3xl mx-auto mb-16 relative z-10">
-          <h4 className="text-[#09a3c8] font-bold text-[14px] tracking-wider uppercase mb-3 flex flex-col items-center gap-1.5">
-            {data.subtitle}
-            <span className="w-10 h-[2px] bg-[#fbbc04]"></span>
-          </h4>
-          <h2 className="text-[#12424b] text-3xl md:text-5xl font-bold mb-6">
-            {data.titlePart1} <span className="text-[#12424b]">{data.titleHighlight}</span> {data.titlePart2}
-          </h2>
-          <p className="text-gray-500 text-[15px] leading-relaxed">
-            {data.description}
-          </p>
-
-          {/* Decorative Divider */}
-          <div className="flex items-center justify-center gap-2 mt-8">
-            <div className="w-12 h-[2px] bg-[#09a3c8]"></div>
-            <div className="w-2.5 h-2.5 rounded-full bg-[#fbbc04]"></div>
-            <div className="w-12 h-[2px] bg-[#09a3c8]"></div>
-          </div>
-        </div>
+        <SectionHeading 
+          subtitle={data.subtitle} 
+          title={data.title as string} 
+          description={data.description} 
+          showPlaneTrack={true} 
+        />
 
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12 pb-10 px-2 lg:px-6 mt-6">

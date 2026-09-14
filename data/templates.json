@@ -185,6 +185,49 @@
             "label": "Testimonials"
           }
         ]
+      },
+      "FAQBreadcrumb": {
+        "title": "FAQ",
+        "bgImage": "/banner/hero_bg_1.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "FAQ"
+          }
+        ]
+      },
+      "BlogBreadcrumb": {
+        "title": "Blog",
+        "bgImage": "/banner/bg-11.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Blog"
+          }
+        ]
+      },
+      "BlogDetailBreadcrumb": {
+        "title": "Blog Details",
+        "bgImage": "/blog/blog3.webp",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Blog",
+            "url": "/blog"
+          },
+          {
+            "label": "Blog Details"
+          }
+        ]
       }
     },
     "Footer": {
@@ -278,25 +321,25 @@
         "recentPostsTitle": "Recent Posts",
         "recentPosts": [
           {
-            "id": "rp-1",
-            "title": "5 Signs Your Phone Needs Professional Repair",
-            "date": "20 May, 2024",
+            "id": "top-10-beaches-you-must-visit-in-thailand",
+            "title": "Top 10 Beaches You Must Visit in Thailand",
+            "date": "May 18, 2024",
             "image": "/blog/blog1.webp",
-            "url": "/blog/5-signs-phone-needs-repair"
+            "url": "/blog/top-10-beaches-you-must-visit-in-thailand"
           },
           {
-            "id": "rp-2",
-            "title": "How to Extend Your Phone Battery Life",
-            "date": "15 May, 2024",
-            "image": "/blog/blog1.webp",
-            "url": "/blog/extend-phone-battery-life"
+            "id": "a-complete-guide-to-exploring-swiss-alps",
+            "title": "A Complete Guide to Exploring Swiss Alps",
+            "date": "May 18, 2024",
+            "image": "/blog/blog2.webp",
+            "url": "/blog/a-complete-guide-to-exploring-swiss-alps"
           },
           {
-            "id": "rp-3",
-            "title": "Latest Smartphone Launches in 2024",
-            "date": "10 May, 2024",
-            "image": "/blog/blog1.webp",
-            "url": "/blog/latest-smartphone-launches-2024"
+            "id": "hot-air-balloon-experience-in-cappadocia",
+            "title": "Hot Air Balloon Experience in Cappadocia",
+            "date": "May 18, 2024",
+            "image": "/blog/blog3.webp",
+            "url": "/blog/hot-air-balloon-experience-in-cappadocia"
           }
         ]
       },
@@ -522,6 +565,62 @@
                 {
                   "key": "TestimonialsPage",
                   "component": "TestimonialsPageContent"
+                }
+              ]
+            },
+            "faq": {
+              "components": [
+                {
+                  "key": "FAQPage",
+                  "component": "FAQPageContent"
+                }
+              ]
+            },
+            "blog": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "BlogBreadcrumb"
+                },
+                {
+                  "key": "BlogPage",
+                  "component": "BlogPageContent"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            },
+            "blog-detail": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "TopBar"
+                },
+                {
+                  "key": "Header",
+                  "component": "Header"
+                },
+                {
+                  "key": "Breadcrumb",
+                  "component": "BlogDetailBreadcrumb"
+                },
+                {
+                  "key": "BlogPage",
+                  "component": "BlogDetailContent"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
                 }
               ]
             }
@@ -1081,37 +1180,37 @@
               "description": "Tips, guides and real experiences from around the world to inspire your next adventure.",
               "blogs": [
                 {
-                  "id": "blog-1",
-                  "date": "Jan 15, 2024",
+                  "id": "top-10-beaches-you-must-visit-in-thailand",
+                  "date": "May 18, 2024",
                   "image": "/blog/blog1.webp",
                   "category": "5 Min Read",
-                  "categoryIcon": "FaRegClock",
-                  "title": "Experiencing Paradise in The Maldives",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Top 10 Beaches You Must Visit in Thailand",
                   "excerpt": "Discover the best luxury resorts and hidden beaches.",
                   "linkText": "Read More",
-                  "linkUrl": "/blogs/maldives-paradise"
+                  "linkUrl": "/blog/top-10-beaches-you-must-visit-in-thailand"
                 },
                 {
-                  "id": "blog-2",
-                  "date": "Sep 05, 2024",
-                  "image": "/blog/blog1.webp",
-                  "category": "7 Min Read",
-                  "categoryIcon": "FaRegClock",
-                  "title": "Discovering Paradise in The Indonesia Bali",
-                  "excerpt": "Explore the culture, food, and amazing landscapes.",
+                  "id": "a-complete-guide-to-exploring-swiss-alps",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog2.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "A Complete Guide to Exploring Swiss Alps",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
                   "linkText": "Read More",
-                  "linkUrl": "/blogs/bali-paradise"
+                  "linkUrl": "/blog/a-complete-guide-to-exploring-swiss-alps"
                 },
                 {
-                  "id": "blog-3",
-                  "date": "Sep 27, 2024",
-                  "image": "/blog/blog1.webp",
-                  "category": "6 Min Read",
-                  "categoryIcon": "FaRegClock",
-                  "title": "Journey to Paradise in The Wang Beach In London",
-                  "excerpt": "A fantastic guide to an unforgettable experience.",
+                  "id": "hot-air-balloon-experience-in-cappadocia",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog3.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Hot Air Balloon Experience in Cappadocia",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
                   "linkText": "Read More",
-                  "linkUrl": "/blogs/wang-beach-london"
+                  "linkUrl": "/blog/hot-air-balloon-experience-in-cappadocia"
                 }
               ],
               "viewAllText": "View All Blogs",
@@ -4147,9 +4246,6 @@
           "variants": {
             "WanderlyTestimonialsPage1": {
               "subtitle": "TESTIMONIALS",
-              "titlePart1": "What Our",
-              "titleHighlight": "Travelers Say",
-              "titlePart2": "",
               "description": "Real stories from happy travelers who explored the world with us and had unforgettable experiences.",
               "testimonials": [
                 {
@@ -4200,7 +4296,910 @@
                   "rating": 5,
                   "text": "I was impressed with the attention to detail and customer care. Every destination was beautiful and the entire journey was smooth and hassle-free!"
                 }
+              ],
+              "title": "What Our Travelers Say"
+            }
+          }
+        },
+        "FAQPage": {
+          "variants": {
+            "WanderlyFAQPage1": {
+              "subtitle": "FAQ",
+              "title": "Frequently Asked Questions",
+              "description": "Find answers to the most common questions about our tours, bookings, policies and more.",
+              "mainImage": "/destination/international/Amsterdam.webp",
+              "smallImage": "/destination/international/Dubai.webp",
+              "contactBox": {
+                "title": "Still Have Questions?",
+                "description": "Our travel experts are here to help you plan your perfect trip.",
+                "buttonText": "Contact Us",
+                "buttonUrl": "/contact"
+              },
+              "faqs": [
+                {
+                  "id": "faq-1",
+                  "question": "What documents do I need to travel internationally?",
+                  "answer": "When traveling internationally, you typically need essential documents such as a valid passport, visa (if required by your destination country), travel itinerary, proof of accommodation, and return or onward tickets. Make sure your passport is valid for at least 6 months beyond your travel dates."
+                },
+                {
+                  "id": "faq-2",
+                  "question": "How can I book a tour package?",
+                  "answer": "You can easily book a tour package through our website. Simply select your desired destination, choose your travel dates, and follow the booking process. Our support team is also available to assist you via phone or email."
+                },
+                {
+                  "id": "faq-3",
+                  "question": "What is included in the tour package price?",
+                  "answer": "Our tour packages generally include accommodation, guided tours, some meals, and local transportation as specified in the itinerary. Flights and personal expenses are typically not included unless stated otherwise."
+                },
+                {
+                  "id": "faq-4",
+                  "question": "What is your cancellation and refund policy?",
+                  "answer": "Cancellations made 30 days prior to departure receive a full refund minus processing fees. Cancellations within 30 days may incur charges. Please refer to our detailed Terms and Conditions for specific refund structures."
+                },
+                {
+                  "id": "faq-5",
+                  "question": "How do I know if my booking is confirmed?",
+                  "answer": "Once your payment is successfully processed, you will receive an immediate email confirmation with your booking reference and detailed itinerary."
+                },
+                {
+                  "id": "faq-6",
+                  "question": "What payment methods do you accept?",
+                  "answer": "We accept all major credit cards (Visa, MasterCard, Amex), PayPal, and direct bank transfers."
+                },
+                {
+                  "id": "faq-7",
+                  "question": "Can I customize my tour package?",
+                  "answer": "Yes! We offer tailored experiences. Contact our travel experts and they will help you customize your itinerary to match your preferences and budget."
+                },
+                {
+                  "id": "faq-8",
+                  "question": "Do you offer travel insurance?",
+                  "answer": "We highly recommend travel insurance. While we do not provide it directly, we can guide you to trusted partners who offer comprehensive coverage for our travelers."
+                },
+                {
+                  "id": "faq-9",
+                  "question": "What should I do if I need to change my booking?",
+                  "answer": "Please contact our support team as soon as possible. We will do our best to accommodate changes, subject to availability and potential change fees from airlines or hotels."
+                }
               ]
+            }
+          }
+        },
+        "BlogPage": {
+          "variants": {
+            "WanderlyBlogPage1": {
+              "subtitle": "TRAVEL BLOG",
+              "title": "Travel Stories & Inspiration",
+              "description": "Tips, guides and real experiences from around the world to inspire your next adventure.",
+              "blogs": [
+                {
+                  "id": "top-10-beaches-you-must-visit-in-thailand",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Top 10 Beaches You Must Visit in Thailand",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/top-10-beaches-you-must-visit-in-thailand",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "a-complete-guide-to-exploring-swiss-alps",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog2.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "A Complete Guide to Exploring Swiss Alps",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/a-complete-guide-to-exploring-swiss-alps",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "hot-air-balloon-experience-in-cappadocia",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog3.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Hot Air Balloon Experience in Cappadocia",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/hot-air-balloon-experience-in-cappadocia",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "discover-the-culture-and-beauty-of-bali",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Discover the Culture and Beauty of Bali",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/discover-the-culture-and-beauty-of-bali",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "santorini-travel-guide-things-to-know-before-you-go",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog2.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Santorini Travel Guide: Things to Know Before You Go",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/santorini-travel-guide-things-to-know-before-you-go",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "chasing-the-northern-lights-in-iceland",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog3.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Chasing the Northern Lights in Iceland",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/chasing-the-northern-lights-in-iceland",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "a-perfect-3-day-itinerary-for-singapore",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "A Perfect 3-Day Itinerary for Singapore",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/a-perfect-3-day-itinerary-for-singapore",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "exploring-the-charming-streets-of-prague",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog2.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Exploring the Charming Streets of Prague",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/exploring-the-charming-streets-of-prague",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "a-safari-adventure-in-south-africa",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog3.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "A Safari Adventure in South Africa",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/a-safari-adventure-in-south-africa",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                },
+                {
+                  "id": "exploring-the-green-spaces-of-the-island-maldives",
+                  "date": "May 18, 2024",
+                  "image": "/blog/blog1.webp",
+                  "category": "5 Min Read",
+                  "categoryIcon": "FaRegCalendarAlt",
+                  "title": "Exploring The Green Spaces Of The Island Maldives",
+                  "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                  "linkText": "Read More",
+                  "linkUrl": "/blog/exploring-the-green-spaces-of-the-island-maldives",
+                  "author": "Rahul Sharma",
+                  "authorRole": "Travel Expert",
+                  "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                  "sections": [
+                    {
+                      "id": "sec-1",
+                      "title": "The Beauty Of Sustainable Paradise",
+                      "paragraphs": [
+                        "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                      ],
+                      "image": "/blog/blog1.webp"
+                    },
+                    {
+                      "id": "sec-2",
+                      "title": "Experience Green Luxury",
+                      "paragraphs": [
+                        "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                      ],
+                      "image": "/blog/blog2.webp"
+                    }
+                  ],
+                  "quote": {
+                    "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                    "author": "Jane Cooper"
+                  },
+                  "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                  "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                  "ecoInitiatives": [
+                    {
+                      "id": "eco-1",
+                      "title": "Solar Power",
+                      "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                      "icon": "FaSun"
+                    },
+                    {
+                      "id": "eco-2",
+                      "title": "Coral Restoration",
+                      "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                      "icon": "FaLeaf"
+                    },
+                    {
+                      "id": "eco-3",
+                      "title": "Water Conservation",
+                      "description": "Innovative systems collect and purify rainwater for various uses.",
+                      "icon": "FaTint"
+                    }
+                  ]
+                }
+              ],
+              "sidebar": {
+                "recentPostsTitle": "Recent Posts",
+                "recentPosts": [
+                  {
+                    "id": "top-10-beaches-you-must-visit-in-thailand",
+                    "date": "May 18, 2024",
+                    "image": "/blog/blog1.webp",
+                    "category": "5 Min Read",
+                    "categoryIcon": "FaRegCalendarAlt",
+                    "title": "Top 10 Beaches You Must Visit in Thailand",
+                    "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                    "linkText": "Read More",
+                    "linkUrl": "/blog/top-10-beaches-you-must-visit-in-thailand",
+                    "author": "Rahul Sharma",
+                    "authorRole": "Travel Expert",
+                    "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                    "sections": [
+                      {
+                        "id": "sec-1",
+                        "title": "The Beauty Of Sustainable Paradise",
+                        "paragraphs": [
+                          "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                        ],
+                        "image": "/blog/blog1.webp"
+                      },
+                      {
+                        "id": "sec-2",
+                        "title": "Experience Green Luxury",
+                        "paragraphs": [
+                          "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                        ],
+                        "image": "/blog/blog2.webp"
+                      }
+                    ],
+                    "quote": {
+                      "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                      "author": "Jane Cooper"
+                    },
+                    "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                    "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                    "ecoInitiatives": [
+                      {
+                        "id": "eco-1",
+                        "title": "Solar Power",
+                        "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                        "icon": "FaSun"
+                      },
+                      {
+                        "id": "eco-2",
+                        "title": "Coral Restoration",
+                        "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                        "icon": "FaLeaf"
+                      },
+                      {
+                        "id": "eco-3",
+                        "title": "Water Conservation",
+                        "description": "Innovative systems collect and purify rainwater for various uses.",
+                        "icon": "FaTint"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "a-complete-guide-to-exploring-swiss-alps",
+                    "date": "May 18, 2024",
+                    "image": "/blog/blog2.webp",
+                    "category": "5 Min Read",
+                    "categoryIcon": "FaRegCalendarAlt",
+                    "title": "A Complete Guide to Exploring Swiss Alps",
+                    "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                    "linkText": "Read More",
+                    "linkUrl": "/blog/a-complete-guide-to-exploring-swiss-alps",
+                    "author": "Rahul Sharma",
+                    "authorRole": "Travel Expert",
+                    "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                    "sections": [
+                      {
+                        "id": "sec-1",
+                        "title": "The Beauty Of Sustainable Paradise",
+                        "paragraphs": [
+                          "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                        ],
+                        "image": "/blog/blog1.webp"
+                      },
+                      {
+                        "id": "sec-2",
+                        "title": "Experience Green Luxury",
+                        "paragraphs": [
+                          "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                        ],
+                        "image": "/blog/blog2.webp"
+                      }
+                    ],
+                    "quote": {
+                      "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                      "author": "Jane Cooper"
+                    },
+                    "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                    "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                    "ecoInitiatives": [
+                      {
+                        "id": "eco-1",
+                        "title": "Solar Power",
+                        "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                        "icon": "FaSun"
+                      },
+                      {
+                        "id": "eco-2",
+                        "title": "Coral Restoration",
+                        "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                        "icon": "FaLeaf"
+                      },
+                      {
+                        "id": "eco-3",
+                        "title": "Water Conservation",
+                        "description": "Innovative systems collect and purify rainwater for various uses.",
+                        "icon": "FaTint"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "hot-air-balloon-experience-in-cappadocia",
+                    "date": "May 18, 2024",
+                    "image": "/blog/blog3.webp",
+                    "category": "5 Min Read",
+                    "categoryIcon": "FaRegCalendarAlt",
+                    "title": "Hot Air Balloon Experience in Cappadocia",
+                    "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                    "linkText": "Read More",
+                    "linkUrl": "/blog/hot-air-balloon-experience-in-cappadocia",
+                    "author": "Rahul Sharma",
+                    "authorRole": "Travel Expert",
+                    "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                    "sections": [
+                      {
+                        "id": "sec-1",
+                        "title": "The Beauty Of Sustainable Paradise",
+                        "paragraphs": [
+                          "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                        ],
+                        "image": "/blog/blog1.webp"
+                      },
+                      {
+                        "id": "sec-2",
+                        "title": "Experience Green Luxury",
+                        "paragraphs": [
+                          "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                        ],
+                        "image": "/blog/blog2.webp"
+                      }
+                    ],
+                    "quote": {
+                      "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                      "author": "Jane Cooper"
+                    },
+                    "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                    "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                    "ecoInitiatives": [
+                      {
+                        "id": "eco-1",
+                        "title": "Solar Power",
+                        "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                        "icon": "FaSun"
+                      },
+                      {
+                        "id": "eco-2",
+                        "title": "Coral Restoration",
+                        "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                        "icon": "FaLeaf"
+                      },
+                      {
+                        "id": "eco-3",
+                        "title": "Water Conservation",
+                        "description": "Innovative systems collect and purify rainwater for various uses.",
+                        "icon": "FaTint"
+                      }
+                    ]
+                  },
+                  {
+                    "id": "discover-the-culture-and-beauty-of-bali",
+                    "date": "May 18, 2024",
+                    "image": "/blog/blog1.webp",
+                    "category": "5 Min Read",
+                    "categoryIcon": "FaRegCalendarAlt",
+                    "title": "Discover the Culture and Beauty of Bali",
+                    "excerpt": "Discover the best luxury resorts and hidden beaches.",
+                    "linkText": "Read More",
+                    "linkUrl": "/blog/discover-the-culture-and-beauty-of-bali",
+                    "author": "Rahul Sharma",
+                    "authorRole": "Travel Expert",
+                    "introduction": "Welcome to the Maldives, where crystal-clear waters meet lush greenery and sustainability. In this blog post, we'll explore the green innovations seamlessly integrated into the fabric of EcoLand, creating a unique and eco-friendly living experience for its residents.",
+                    "sections": [
+                      {
+                        "id": "sec-1",
+                        "title": "The Beauty Of Sustainable Paradise",
+                        "paragraphs": [
+                          "The Maldives isn't just about stunning beaches and luxury resorts: it's also a pioneer in sustainable tourism. From solar-powered villas to coral reef restoration projects, this island nation is dedicated to preserving its natural beauty."
+                        ],
+                        "image": "/blog/blog1.webp"
+                      },
+                      {
+                        "id": "sec-2",
+                        "title": "Experience Green Luxury",
+                        "paragraphs": [
+                          "You can enjoy world-class comfort while knowing your stay supports environmental conservation. Choose eco-friendly resorts and be part of the movement for a greener future."
+                        ],
+                        "image": "/blog/blog2.webp"
+                      }
+                    ],
+                    "quote": {
+                      "text": "Sustainable travel isn't just a trend; it's a responsibility. The Maldives shows us how to cherish nature while enjoying its beauty.",
+                      "author": "Jane Cooper"
+                    },
+                    "ecoInitiativesTitle": "Eco-Friendly Initiatives",
+                    "ecoInitiativesDescription": "Many resorts in the Maldives are leading the way in eco-friendly practices. Here are some inspiring initiatives making a difference:",
+                    "ecoInitiatives": [
+                      {
+                        "id": "eco-1",
+                        "title": "Solar Power",
+                        "description": "Many resorts run entirely on solar energy, reducing their carbon footprint.",
+                        "icon": "FaSun"
+                      },
+                      {
+                        "id": "eco-2",
+                        "title": "Coral Restoration",
+                        "description": "Active coral planting projects help restore marine life and protect the ecosystem.",
+                        "icon": "FaLeaf"
+                      },
+                      {
+                        "id": "eco-3",
+                        "title": "Water Conservation",
+                        "description": "Innovative systems collect and purify rainwater for various uses.",
+                        "icon": "FaTint"
+                      }
+                    ]
+                  }
+                ],
+                "helpBox": {
+                  "icon": "FaHeadset",
+                  "title": "Need Help?",
+                  "subtitle": "We Are Here To Help You",
+                  "logo": "/main logo/footer-logo.png",
+                  "phoneText": "You Get Online Support",
+                  "phoneNumber": "+91 98765 43210",
+                  "buttonText": "Contact Us",
+                  "buttonLink": "/contact"
+                }
+              }
             }
           }
         }

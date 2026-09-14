@@ -623,6 +623,20 @@ export interface TeamSliderData {
   members: TeamMember[];
 }
 
+export interface BlogContentSection {
+  id: string;
+  title?: string;
+  paragraphs: string[];
+  image?: string;
+}
+
+export interface EcoInitiative {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
 export interface BlogItem {
   id: string;
   date: string;
@@ -633,6 +647,17 @@ export interface BlogItem {
   excerpt: string;
   linkText: string;
   linkUrl: string;
+  author?: string;
+  authorRole?: string;
+  introduction?: string;
+  sections?: BlogContentSection[];
+  quote?: {
+    text: string;
+    author: string;
+  };
+  ecoInitiativesTitle?: string;
+  ecoInitiativesDescription?: string;
+  ecoInitiatives?: EcoInitiative[];
 }
 
 export interface BlogsData {
@@ -644,6 +669,29 @@ export interface BlogsData {
   blogs: BlogItem[];
   viewAllText?: string;
   viewAllLink?: string;
+}
+
+export interface BlogSidebarData {
+  recentPostsTitle: string;
+  recentPosts: BlogItem[];
+  helpBox: {
+    icon: string;
+    title: string;
+    subtitle: string;
+    logo: string;
+    phoneText: string;
+    phoneNumber: string;
+    buttonText: string;
+    buttonLink: string;
+  };
+}
+
+export interface BlogPageData {
+  subtitle: string;
+  title: string;
+  description: string;
+  blogs: BlogItem[];
+  sidebar: BlogSidebarData;
 }
 
 export interface BlogDetailData {
@@ -803,11 +851,11 @@ export interface TestimonialItem {
 }
 
 export interface TestimonialsData {
-  subtitle: string;
-  titlePart1: string;
-  titleHighlight: string;
-  titlePart2?: string;
-  description: string;
+  subtitle?: string;
+  title?: string;
+  titlePart1?: string;
+  titleHighlight?: string;
+  description?: string;
   testimonials: TestimonialItem[];
 }
 
@@ -825,6 +873,27 @@ export interface GalleryVideo {
   duration: string;
   date?: string;
   views?: string;
+}
+
+export interface FAQItem {
+  id: string;
+  question: string;
+  answer: string;
+}
+
+export interface FAQPageData {
+  subtitle: string;
+  title: string;
+  description: string;
+  mainImage: string;
+  smallImage: string;
+  contactBox: {
+    title: string;
+    description: string;
+    buttonText: string;
+    buttonUrl: string;
+  };
+  faqs: FAQItem[];
 }
 
 export interface PhotoGalleryData {
@@ -1171,6 +1240,11 @@ export interface WanderlyTemplateData {
             [key: string]: BlogDetailData;
           };
         };
+        BlogPage?: {
+          variants: {
+            WanderlyBlogPage1: BlogPageData;
+          };
+        };
         RepairProcess?: {
           variants: {
             WanderlyRepairProcess1: RepairProcessData;
@@ -1262,6 +1336,11 @@ export interface WanderlyTemplateData {
         TestimonialsPage?: {
           variants: {
             WanderlyTestimonialsPage1: TestimonialsData;
+          };
+        };
+        FAQPage?: {
+          variants: {
+            WanderlyFAQPage1: FAQPageData;
           };
         };
         TourDetail?: {

@@ -74,7 +74,7 @@ export const Testimonials = ({ data }: { data?: TestimonialsData }) => {
         {/* Header Section */}
         <SectionHeading
           subtitle={data.subtitle}
-          title={data.titlePart1 + (data.titleHighlight ? ` ${data.titleHighlight}` : '')}
+          title={data.title as string}
           description={data.description}
           showPlaneTrack={false}
         />
