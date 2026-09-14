@@ -1200,64 +1200,64 @@
               "destinations": [
                 {
                   "id": "dest-1",
-                  "image": "/destination/international/Amsterdam.webp",
-                  "city": "Amsterdam",
-                  "tourCount": "376 Tours",
-                  "url": "/destinations/amsterdam"
+                  "image": "/destination/international/Dubai.webp",
+                  "city": "Dubai",
+                  "tourCount": "322 Tours",
+                  "url": "/tour-packages/dubai"
                 },
                 {
                   "id": "dest-2",
-                  "image": "/destination/international/Paris.webp",
-                  "city": "Paris",
-                  "tourCount": "396 Tours",
-                  "url": "/destinations/paris"
+                  "image": "/destination/international/Switzerland.webp",
+                  "city": "Switzerland",
+                  "tourCount": "321 Tours",
+                  "url": "/tour-packages/switzerland"
                 },
                 {
                   "id": "dest-3",
-                  "image": "/destination/international/Dubai.webp",
-                  "city": "Dubai",
-                  "tourCount": "256 Tours",
-                  "url": "/destinations/dubai"
+                  "image": "/destination/international/Amsterdam.webp",
+                  "city": "Thailand",
+                  "tourCount": "366 Tours",
+                  "url": "/tour-packages/thailand"
                 },
                 {
                   "id": "dest-4",
-                  "image": "/destination/international/Istanbul.webp",
-                  "city": "Istanbul",
-                  "tourCount": "326 Tours",
-                  "url": "/destinations/istanbul"
+                  "image": "/destination/international/Dubai.webp",
+                  "city": "Singapore",
+                  "tourCount": "399 Tours",
+                  "url": "/tour-packages/singapore"
                 },
                 {
                   "id": "dest-5",
                   "image": "/destination/international/Venice.webp",
-                  "city": "Venice",
-                  "tourCount": "350 Tours",
-                  "url": "/destinations/venice"
+                  "city": "Bali, Indonesia",
+                  "tourCount": "398 Tours",
+                  "url": "/tour-packages/bali--indonesia"
                 },
                 {
                   "id": "dest-6",
-                  "image": "/destination/international/London.webp",
-                  "city": "London",
-                  "tourCount": "306 Tours",
-                  "url": "/destinations/london"
+                  "image": "/destination/international/Paris.webp",
+                  "city": "Paris, France",
+                  "tourCount": "334 Tours",
+                  "url": "/tour-packages/paris--france"
                 },
                 {
                   "id": "dest-7",
-                  "image": "/destination/international/Switzerland.webp",
-                  "city": "Switzerland",
-                  "tourCount": "156 Tours",
-                  "url": "/destinations/switzerland"
+                  "image": "/destination/international/Istanbul.webp",
+                  "city": "Maldives",
+                  "tourCount": "370 Tours",
+                  "url": "/tour-packages/maldives"
                 },
                 {
                   "id": "dest-8",
-                  "image": "/destination/international/Japan.webp",
-                  "city": "Japan",
-                  "tourCount": "356 Tours",
-                  "url": "/destinations/japan"
+                  "image": "/destination/international/London.webp",
+                  "city": "London, UK",
+                  "tourCount": "391 Tours",
+                  "url": "/tour-packages/london--uk"
                 }
               ],
               "viewAllButton": {
                 "text": "View All",
-                "url": "/destinations"
+                "url": "/destination"
               }
             }
           }
@@ -1323,7 +1323,7 @@
                   "price": "$980.00",
                   "priceSuffix": "/Person",
                   "buttonText": "Book Now",
-                  "buttonUrl": "/tours/dubai"
+                  "buttonUrl": "/tour-packages/dubai"
                 },
                 {
                   "id": "t2",
@@ -1334,7 +1334,7 @@
                   "price": "$980.00",
                   "priceSuffix": "/Person",
                   "buttonText": "Book Now",
-                  "buttonUrl": "/tours/turkey"
+                  "buttonUrl": "/tour-packages/turkey"
                 },
                 {
                   "id": "t3",
@@ -1345,7 +1345,7 @@
                   "price": "$980.00",
                   "priceSuffix": "/Person",
                   "buttonText": "Book Now",
-                  "buttonUrl": "/tours/london"
+                  "buttonUrl": "/tour-packages/london"
                 },
                 {
                   "id": "t4",
@@ -1356,12 +1356,12 @@
                   "price": "$980.00",
                   "priceSuffix": "/Person",
                   "buttonText": "Book Now",
-                  "buttonUrl": "/tours/switzerland"
+                  "buttonUrl": "/tour-packages/switzerland"
                 }
               ],
               "viewAllButton": {
                 "text": "View All Tours",
-                "url": "/tours"
+                "url": "/tour-packages"
               }
             }
           }
@@ -1626,7 +1626,7 @@
                 }
               ],
               "viewAllText": "View All Blogs",
-              "viewAllLink": "/blogs"
+              "viewAllLink": "/blog"
             }
           }
         },
