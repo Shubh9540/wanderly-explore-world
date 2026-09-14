@@ -358,22 +358,22 @@
           {
             "id": "fb",
             "icon": "FaFacebookF",
-            "url": "#"
+            "url": "/contact"
           },
           {
             "id": "ig",
             "icon": "FaInstagram",
-            "url": "#"
+            "url": "/contact"
           },
           {
             "id": "yt",
             "icon": "FaYoutube",
-            "url": "#"
+            "url": "/contact"
           },
           {
             "id": "in",
             "icon": "FaLinkedinIn",
-            "url": "#"
+            "url": "/contact"
           }
         ],
         "exploreTitle": "Explore",
@@ -944,27 +944,27 @@
                 {
                   "id": "social-facebook",
                   "icon": "FaFacebookF",
-                  "url": "#"
+                  "url": "/contact"
                 },
                 {
                   "id": "social-instagram",
                   "icon": "FaInstagram",
-                  "url": "#"
+                  "url": "/contact"
                 },
                 {
                   "id": "social-twitter",
                   "icon": "FaTwitter",
-                  "url": "#"
+                  "url": "/contact"
                 },
                 {
                   "id": "social-linkedin",
                   "icon": "FaLinkedinIn",
-                  "url": "#"
+                  "url": "/contact"
                 },
                 {
                   "id": "social-youtube",
                   "icon": "FaYoutube",
-                  "url": "#"
+                  "url": "/contact"
                 }
               ]
             }
@@ -2026,19 +2026,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2124,19 +2124,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2222,19 +2222,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2320,19 +2320,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2418,19 +2418,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2516,19 +2516,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2614,19 +2614,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
@@ -2712,19 +2712,19 @@
                   "socialLinks": [
                     {
                       "icon": "FaFacebookF",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaTwitter",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaInstagram",
-                      "url": "#"
+                      "url": "/contact"
                     },
                     {
                       "icon": "FaLinkedinIn",
-                      "url": "#"
+                      "url": "/contact"
                     }
                   ],
                   "experience": "6+ Years",
