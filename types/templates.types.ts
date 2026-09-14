@@ -822,6 +822,8 @@ export interface GalleryVideo {
   videoUrl: string;
   title: string;
   duration: string;
+  date?: string;
+  views?: string;
 }
 
 export interface PhotoGalleryData {
@@ -1251,6 +1253,11 @@ export interface WanderlyTemplateData {
             WanderlyDestinationsPage1: DestinationsPageData;
           };
         };
+        GalleryPage?: {
+          variants: {
+            WanderlyGalleryPage1: GalleryPageData;
+          };
+        };
         TourDetail?: {
           variants: {
             WanderlyTourDetail1: TourDetailData;
@@ -1361,4 +1368,12 @@ export interface DestinationsPageData {
       buttonUrl: string;
     };
   };
+}
+export interface GalleryPageData {
+  subtitle: string;
+  title: string;
+  description: string;
+  photoGallery: PhotoGalleryData;
+  videoGallery: VideoGalleryData;
+  bottomBanner: DestinationsPageData['bottomBanner'];
 }

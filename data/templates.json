@@ -159,6 +159,19 @@
           }
         ],
         "bgImage": "/banner/bg-11.webp"
+      },
+      "GalleryBreadcrumb": {
+        "title": "Our Gallery",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Our Gallery"
+          }
+        ],
+        "bgImage": "banner/bg-11.webp"
       }
     },
     "Footer": {
@@ -3949,6 +3962,162 @@
                   "buttonText": "Call Us Now",
                   "buttonUrl": "tel:+12345678900"
                 }
+              }
+            }
+          }
+        },
+        "GalleryPage": {
+          "variants": {
+            "WanderlyGalleryPage1": {
+              "subtitle": "GALLERY",
+              "title": "Moments From Our Journeys",
+              "description": "Explore stunning photos and exciting videos from our travelers' adventures around the world.",
+              "photoGallery": {
+                "photos": [
+                  {
+                    "id": "photo-0",
+                    "src": "/destination/domestic/Kerala.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-1",
+                    "src": "/destination/international/Amsterdam.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-2",
+                    "src": "/destination/international/Dubai.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-3",
+                    "src": "/destination/domestic/Jammu and Kashmir.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-4",
+                    "src": "/destination/international/Istanbul.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-5",
+                    "src": "/destination/international/Japan.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-6",
+                    "src": "/destination/domestic/Delhi.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-7",
+                    "src": "/destination/domestic/Lakshadweep.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-8",
+                    "src": "/destination/international/London.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-9",
+                    "src": "/destination/international/Paris.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-10",
+                    "src": "/destination/international/Switzerland.webp",
+                    "alt": "Gallery Photo"
+                  },
+                  {
+                    "id": "photo-11",
+                    "src": "/destination/domestic/Mumbai.webp",
+                    "alt": "Gallery Photo"
+                  }
+                ]
+              },
+              "videoGallery": {
+                "videos": [
+                  {
+                    "id": "v1",
+                    "thumbnail": "/destination/domestic/Kerala.webp",
+                    "videoUrl": "#",
+                    "title": "Maldives Travel Experience",
+                    "duration": "02:45",
+                    "date": "Jan 15, 2024",
+                    "views": "1.2K Views"
+                  },
+                  {
+                    "id": "v2",
+                    "thumbnail": "/destination/international/Switzerland.webp",
+                    "videoUrl": "#",
+                    "title": "Switzerland Adventure",
+                    "duration": "03:12",
+                    "date": "Jan 28, 2024",
+                    "views": "980 Views"
+                  },
+                  {
+                    "id": "v3",
+                    "thumbnail": "/destination/international/Istanbul.webp",
+                    "videoUrl": "#",
+                    "title": "Exploring Santorini",
+                    "duration": "02:30",
+                    "date": "Jan 25, 2024",
+                    "views": "1.5K Views"
+                  },
+                  {
+                    "id": "v4",
+                    "thumbnail": "/destination/domestic/Lakshadweep.webp",
+                    "videoUrl": "#",
+                    "title": "Great Barrier Reef Diving",
+                    "duration": "05:05",
+                    "date": "Feb 02, 2024",
+                    "views": "1.1K Views"
+                  },
+                  {
+                    "id": "v5",
+                    "thumbnail": "/destination/international/Dubai.webp",
+                    "videoUrl": "#",
+                    "title": "Dubai City Highlights",
+                    "duration": "03:10",
+                    "date": "Feb 08, 2024",
+                    "views": "1.8K Views"
+                  },
+                  {
+                    "id": "v6",
+                    "thumbnail": "/destination/international/Amsterdam.webp",
+                    "videoUrl": "#",
+                    "title": "Bali - Island of Gods",
+                    "duration": "02:50",
+                    "date": "Feb 14, 2024",
+                    "views": "1K Views"
+                  },
+                  {
+                    "id": "v7",
+                    "thumbnail": "/destination/domestic/Jammu and Kashmir.webp",
+                    "videoUrl": "#",
+                    "title": "Iceland Northern Lights",
+                    "duration": "03:22",
+                    "date": "Feb 20, 2024",
+                    "views": "870 Views"
+                  },
+                  {
+                    "id": "v8",
+                    "thumbnail": "/destination/domestic/Rajasthan.webp",
+                    "videoUrl": "#",
+                    "title": "African Safari Experience",
+                    "duration": "02:40",
+                    "date": "Feb 28, 2024",
+                    "views": "920 Views"
+                  }
+                ]
+              },
+              "bottomBanner": {
+                "title": "Ready to Explore",
+                "subtitle": "Your Next Destination?",
+                "description": "Let us help you plan the perfect trip with unforgettable experiences and memories that last a lifetime.",
+                "buttonText": "Plan Your Trip",
+                "buttonUrl": "/contact"
               }
             }
           }

@@ -85,35 +85,6 @@ export const DestinationsContent = ({ data }: { data?: DestinationsPageData }) =
               </div>
             </div>
 
-            {/* Bottom Banner */}
-            <div className="relative rounded-2xl overflow-hidden shadow-lg mt-8">
-              <div className="absolute inset-0">
-                <Image src="/banner/hero_bg_1.jpg" alt="Banner bg" fill className="object-cover brightness-[0.4]" />
-              </div>
-              <div className="relative z-10 p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
-                <div className="text-white flex-1 flex gap-6 items-start">
-                  <div className="text-[#fbbc04] text-4xl pt-2">
-                    <FaPlaneDeparture />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl md:text-3xl font-bold mb-1">{data.bottomBanner.title}</h3>
-                    <h4 className="text-[#fbbc04] text-xl md:text-2xl font-bold mb-4">{data.bottomBanner.subtitle}</h4>
-                    <p className="text-gray-200 text-sm md:text-base max-w-lg leading-relaxed">
-                      {data.bottomBanner.description}
-                    </p>
-                  </div>
-                </div>
-                <div className="shrink-0 w-full md:w-auto">
-                  <Link href={data.bottomBanner.buttonUrl}>
-                    <button className="w-full md:w-auto bg-[#fbbc04] hover:bg-[#e0a800] text-[#12424b] font-bold py-3.5 px-8 rounded-full transition-colors flex items-center justify-center gap-2 shadow-md">
-                      {data.bottomBanner.buttonText}
-                      <FaAngleRight />
-                    </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
           </div>
 
           {/* RIGHT SIDEBAR (STICKY) */}
