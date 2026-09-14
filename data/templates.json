@@ -146,6 +146,19 @@
           }
         ],
         "bgImage": "/banner/bg-11.webp"
+      },
+      "DestinationsBreadcrumb": {
+        "title": "Destinations",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Destinations"
+          }
+        ],
+        "bgImage": "/banner/bg-11.webp"
       }
     },
     "Footer": {
@@ -3338,154 +3351,244 @@
               },
               "tours": [
                 {
-                  "id": "tour-pkg-1",
-                  "image": "/about/1.jpg",
-                  "title": "Italy Tour Package 1",
+                  "id": "delhi",
+                  "image": "/destination/domestic/Delhi.webp",
+                  "title": "Delhi Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-1"
+                  "url": "/tour-packages/delhi"
                 },
                 {
-                  "id": "tour-pkg-2",
-                  "image": "/about/2.jpg",
-                  "title": "Dubai Tour Package 2",
-                  "rating": 4.8,
-                  "ratingText": "(4.8 Rating)",
-                  "price": "$980.00",
-                  "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-2"
-                },
-                {
-                  "id": "tour-pkg-3",
-                  "image": "/about/3.jpg",
-                  "title": "Italy Tour Package 3",
-                  "rating": 4.8,
-                  "ratingText": "(4.8 Rating)",
-                  "price": "$980.00",
-                  "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-3"
-                },
-                {
-                  "id": "tour-pkg-4",
-                  "image": "/about/4.jpg",
-                  "title": "Dubai Tour Package 4",
-                  "rating": 4.8,
-                  "ratingText": "(4.8 Rating)",
-                  "price": "$980.00",
-                  "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-4"
-                },
-                {
-                  "id": "tour-pkg-5",
-                  "image": "/destination/international/Dubai.webp",
-                  "title": "Italy Tour Package 5",
-                  "rating": 4.8,
-                  "ratingText": "(4.8 Rating)",
-                  "price": "$980.00",
-                  "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-5"
-                },
-                {
-                  "id": "tour-pkg-6",
-                  "image": "/destination/international/Amsterdam.webp",
-                  "title": "Dubai Tour Package 6",
-                  "rating": 4.8,
-                  "ratingText": "(4.8 Rating)",
-                  "price": "$980.00",
-                  "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-6"
-                },
-                {
-                  "id": "tour-pkg-7",
+                  "id": "kerala",
                   "image": "/destination/domestic/Kerala.webp",
-                  "title": "Italy Tour Package 7",
+                  "title": "Kerala Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-7"
+                  "url": "/tour-packages/kerala"
                 },
                 {
-                  "id": "tour-pkg-8",
+                  "id": "lakshadweep",
+                  "image": "/destination/domestic/Lakshadweep.webp",
+                  "title": "Lakshadweep Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/lakshadweep"
+                },
+                {
+                  "id": "himachal-pradesh",
+                  "image": "/destination/domestic/Uttarakhand.webp",
+                  "title": "Himachal Pradesh Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/himachal-pradesh"
+                },
+                {
+                  "id": "goa",
                   "image": "/destination/domestic/Mumbai.webp",
-                  "title": "Dubai Tour Package 8",
+                  "title": "Goa Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-8"
+                  "url": "/tour-packages/goa"
                 },
                 {
-                  "id": "tour-pkg-9",
-                  "image": "/about/1.jpg",
-                  "title": "Italy Tour Package 9",
+                  "id": "jammu---kashmir",
+                  "image": "/destination/domestic/Jammu and Kashmir.webp",
+                  "title": "Jammu & Kashmir Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-9"
+                  "url": "/tour-packages/jammu---kashmir"
                 },
                 {
-                  "id": "tour-pkg-10",
-                  "image": "/about/2.jpg",
-                  "title": "Dubai Tour Package 10",
+                  "id": "uttar-pradesh",
+                  "image": "/destination/domestic/Delhi.webp",
+                  "title": "Uttar Pradesh Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-10"
+                  "url": "/tour-packages/uttar-pradesh"
                 },
                 {
-                  "id": "tour-pkg-11",
-                  "image": "/about/3.jpg",
-                  "title": "Italy Tour Package 11",
+                  "id": "mumbai",
+                  "image": "/destination/domestic/Mumbai.webp",
+                  "title": "Mumbai Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-11"
+                  "url": "/tour-packages/mumbai"
                 },
                 {
-                  "id": "tour-pkg-12",
-                  "image": "/about/4.jpg",
-                  "title": "Dubai Tour Package 12",
+                  "id": "rajasthan",
+                  "image": "/destination/domestic/Rajasthan.webp",
+                  "title": "Rajasthan Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-12"
+                  "url": "/tour-packages/rajasthan"
                 },
                 {
-                  "id": "tour-pkg-13",
+                  "id": "uttarakhand",
+                  "image": "/destination/domestic/Uttarakhand.webp",
+                  "title": "Uttarakhand Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/uttarakhand"
+                },
+                {
+                  "id": "punjab",
+                  "image": "/destination/domestic/Punjab.webp",
+                  "title": "Punjab Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/punjab"
+                },
+                {
+                  "id": "andaman---nicobar",
+                  "image": "/destination/domestic/Lakshadweep.webp",
+                  "title": "Andaman & Nicobar Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/andaman---nicobar"
+                },
+                {
+                  "id": "dubai",
                   "image": "/destination/international/Dubai.webp",
-                  "title": "Italy Tour Package 13",
+                  "title": "Dubai Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-13"
+                  "url": "/tour-packages/dubai"
                 },
                 {
-                  "id": "tour-pkg-14",
+                  "id": "switzerland",
+                  "image": "/destination/international/Switzerland.webp",
+                  "title": "Switzerland Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/switzerland"
+                },
+                {
+                  "id": "thailand",
                   "image": "/destination/international/Amsterdam.webp",
-                  "title": "Dubai Tour Package 14",
+                  "title": "Thailand Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-14"
+                  "url": "/tour-packages/thailand"
                 },
                 {
-                  "id": "tour-pkg-15",
-                  "image": "/destination/domestic/Kerala.webp",
-                  "title": "Italy Tour Package 15",
+                  "id": "singapore",
+                  "image": "/destination/international/Dubai.webp",
+                  "title": "Singapore Tour Package",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
                   "price": "$980.00",
                   "priceSuffix": "/Person",
-                  "url": "/tour-packages/tour-pkg-15"
+                  "url": "/tour-packages/singapore"
+                },
+                {
+                  "id": "bali--indonesia",
+                  "image": "/destination/international/Venice.webp",
+                  "title": "Bali, Indonesia Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/bali--indonesia"
+                },
+                {
+                  "id": "paris--france",
+                  "image": "/destination/international/Paris.webp",
+                  "title": "Paris, France Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/paris--france"
+                },
+                {
+                  "id": "maldives",
+                  "image": "/destination/international/Istanbul.webp",
+                  "title": "Maldives Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/maldives"
+                },
+                {
+                  "id": "london--uk",
+                  "image": "/destination/international/London.webp",
+                  "title": "London, UK Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/london--uk"
+                },
+                {
+                  "id": "japan",
+                  "image": "/destination/international/Japan.webp",
+                  "title": "Japan Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/japan"
+                },
+                {
+                  "id": "turkey",
+                  "image": "/destination/international/Istanbul.webp",
+                  "title": "Turkey Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/turkey"
+                },
+                {
+                  "id": "australia",
+                  "image": "/destination/international/Amsterdam.webp",
+                  "title": "Australia Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/australia"
+                },
+                {
+                  "id": "new-zealand",
+                  "image": "/destination/international/Switzerland.webp",
+                  "title": "New Zealand Tour Package",
+                  "rating": 4.8,
+                  "ratingText": "(4.8 Rating)",
+                  "price": "$980.00",
+                  "priceSuffix": "/Person",
+                  "url": "/tour-packages/new-zealand"
                 }
               ]
             }
@@ -3640,6 +3743,211 @@
                   "description": "Our travel experts are here to help you plan your perfect trip.",
                   "phone": "+1 234 567 8900",
                   "buttonText": "Call Us Now"
+                }
+              }
+            }
+          }
+        },
+        "DestinationsPage": {
+          "variants": {
+            "WanderlyDestinationsPage1": {
+              "domestic": {
+                "title": "1) Domestic Destinations",
+                "icon": "FaMapMarkerAlt",
+                "items": [
+                  {
+                    "id": "delhi",
+                    "title": "Delhi",
+                    "image": "/destination/domestic/Delhi.webp",
+                    "url": "/tour-packages/delhi"
+                  },
+                  {
+                    "id": "kerala",
+                    "title": "Kerala",
+                    "image": "/destination/domestic/Kerala.webp",
+                    "url": "/tour-packages/kerala"
+                  },
+                  {
+                    "id": "lakshadweep",
+                    "title": "Lakshadweep",
+                    "image": "/destination/domestic/Lakshadweep.webp",
+                    "url": "/tour-packages/lakshadweep"
+                  },
+                  {
+                    "id": "himachal-pradesh",
+                    "title": "Himachal Pradesh",
+                    "image": "/destination/domestic/Uttarakhand.webp",
+                    "url": "/tour-packages/himachal-pradesh"
+                  },
+                  {
+                    "id": "goa",
+                    "title": "Goa",
+                    "image": "/destination/domestic/Mumbai.webp",
+                    "url": "/tour-packages/goa"
+                  },
+                  {
+                    "id": "jammu---kashmir",
+                    "title": "Jammu & Kashmir",
+                    "image": "/destination/domestic/Jammu and Kashmir.webp",
+                    "url": "/tour-packages/jammu---kashmir"
+                  },
+                  {
+                    "id": "uttar-pradesh",
+                    "title": "Uttar Pradesh",
+                    "image": "/destination/domestic/Delhi.webp",
+                    "url": "/tour-packages/uttar-pradesh"
+                  },
+                  {
+                    "id": "mumbai",
+                    "title": "Mumbai",
+                    "image": "/destination/domestic/Mumbai.webp",
+                    "url": "/tour-packages/mumbai"
+                  },
+                  {
+                    "id": "rajasthan",
+                    "title": "Rajasthan",
+                    "image": "/destination/domestic/Rajasthan.webp",
+                    "url": "/tour-packages/rajasthan"
+                  },
+                  {
+                    "id": "uttarakhand",
+                    "title": "Uttarakhand",
+                    "image": "/destination/domestic/Uttarakhand.webp",
+                    "url": "/tour-packages/uttarakhand"
+                  },
+                  {
+                    "id": "punjab",
+                    "title": "Punjab",
+                    "image": "/destination/domestic/Punjab.webp",
+                    "url": "/tour-packages/punjab"
+                  },
+                  {
+                    "id": "andaman---nicobar",
+                    "title": "Andaman & Nicobar",
+                    "image": "/destination/domestic/Lakshadweep.webp",
+                    "url": "/tour-packages/andaman---nicobar"
+                  }
+                ]
+              },
+              "international": {
+                "title": "2) International Destinations",
+                "icon": "FaGlobe",
+                "items": [
+                  {
+                    "id": "dubai",
+                    "title": "Dubai",
+                    "image": "/destination/international/Dubai.webp",
+                    "url": "/tour-packages/dubai"
+                  },
+                  {
+                    "id": "switzerland",
+                    "title": "Switzerland",
+                    "image": "/destination/international/Switzerland.webp",
+                    "url": "/tour-packages/switzerland"
+                  },
+                  {
+                    "id": "thailand",
+                    "title": "Thailand",
+                    "image": "/destination/international/Amsterdam.webp",
+                    "url": "/tour-packages/thailand"
+                  },
+                  {
+                    "id": "singapore",
+                    "title": "Singapore",
+                    "image": "/destination/international/Dubai.webp",
+                    "url": "/tour-packages/singapore"
+                  },
+                  {
+                    "id": "bali--indonesia",
+                    "title": "Bali, Indonesia",
+                    "image": "/destination/international/Venice.webp",
+                    "url": "/tour-packages/bali--indonesia"
+                  },
+                  {
+                    "id": "paris--france",
+                    "title": "Paris, France",
+                    "image": "/destination/international/Paris.webp",
+                    "url": "/tour-packages/paris--france"
+                  },
+                  {
+                    "id": "maldives",
+                    "title": "Maldives",
+                    "image": "/destination/international/Istanbul.webp",
+                    "url": "/tour-packages/maldives"
+                  },
+                  {
+                    "id": "london--uk",
+                    "title": "London, UK",
+                    "image": "/destination/international/London.webp",
+                    "url": "/tour-packages/london--uk"
+                  },
+                  {
+                    "id": "japan",
+                    "title": "Japan",
+                    "image": "/destination/international/Japan.webp",
+                    "url": "/tour-packages/japan"
+                  },
+                  {
+                    "id": "turkey",
+                    "title": "Turkey",
+                    "image": "/destination/international/Istanbul.webp",
+                    "url": "/tour-packages/turkey"
+                  },
+                  {
+                    "id": "australia",
+                    "title": "Australia",
+                    "image": "/destination/international/Amsterdam.webp",
+                    "url": "/tour-packages/australia"
+                  },
+                  {
+                    "id": "new-zealand",
+                    "title": "New Zealand",
+                    "image": "/destination/international/Switzerland.webp",
+                    "url": "/tour-packages/new-zealand"
+                  }
+                ]
+              },
+              "bottomBanner": {
+                "title": "Ready to Explore",
+                "subtitle": "Your Next Destination?",
+                "description": "Let us help you plan the perfect trip with unforgettable experiences and memories that last a lifetime.",
+                "buttonText": "Plan Your Trip",
+                "buttonUrl": "/contact"
+              },
+              "sidebar": {
+                "whyWanderlyTitle": "Why Travel With Us?",
+                "whyWanderlyFeatures": [
+                  {
+                    "id": "feat-1",
+                    "icon": "FaShieldAlt",
+                    "title": "Best Price Guarantee",
+                    "description": "Get the best deals and discounts on every booking."
+                  },
+                  {
+                    "id": "feat-2",
+                    "icon": "FaUsers",
+                    "title": "Expert Travel Support",
+                    "description": "Our travel experts are available 24/7 to assist you."
+                  },
+                  {
+                    "id": "feat-3",
+                    "icon": "FaShieldAlt",
+                    "title": "Safe & Secure Booking",
+                    "description": "Your payment and personal details are always safe with us."
+                  },
+                  {
+                    "id": "feat-4",
+                    "icon": "FaThumbsUp",
+                    "title": "Trusted Travel Partner",
+                    "description": "Thousands of happy travelers trust us for memorable trips."
+                  }
+                ],
+                "helpBox": {
+                  "title": "Need Help?",
+                  "description": "Our travel experts are here to help you plan your perfect trip.",
+                  "phone": "+1 234 567 8900",
+                  "buttonText": "Call Us Now",
+                  "buttonUrl": "tel:+12345678900"
                 }
               }
             }

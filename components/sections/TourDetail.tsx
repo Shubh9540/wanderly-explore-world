@@ -260,7 +260,15 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
               <h3 className="text-2xl font-bold text-[#12424b] mb-4">### Location</h3>
               <div className="flex flex-col md:flex-row gap-6 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
                 <div className="w-full md:w-1/2 relative h-[300px] rounded-xl overflow-hidden">
-                  <Image src={data.mapImage} alt="Map" fill className="object-cover" />
+                  <iframe 
+                    width="100%" 
+                    height="100%" 
+                    frameBorder="0" 
+                    scrolling="no" 
+                    marginHeight={0} 
+                    marginWidth={0} 
+                    src={`https://maps.google.com/maps?q=${encodeURIComponent(data.location || data.title)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+                  ></iframe>
                 </div>
                 <div className="w-full md:w-1/2 flex flex-col gap-6 justify-center">
                   {data.locations.map((loc) => (

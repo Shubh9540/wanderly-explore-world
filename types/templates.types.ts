@@ -1246,6 +1246,11 @@ export interface WanderlyTemplateData {
             WanderlyTourPackagesPage1: TourPackagesPageData;
           };
         };
+        DestinationsPage?: {
+          variants: {
+            WanderlyDestinationsPage1: DestinationsPageData;
+          };
+        };
         TourDetail?: {
           variants: {
             WanderlyTourDetail1: TourDetailData;
@@ -1317,6 +1322,43 @@ export interface WanderlyTemplateData {
           };
         };
       };
+    };
+  };
+}
+export interface DestinationItem {
+  id: string;
+  title: string;
+  image: string;
+  url: string;
+}
+
+export interface DestinationsPageData {
+  domestic: {
+    title: string;
+    icon: string;
+    items: DestinationItem[];
+  };
+  international: {
+    title: string;
+    icon: string;
+    items: DestinationItem[];
+  };
+  bottomBanner: {
+    title: string;
+    subtitle: string;
+    description: string;
+    buttonText: string;
+    buttonUrl: string;
+  };
+  sidebar: {
+    whyWanderlyTitle: string;
+    whyWanderlyFeatures: TourDetailWhyWanderly[];
+    helpBox: {
+      title: string;
+      description: string;
+      phone: string;
+      buttonText: string;
+      buttonUrl: string;
     };
   };
 }
