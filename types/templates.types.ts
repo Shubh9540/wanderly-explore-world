@@ -799,13 +799,14 @@ export interface TestimonialItem {
   image: string;
   text: string;
   rating: number;
-  repairedDevice: string;
+  repairedDevice?: string;
 }
 
 export interface TestimonialsData {
   subtitle: string;
   titlePart1: string;
   titleHighlight: string;
+  titlePart2?: string;
   description: string;
   testimonials: TestimonialItem[];
 }
@@ -1256,6 +1257,11 @@ export interface WanderlyTemplateData {
         GalleryPage?: {
           variants: {
             WanderlyGalleryPage1: GalleryPageData;
+          };
+        };
+        TestimonialsPage?: {
+          variants: {
+            WanderlyTestimonialsPage1: TestimonialsData;
           };
         };
         TourDetail?: {

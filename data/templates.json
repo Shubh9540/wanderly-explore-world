@@ -172,6 +172,19 @@
           }
         ],
         "bgImage": "banner/bg-11.webp"
+      },
+      "TestimonialsBreadcrumb": {
+        "title": "Testimonials",
+        "bgImage": "/banner/hero_bg_1.jpg",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Testimonials"
+          }
+        ]
       }
     },
     "Footer": {
@@ -501,6 +514,14 @@
                 {
                   "key": "Footer",
                   "component": "WanderlyFooter1"
+                }
+              ]
+            },
+            "testimonials": {
+              "components": [
+                {
+                  "key": "TestimonialsPage",
+                  "component": "TestimonialsPageContent"
                 }
               ]
             }
@@ -4119,6 +4140,67 @@
                 "buttonText": "Plan Your Trip",
                 "buttonUrl": "/contact"
               }
+            }
+          }
+        },
+        "TestimonialsPage": {
+          "variants": {
+            "WanderlyTestimonialsPage1": {
+              "subtitle": "TESTIMONIALS",
+              "titlePart1": "What Our",
+              "titleHighlight": "Travelers Say",
+              "titlePart2": "",
+              "description": "Real stories from happy travelers who explored the world with us and had unforgettable experiences.",
+              "testimonials": [
+                {
+                  "id": "test-1",
+                  "name": "Sophia Johnson",
+                  "location": "Traveller",
+                  "image": "/team/1.webp",
+                  "rating": 5,
+                  "text": "Our trip was absolutely amazing! Every detail was perfectly planned and we got to explore places we had only dreamed of. Highly recommend Wanderly!"
+                },
+                {
+                  "id": "test-2",
+                  "name": "Maria Doe",
+                  "location": "Traveller",
+                  "image": "/team/02.webp",
+                  "rating": 5,
+                  "text": "Wanderly made our vacation truly unforgettable. From seamless bookings to 24/7 support, everything was top-notch. Can't wait for our next adventure!"
+                },
+                {
+                  "id": "test-3",
+                  "name": "Andrew Simmons",
+                  "location": "Traveller",
+                  "image": "/team/03.webp",
+                  "rating": 5,
+                  "text": "The team at Wanderly is amazing! They customized our itinerary perfectly and gave us the best travel experience. Thank you for the memories!"
+                },
+                {
+                  "id": "test-4",
+                  "name": "James Carter",
+                  "location": "Traveller",
+                  "image": "/team/04.webp",
+                  "rating": 5,
+                  "text": "Excellent service and well-organized tours. We felt safe, comfortable and had the best time of our lives. Will definitely travel with Wanderly again!"
+                },
+                {
+                  "id": "test-5",
+                  "name": "Emily Watson",
+                  "location": "Traveller",
+                  "image": "/team/1.webp",
+                  "rating": 5,
+                  "text": "From booking to the end of our trip, Wanderly took care of everything. The experiences were authentic and truly unforgettable. Thank you, Wanderly!"
+                },
+                {
+                  "id": "test-6",
+                  "name": "Daniel Lee",
+                  "location": "Traveller",
+                  "image": "/team/02.webp",
+                  "rating": 5,
+                  "text": "I was impressed with the attention to detail and customer care. Every destination was beautiful and the entire journey was smooth and hassle-free!"
+                }
+              ]
             }
           }
         }
