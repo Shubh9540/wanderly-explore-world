@@ -7,7 +7,8 @@ import { TourPackagesPageData } from '@/types/templates.types';
 import { 
   FaStar, FaStarHalfAlt, FaRegStar, FaAngleRight, FaAngleLeft,
   FaUsers, FaHeart, FaUsersCog, FaUserFriends, FaMountain, FaCrown,
-  FaWallet, FaPlaceOfWorship, FaPaw, FaCalendarAlt, FaHeadset, FaPhoneAlt
+  FaWallet, FaPlaceOfWorship, FaPaw, FaCalendarAlt, FaHeadset, FaPhoneAlt,
+  FaSuitcaseRolling
 } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
@@ -73,7 +74,7 @@ export const TourPackagesList = ({ data }: { data?: TourPackagesPageData }) => {
             <div className="bg-white rounded-[16px] shadow-sm border border-gray-100 overflow-hidden">
               <div className="bg-[#12424b] text-white p-5 flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <Image src="/icons/suitcase.svg" width={20} height={20} alt="icon" className="brightness-0 invert" />
+                  <FaSuitcaseRolling className="text-xl" />
                   <h3 className="font-bold text-[16px]">{data.sidebar.title}</h3>
                 </div>
                 <FaAngleRight className="transform rotate-90" />
