@@ -288,9 +288,9 @@ export const ServiceDetail = ({ data }: { data?: WanderlyServiceDetail }) => {
                   </div>
                 </div>
               </div>
-              <button className="w-full bg-transparent border-[2px] border-[#12424b] text-[#12424b] hover:bg-[#12424b] hover:text-white font-bold py-3.5 rounded-[12px] transition-colors">
+              <Link href="/contact" className="w-full block text-center bg-transparent border-[2px] border-[#12424b] text-[#12424b] hover:bg-[#12424b] hover:text-white font-bold py-3.5 rounded-[12px] transition-colors">
                 Contact Us
-              </button>
+              </Link>
             </div>
 
             {/* Related Services */}

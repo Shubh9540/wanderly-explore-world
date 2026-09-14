@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { TourDetailData } from '@/types/templates.types';
 import {
   FaMapMarkerAlt, FaClock, FaCheckCircle, FaTimesCircle, FaAngleRight,
@@ -414,12 +415,12 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
               <p className="text-white/80 text-[14px] leading-relaxed mb-4 relative z-10">
                 {data.sidebar.helpBox.description}
               </p>
-              <div className="font-bold text-[26px] text-[#fbbc04] mb-6 relative z-10 drop-shadow-sm">
+              <Link href="/contact" className="font-bold text-[26px] text-[#fbbc04] mb-6 relative z-10 drop-shadow-sm block">
                 {data.sidebar.helpBox.phone}
-              </div>
-              <button className="w-full bg-white text-[#12424b] hover:bg-gray-100 font-bold py-3.5 rounded-lg transition-colors text-[15px] shadow-sm relative z-10">
+              </Link>
+              <Link href="/contact" className="w-full block text-center bg-white text-[#12424b] hover:bg-gray-100 font-bold py-3.5 rounded-lg transition-colors text-[15px] shadow-sm relative z-10">
                 {data.sidebar.helpBox.buttonText}
-              </button>
+              </Link>
             </div>
 
           </div>

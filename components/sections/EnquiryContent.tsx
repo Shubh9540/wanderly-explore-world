@@ -156,27 +156,6 @@ export const EnquiryContent = ({ data }: { data?: EnquiryData }) => {
                 </div>
               </div>
 
-              {/* 04 Verification */}
-              <div>
-                <div className="flex items-center gap-4">
-                   <div className="flex items-center gap-3">
-                     <div className="w-8 h-8 rounded-full bg-[#0a4860] text-white flex items-center justify-center text-sm shadow-sm">
-                       <FaCheckCircle />
-                     </div>
-                     <h3 className="font-bold text-[#051024] text-base">04 Verification</h3>
-                   </div>
-                   {/* reCAPTCHA Mock */}
-                   <div className="ml-auto md:ml-4 border border-gray-200 bg-gray-50 p-2 rounded flex items-center gap-4 w-[250px] shadow-sm">
-                     <div className="w-6 h-6 border-2 border-gray-300 rounded-sm bg-white cursor-pointer ml-2"></div>
-                     <span className="text-sm text-gray-700">I'm not a robot</span>
-                     <div className="ml-auto flex flex-col items-center">
-                        <img src="https://www.gstatic.com/recaptcha/api2/logo_48.png" alt="reCAPTCHA" className="w-6 h-6 opacity-70" />
-                        <span className="text-[8px] text-gray-500 mt-0.5">reCAPTCHA</span>
-                     </div>
-                   </div>
-                </div>
-              </div>
-
               <div className="mt-2">
                 <button type="submit" className="w-full bg-[#fbbc04] hover:bg-[#e0a800] text-[#051024] font-bold py-3.5 rounded-lg flex items-center justify-center gap-2 transition-colors text-lg shadow-md">
                   <FaRegPaperPlane className="text-xl" /> Enquiry Now
@@ -225,13 +204,13 @@ export const EnquiryContent = ({ data }: { data?: EnquiryData }) => {
                 {data.helpBox.description}
               </p>
               
-              <a href={data.helpBox.buttonLink} className="text-[#fbbc04] text-2xl font-black mb-6 hover:text-[#ffd659] transition-colors relative z-10 tracking-wide">
+              <Link href="/contact" className="text-[#fbbc04] text-2xl font-black mb-6 hover:text-[#ffd659] transition-colors relative z-10 tracking-wide">
                 {data.helpBox.phone}
-              </a>
+              </Link>
               
-              <a href={data.helpBox.buttonLink} className="w-full bg-white hover:bg-gray-100 text-[#051024] font-bold py-3.5 rounded-lg flex items-center justify-center gap-2 transition-colors text-sm shadow-md relative z-10">
+              <Link href="/contact" className="w-full block text-center bg-white hover:bg-gray-100 text-[#051024] font-bold py-3.5 rounded-lg transition-colors text-sm shadow-md relative z-10">
                 {data.helpBox.buttonText}
-              </a>
+              </Link>
             </div>
 
           </div>
