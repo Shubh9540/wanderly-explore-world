@@ -24,20 +24,11 @@ export default async function TourPackageDetailPage({ params }: { params: Promis
 
   if (!tourDetailData) return <div>Data not found</div>;
 
-  const breadcrumbData = {
-    title: 'Package Detail',
-    paths: [
-      { label: 'Home', url: '/' },
-      { label: 'Package Detail' }
-    ],
-    bgImage: '/banner/bg-02.jpg'
-  };
-
   return (
     <main className="bg-white min-h-screen">
       <TopBar data={sectionData.TopBar?.variants?.WanderlyTopBar1} />
       <Header data={sectionData.Header?.variants?.WanderlyHeader1} />
-      <Breadcrumb data={breadcrumbData} />
+      <Breadcrumb data={commonData?.breadcrumbs?.TourPackageDetailBreadcrumb} />
       
       <TourDetail data={tourDetailData} />
       

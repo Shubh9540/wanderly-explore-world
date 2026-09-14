@@ -15,20 +15,11 @@ export default function TourPackagesPage() {
 
   if (!sectionData) return <div>Loading...</div>;
 
-  const breadcrumbData = {
-    title: 'Tour Packages',
-    paths: [
-      { label: 'Home', url: '/' },
-      { label: 'Tour Packages' }
-    ],
-    bgImage: '/banner/bg-01.jpg'
-  };
-
   return (
     <main className="bg-white min-h-screen">
       <TopBar data={sectionData.TopBar?.variants?.WanderlyTopBar1} />
       <Header data={sectionData.Header?.variants?.WanderlyHeader1} />
-      <Breadcrumb data={breadcrumbData} />
+      <Breadcrumb data={commonData?.breadcrumbs?.TourPackagesBreadcrumb} />
       
       <TourPackagesList data={sectionData.TourPackagesPage?.variants?.WanderlyTourPackagesPage1} />
       

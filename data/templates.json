@@ -91,175 +91,6 @@
         ],
         "bgImage": "/banner/bg-11.webp"
       },
-      "BookRepairBreadcrumb": {
-        "title": "Book A Repair",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Book A Repair"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "PricingBreadcrumb": {
-        "title": "Pricing",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Pricing"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "TestimonialsBreadcrumb": {
-        "title": "Testimonials",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Testimonials"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "GalleryBreadcrumb": {
-        "title": "Gallery",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Gallery"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "FaqBreadcrumb": {
-        "title": "FAQ",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "FAQ"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "WarrantyPolicyBreadcrumb": {
-        "title": "Warranty Policy",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Warranty Policy"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "CancellationPolicyBreadcrumb": {
-        "title": "Cancellation / Refund Policy",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Cancellation & Refund"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "PrivacyPolicyBreadcrumb": {
-        "title": "Privacy Policy",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Privacy Policy"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "TermsConditionsBreadcrumb": {
-        "title": "Terms & Conditions",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Terms & Conditions"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "ContactBreadcrumb": {
-        "title": "Contact Us",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Contact Us"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "BlogBreadcrumb": {
-        "title": "Our Blog",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Our Blog"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "CareersBreadcrumb": {
-        "title": "Careers",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Careers"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
-      "SitemapBreadcrumb": {
-        "title": "Sitemap",
-        "paths": [
-          {
-            "label": "Home",
-            "url": "/"
-          },
-          {
-            "label": "Sitemap"
-          }
-        ],
-        "bgImage": "/banner/bg-11.webp"
-      },
       "MissionVisionBreadcrumb": {
         "title": "Mission & Vision",
         "bgImage": "/banner/bg-11.webp",
@@ -285,6 +116,36 @@
             "label": "Awards"
           }
         ]
+      },
+      "TourPackagesBreadcrumb": {
+        "title": "Tour Packages",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Tour Packages"
+          }
+        ],
+        "bgImage": "/banner/bg-11.webp"
+      },
+      "TourPackageDetailBreadcrumb": {
+        "title": "Tour Package Details",
+        "paths": [
+          {
+            "label": "Home",
+            "url": "/"
+          },
+          {
+            "label": "Tour Packages",
+            "url": "/tour-packages"
+          },
+          {
+            "label": "Tour Package Details"
+          }
+        ],
+        "bgImage": "/banner/bg-11.webp"
       }
     },
     "Footer": {
@@ -3478,7 +3339,7 @@
               "tours": [
                 {
                   "id": "tour-pkg-1",
-                  "image": "/destination/d-2.jpg",
+                  "image": "/about/1.jpg",
                   "title": "Italy Tour Package 1",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3488,7 +3349,7 @@
                 },
                 {
                   "id": "tour-pkg-2",
-                  "image": "/destination/d-3.jpg",
+                  "image": "/about/2.jpg",
                   "title": "Dubai Tour Package 2",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3498,7 +3359,7 @@
                 },
                 {
                   "id": "tour-pkg-3",
-                  "image": "/destination/d-4.jpg",
+                  "image": "/about/3.jpg",
                   "title": "Italy Tour Package 3",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3508,7 +3369,7 @@
                 },
                 {
                   "id": "tour-pkg-4",
-                  "image": "/destination/d-5.jpg",
+                  "image": "/about/4.jpg",
                   "title": "Dubai Tour Package 4",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3518,7 +3379,7 @@
                 },
                 {
                   "id": "tour-pkg-5",
-                  "image": "/destination/d-1.jpg",
+                  "image": "/destination/international/Dubai.webp",
                   "title": "Italy Tour Package 5",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3528,7 +3389,7 @@
                 },
                 {
                   "id": "tour-pkg-6",
-                  "image": "/destination/d-2.jpg",
+                  "image": "/destination/international/Amsterdam.webp",
                   "title": "Dubai Tour Package 6",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3538,7 +3399,7 @@
                 },
                 {
                   "id": "tour-pkg-7",
-                  "image": "/destination/d-3.jpg",
+                  "image": "/destination/domestic/Kerala.webp",
                   "title": "Italy Tour Package 7",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3548,7 +3409,7 @@
                 },
                 {
                   "id": "tour-pkg-8",
-                  "image": "/destination/d-4.jpg",
+                  "image": "/destination/domestic/Mumbai.webp",
                   "title": "Dubai Tour Package 8",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3558,7 +3419,7 @@
                 },
                 {
                   "id": "tour-pkg-9",
-                  "image": "/destination/d-5.jpg",
+                  "image": "/about/1.jpg",
                   "title": "Italy Tour Package 9",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3568,7 +3429,7 @@
                 },
                 {
                   "id": "tour-pkg-10",
-                  "image": "/destination/d-1.jpg",
+                  "image": "/about/2.jpg",
                   "title": "Dubai Tour Package 10",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3578,7 +3439,7 @@
                 },
                 {
                   "id": "tour-pkg-11",
-                  "image": "/destination/d-2.jpg",
+                  "image": "/about/3.jpg",
                   "title": "Italy Tour Package 11",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3588,7 +3449,7 @@
                 },
                 {
                   "id": "tour-pkg-12",
-                  "image": "/destination/d-3.jpg",
+                  "image": "/about/4.jpg",
                   "title": "Dubai Tour Package 12",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3598,7 +3459,7 @@
                 },
                 {
                   "id": "tour-pkg-13",
-                  "image": "/destination/d-4.jpg",
+                  "image": "/destination/international/Dubai.webp",
                   "title": "Italy Tour Package 13",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3608,7 +3469,7 @@
                 },
                 {
                   "id": "tour-pkg-14",
-                  "image": "/destination/d-5.jpg",
+                  "image": "/destination/international/Amsterdam.webp",
                   "title": "Dubai Tour Package 14",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3618,7 +3479,7 @@
                 },
                 {
                   "id": "tour-pkg-15",
-                  "image": "/destination/d-1.jpg",
+                  "image": "/destination/domestic/Kerala.webp",
                   "title": "Italy Tour Package 15",
                   "rating": 4.8,
                   "ratingText": "(4.8 Rating)",
@@ -3637,13 +3498,13 @@
               "title": "Greece Tour Package",
               "location": "Greece",
               "duration": "5 Days / 4 Nights",
-              "mainImage": "/destination/d-1.jpg",
+              "mainImage": "/destination/domestic/Mumbai.webp",
               "topGallery": [
-                "/destination/d-1.jpg",
-                "/destination/d-2.jpg",
-                "/destination/d-3.jpg",
-                "/destination/d-4.jpg",
-                "/destination/d-5.jpg"
+                "/about/1.jpg",
+                "/about/2.jpg",
+                "/about/3.jpg",
+                "/about/4.jpg",
+                "/destination/international/Dubai.webp"
               ],
               "description": [
                 "Experience the magic of Greece with its breathtaking islands, ancient history, stunning architecture, and crystal-clear waters. A perfect blend of relaxation and adventure awaits you!"
@@ -3714,7 +3575,7 @@
                   "description": "Check out from hotel and transfer to airport for your return flight with wonderful memories."
                 }
               ],
-              "mapImage": "/banner/map-placeholder.jpg",
+              "mapImage": "/destination/international/Dubai.webp",
               "locations": [
                 {
                   "id": "loc-1",
@@ -3738,11 +3599,11 @@
                 }
               ],
               "bottomGallery": [
-                "/destination/d-1.jpg",
-                "/destination/d-2.jpg",
-                "/destination/d-3.jpg",
-                "/destination/d-4.jpg",
-                "/destination/d-5.jpg"
+                "/destination/international/Amsterdam.webp",
+                "/destination/domestic/Kerala.webp",
+                "/destination/domestic/Mumbai.webp",
+                "/about/1.jpg",
+                "/about/2.jpg"
               ],
               "sidebar": {
                 "formTitle": "Enquiry / Book This Tour",

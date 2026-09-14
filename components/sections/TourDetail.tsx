@@ -3,11 +3,11 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { TourDetailData } from '@/types/templates.types';
-import { 
-  FaMapMarkerAlt, FaClock, FaCheckCircle, FaTimesCircle, FaAngleRight, 
-  FaAngleLeft, FaAngleDown, FaPlaneArrival, FaFlag, FaCalendarAlt, 
-  FaGlobe, FaMountain, FaLanguage, FaRegCheckCircle, FaUsers, 
-  FaShieldAlt, FaThumbsUp, FaHeadset, FaPhoneAlt, FaUser, FaEnvelope, 
+import {
+  FaMapMarkerAlt, FaClock, FaCheckCircle, FaTimesCircle, FaAngleRight,
+  FaAngleLeft, FaAngleDown, FaPlaneArrival, FaFlag, FaCalendarAlt,
+  FaGlobe, FaMountain, FaLanguage, FaRegCheckCircle, FaUsers,
+  FaShieldAlt, FaThumbsUp, FaHeadset, FaPhoneAlt, FaUser, FaEnvelope,
   FaCalendarDay, FaUserFriends, FaMapPin
 } from 'react-icons/fa';
 
@@ -23,39 +23,56 @@ const renderIcon = (iconName: string) => {
 
 export const TourDetail = ({ data }: { data?: TourDetailData }) => {
   const [activeDay, setActiveDay] = useState<string | null>('day-1');
+  const [activeImageIndex, setActiveImageIndex] = useState(0);
+  const [bottomGalleryIndex, setBottomGalleryIndex] = useState(0);
 
   if (!data) return null;
+
+  const galleryImages = [data.mainImage, ...(data.topGallery || [])];
 
   return (
     <section className="py-8 lg:py-16 bg-[#fcfdfe]">
       <div className="max-w-[1300px] mx-auto px-4 md:px-6">
-        
-        {/* TOP GALLERY */}
-        <div className="flex flex-col gap-4 mb-8">
-          <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden">
-            <Image src={data.mainImage} alt={data.title} fill className="object-cover" />
-            <div className="absolute top-1/2 -translate-y-1/2 left-4 w-10 h-10 rounded-full bg-white/80 flex items-center justify-center text-[#12424b] cursor-pointer hover:bg-white shadow-md transition-colors">
-              <FaAngleLeft />
-            </div>
-            <div className="absolute top-1/2 -translate-y-1/2 right-4 w-10 h-10 rounded-full bg-white/80 flex items-center justify-center text-[#12424b] cursor-pointer hover:bg-white shadow-md transition-colors">
-              <FaAngleRight />
-            </div>
-          </div>
-          <div className="grid grid-cols-5 gap-2 md:gap-4">
-            {data.topGallery.map((img, i) => (
-              <div key={i} className="relative h-[60px] md:h-[100px] rounded-lg overflow-hidden cursor-pointer border-2 border-transparent hover:border-[#12424b] transition-all">
-                <Image src={img} alt={`Gallery ${i}`} fill className="object-cover" />
-              </div>
-            ))}
-          </div>
-        </div>
+
+
 
         {/* MAIN TWO COLUMN LAYOUT */}
+
         <div className="flex flex-col lg:flex-row gap-10 relative">
-          
+
           {/* LEFT COLUMN - CONTENT */}
           <div className="flex-1 flex flex-col gap-10">
-            
+
+            {/* TOP GALLERY */}
+            <div className="flex flex-col gap-4 mb-8">
+              <div className="relative h-[300px] md:h-[400px] lg:h-[500px] w-full rounded-2xl overflow-hidden">
+                <Image src={galleryImages[activeImageIndex]} alt={data.title} fill className="object-cover" />
+                <div 
+                  onClick={() => setActiveImageIndex((prev) => (prev === 0 ? galleryImages.length - 1 : prev - 1))}
+                  className="absolute top-1/2 -translate-y-1/2 left-4 w-10 h-10 rounded-full bg-white/80 flex items-center justify-center text-[#12424b] cursor-pointer hover:bg-white shadow-md transition-colors z-10"
+                >
+                  <FaAngleLeft />
+                </div>
+                <div 
+                  onClick={() => setActiveImageIndex((prev) => (prev === galleryImages.length - 1 ? 0 : prev + 1))}
+                  className="absolute top-1/2 -translate-y-1/2 right-4 w-10 h-10 rounded-full bg-white/80 flex items-center justify-center text-[#12424b] cursor-pointer hover:bg-white shadow-md transition-colors z-10"
+                >
+                  <FaAngleRight />
+                </div>
+              </div>
+              <div className="grid grid-cols-6 gap-2 md:gap-4">
+                {galleryImages.map((img, i) => (
+                  <div 
+                    key={i} 
+                    onClick={() => setActiveImageIndex(i)}
+                    className={`relative h-[50px] md:h-[80px] rounded-lg overflow-hidden cursor-pointer border-2 transition-all ${activeImageIndex === i ? 'border-[#12424b]' : 'border-transparent hover:border-[#12424b]/50'}`}
+                  >
+                    <Image src={img} alt={`Gallery ${i}`} fill className="object-cover" />
+                  </div>
+                ))}
+              </div>
+            </div>
+
             {/* Header & Desc */}
             <div>
               <h1 className="text-3xl md:text-[42px] font-bold text-[#12424b] mb-4">{data.title}</h1>
@@ -90,7 +107,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
             <div>
               <h3 className="text-2xl font-bold text-[#12424b] mb-4">## Basic Information</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-12 bg-white rounded-2xl p-6 border border-gray-100 shadow-sm">
-                
+
                 <div className="flex items-start gap-4">
                   <FaMapMarkerAlt className="text-[#09a3c8] text-2xl shrink-0 mt-1" />
                   <div>
@@ -98,7 +115,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
                     <p className="text-gray-500 text-[13px]">{data.basicInfo.destination}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <FaFlag className="text-[#09a3c8] text-2xl shrink-0 mt-1" />
                   <div>
@@ -122,7 +139,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
                     <p className="text-gray-500 text-[13px]">{data.basicInfo.tourType}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <FaPlaneArrival className="text-[#09a3c8] text-2xl shrink-0 mt-1" />
                   <div>
@@ -130,7 +147,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
                     <p className="text-gray-500 text-[13px]">{data.basicInfo.startPoint}</p>
                   </div>
                 </div>
-                
+
                 <div className="flex items-start gap-4">
                   <FaCalendarDay className="text-[#09a3c8] text-2xl shrink-0 mt-1" />
                   <div>
@@ -170,7 +187,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
             <div>
               <h3 className="text-2xl font-bold text-[#12424b] mb-4">## Included and Excluded</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                
+
                 {/* Included */}
                 <div className="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
                   <div className="bg-[#009b86] text-white font-bold px-5 py-3 flex items-center gap-2 text-[15px]">
@@ -212,7 +229,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
                   const isOpen = activeDay === day.id;
                   return (
                     <div key={day.id} className="border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm">
-                      <div 
+                      <div
                         className="flex items-center cursor-pointer select-none"
                         onClick={() => setActiveDay(isOpen ? null : day.id)}
                       >
@@ -262,15 +279,30 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
             {/* Bottom Gallery */}
             <div>
               <h3 className="text-2xl font-bold text-[#12424b] mb-4">Gallery</h3>
-              <div className="grid grid-cols-5 gap-2 md:gap-4 relative">
-                {data.bottomGallery.map((img, i) => (
-                  <div key={i} className="relative h-[80px] md:h-[120px] rounded-lg overflow-hidden cursor-pointer">
-                    <Image src={img} alt={`Gallery ${i}`} fill className="object-cover" />
-                  </div>
-                ))}
-                <div className="absolute top-1/2 -translate-y-1/2 right-2 w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#12424b] cursor-pointer shadow-md">
-                  <FaAngleRight />
+              <div className="relative">
+                <div className="grid grid-cols-5 gap-2 md:gap-4 overflow-hidden">
+                  {data.bottomGallery.slice(bottomGalleryIndex, bottomGalleryIndex + 5).map((img, i) => (
+                    <div key={i} className="relative h-[80px] md:h-[120px] rounded-lg overflow-hidden cursor-pointer">
+                      <Image src={img} alt={`Gallery ${i}`} fill className="object-cover" />
+                    </div>
+                  ))}
                 </div>
+                {bottomGalleryIndex > 0 && (
+                  <div 
+                    onClick={() => setBottomGalleryIndex(prev => prev - 1)}
+                    className="absolute top-1/2 -translate-y-1/2 -left-4 w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#12424b] cursor-pointer shadow-md z-10 hover:bg-gray-50 transition-colors"
+                  >
+                    <FaAngleLeft />
+                  </div>
+                )}
+                {bottomGalleryIndex < data.bottomGallery.length - 5 && (
+                  <div 
+                    onClick={() => setBottomGalleryIndex(prev => prev + 1)}
+                    className="absolute top-1/2 -translate-y-1/2 -right-4 w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#12424b] cursor-pointer shadow-md z-10 hover:bg-gray-50 transition-colors"
+                  >
+                    <FaAngleRight />
+                  </div>
+                )}
               </div>
             </div>
 
@@ -279,7 +311,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
 
           {/* RIGHT SIDEBAR (STICKY) */}
           <div className="w-full lg:w-[380px] shrink-0 sticky top-24 h-fit flex flex-col gap-8 pb-10">
-            
+
             {/* Form Box */}
             <div className="bg-white rounded-2xl shadow-[0_10px_30px_rgb(0,0,0,0.08)] border border-gray-100 p-6 md:p-8">
               <h3 className="text-[22px] font-bold text-[#12424b] mb-2">{data.sidebar.formTitle}</h3>
@@ -366,7 +398,7 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
               {/* Optional background pattern */}
               <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-5 rounded-full -mr-10 -mt-10 pointer-events-none"></div>
               <div className="absolute bottom-0 left-0 w-24 h-24 bg-[#12424b] opacity-10 rounded-full -ml-8 -mb-8 pointer-events-none"></div>
-              
+
               <div className="flex items-center justify-center gap-3 mb-4 relative z-10">
                 <FaHeadset className="text-4xl" />
               </div>

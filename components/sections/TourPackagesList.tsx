@@ -116,11 +116,11 @@ export const TourPackagesList = ({ data }: { data?: TourPackagesPageData }) => {
             {/* Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-6">
               {currentTours.map((tour) => (
-                <div key={tour.id} className="bg-white rounded-[16px] shadow-sm border border-gray-100 overflow-hidden group">
-                  <div className="relative h-[220px] w-full overflow-hidden">
+                <div key={tour.id} className="bg-white rounded-[16px] shadow-md border border-gray-100 group p-3 flex flex-col">
+                  <div className="relative h-[220px] w-full overflow-hidden rounded-[12px]">
                     <Image src={tour.image} alt={tour.title} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   </div>
-                  <div className="p-5 flex flex-col gap-3">
+                  <div className="pt-4 pb-2 px-1 flex flex-col gap-3">
                     <h3 className="text-[#12424b] font-bold text-[18px] leading-snug">{tour.title}</h3>
                     
                     <div className="flex items-center gap-2">
@@ -134,6 +134,8 @@ export const TourPackagesList = ({ data }: { data?: TourPackagesPageData }) => {
                       <span className="text-[#09a3c8] font-bold text-[22px]">{tour.price}</span>
                       <span className="text-gray-500 text-[13px] mb-1">{tour.priceSuffix}</span>
                     </div>
+
+                    <div className="w-full h-px border-t border-dashed border-gray-200 mb-4 mt-1"></div>
 
                     <Link href={tour.url}>
                       <button className="w-full border border-[#12424b] text-[#12424b] hover:bg-[#12424b] hover:text-white font-bold py-2.5 rounded-full transition-colors text-[14px] flex items-center justify-center gap-2">
