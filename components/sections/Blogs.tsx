@@ -48,13 +48,15 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
             <div key={blog.id} className="bg-white rounded-2xl overflow-visible flex flex-col shadow-[0_10px_30px_rgba(0,0,0,0.06)] group border border-gray-50">
 
               {/* Image Section */}
-              <div className="relative h-60 w-full rounded-t-2xl overflow-hidden">
-                <Image
-                  src={blog.image}
-                  alt={blog.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                />
+              <div className="relative h-60 w-full">
+                <div className="absolute inset-0 rounded-t-2xl overflow-hidden">
+                  <Image
+                    src={blog.image}
+                    alt={blog.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                </div>
 
                 {/* Overlapping Calendar Icon */}
                 <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 w-12 h-12 rounded-full bg-[#0c5c6f] text-white flex items-center justify-center border-4 border-white shadow-md z-10">
