@@ -10,7 +10,7 @@ export const ContactPageContent = ({ data }: { data?: ContactFormData }) => {
   if (!data) return null;
 
   return (
-    <section className="pt-16 lg:pt-12 pb-12 bg-white relative overflow-hidden">
+    <section className="pt-16 lg:pt-12 pb-4 bg-white relative overflow-hidden">
 
       {/* Background Decorator / Watermark Waves - mimicking the left side cyan wave graphic */}
       <div className="absolute left-0 bottom-0 w-full md:w-1/2 h-full opacity-10 pointer-events-none z-0">
@@ -23,7 +23,7 @@ export const ContactPageContent = ({ data }: { data?: ContactFormData }) => {
       <div className="max-w-[1250px] mx-auto px-4 md:px-6 relative z-10">
 
         {/* Top Split Section - 40/60 approx */}
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 mb-20">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 mb-12">
 
           {/* Left Column (Text & Icon) ~ 40% */}
           <div className="w-full lg:w-2/5 pt-8">

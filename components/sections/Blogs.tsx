@@ -107,7 +107,7 @@ export const Blogs = ({ data }: { data?: BlogsData }) => {
           <div className="text-center mt-14">
             <Link
               href={data.viewAllLink}
-              className="inline-flex items-center gap-2 bg-[#0c5c6f] hover:bg-[#094857] text-white px-8 py-3.5 rounded-full font-bold transition-all shadow-lg hover:shadow-xl"
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] text-white px-8 py-3.5 rounded-full font-bold shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] hover:scale-105 transition-all duration-300"
             >
               {data.viewAllText}
               <FaArrowRight />

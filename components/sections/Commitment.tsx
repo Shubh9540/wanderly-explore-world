@@ -44,7 +44,7 @@ export const Commitment = ({ data }: { data?: CoreValuesData }) => {
 
               {/* Icon */}
               <div
-                className="w-20 h-20 rounded-full flex items-center justify-center text-3xl mb-5"
+                className="w-24 h-24 rounded-full flex items-center justify-center text-5xl mb-6"
                 style={{ backgroundColor: `${item.color}15`, color: item.color }}
               >
                 {renderIcon(item.icon)}

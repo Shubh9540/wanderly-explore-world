@@ -112,7 +112,7 @@ export const Header = ({ data }: { data?: HeaderData }) => {
           {data.contactButton && (
             <Link
               href={data.contactButton.url}
-              className="bg-accent text-white font-bold text-[15px] xl:text-[16px] px-6 xl:px-8 py-3 rounded-full flex items-center gap-2 hover:bg-[#e6ae06] transition-colors shadow-sm whitespace-nowrap"
+              className="bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] text-white font-bold text-[15px] xl:text-[16px] px-6 xl:px-8 py-3 rounded-full flex items-center gap-2 shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] hover:scale-105 transition-all duration-300 whitespace-nowrap"
             >
               <span>{data.contactButton.text}</span>
               <FaArrowRight className="text-[14px] ml-1 font-light" />
@@ -168,7 +168,7 @@ export const Header = ({ data }: { data?: HeaderData }) => {
             {data.contactButton && (
               <Link
                 href={data.contactButton.url}
-                className="bg-accent text-white font-bold text-[15px] px-6 py-3 rounded-full flex items-center justify-center gap-2 hover:bg-[#e6ae06] transition-colors shadow-sm w-full"
+                className="bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] text-white font-bold text-[15px] px-6 py-3 rounded-full flex items-center justify-center gap-2 shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] hover:scale-105 transition-all duration-300 w-full"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <span>{data.contactButton.text}</span>

@@ -34,26 +34,48 @@ export const TravelProcess = ({ data }: { data?: TravelProcessData }) => {
         </div>
 
         {/* Process Steps */}
-        <div className="relative flex flex-col md:flex-row justify-between items-start gap-12 md:gap-4">
+        <div className="relative flex flex-col md:flex-row justify-between items-start gap-12 md:gap-4 w-full">
           
+          {/* Custom Animation Styles */}
+          <style dangerouslySetInnerHTML={{__html: `
+            @keyframes flyPlane {
+              0% { left: 0%; opacity: 0; }
+              5% { opacity: 1; }
+              95% { opacity: 1; }
+              100% { left: 100%; opacity: 0; }
+            }
+            .animate-fly-plane {
+              animation: flyPlane 12s linear infinite;
+            }
+            
+            @keyframes pulseNode {
+              0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(9, 113, 184, 0); }
+              50% { transform: scale(1.05); box-shadow: 0 0 15px 5px rgba(9, 113, 184, 0.3); }
+            }
+            .node-pulse-1 { animation: pulseNode 12s infinite; animation-delay: 0s; }
+            .node-pulse-2 { animation: pulseNode 12s infinite; animation-delay: 3s; }
+            .node-pulse-3 { animation: pulseNode 12s infinite; animation-delay: 6s; }
+            .node-pulse-4 { animation: pulseNode 12s infinite; animation-delay: 9s; }
+          `}} />
+
           {/* Dotted Line (Desktop only) */}
-          <div className="hidden md:block absolute top-12 left-16 right-16 border-t-2 border-dashed border-[#0971b8] z-0"></div>
+          <div className="hidden md:block absolute top-12 left-[5%] right-[5%] border-t-2 border-dashed border-[#0971b8] z-0"></div>
+
+          {/* Animated Airplane */}
+          <div className="hidden md:block absolute top-[38px] w-full z-10 pointer-events-none">
+             <div className="absolute animate-fly-plane text-[#12424b] text-2xl">
+                <FaPlane className="rotate-90 md:rotate-0" />
+             </div>
+          </div>
 
           {data.steps.map((step, index) => (
             <div 
               key={step.id} 
-              className="relative z-10 flex-1 flex flex-col items-center text-center group"
+              className="relative z-20 flex-1 flex flex-col items-center text-center group"
             >
               
-              {/* Airplane on dotted line (except last one) */}
-              {index < data.steps.length - 1 && (
-                <div className="hidden md:block absolute top-9 left-[70%] text-[#12424b] text-xl z-20">
-                  <FaPlane />
-                </div>
-              )}
-
               {/* Icon Circle */}
-              <div className="w-24 h-24 rounded-full bg-white border-[3px] border-[#eff5fc] flex items-center justify-center text-4xl text-[#12424b] mb-4 shadow-sm group-hover:border-[#0971b8] transition-colors relative">
+              <div className={`w-24 h-24 rounded-full bg-white border-[3px] border-[#eff5fc] flex items-center justify-center text-5xl text-[#12424b] mb-4 shadow-sm group-hover:border-[#0971b8] transition-all relative node-pulse-${index + 1}`}>
                 {renderIcon(step.icon)}
                 
                 {/* Step Number Badge */}

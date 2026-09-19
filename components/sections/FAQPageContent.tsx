@@ -44,7 +44,7 @@ export const FAQPageContent = ({ data }: { data?: FAQPageData }) => {
                   {data.contactBox.description}
                 </p>
                 <Link href={data.contactBox.buttonUrl}>
-                  <button className="bg-[var(--color-primary)] hover:bg-[#094857] text-white font-bold py-3 px-8 rounded-full transition-colors text-[14px] inline-flex items-center justify-center gap-2 shadow-md">
+                  <button className="bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] text-white font-bold py-3 px-8 rounded-full shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] hover:-translate-y-1 transition-all text-[14px] inline-flex items-center justify-center gap-2">
                     {data.contactBox.buttonText} <FaArrowRight className="text-xs" />
                   </button>
                 </Link>

@@ -16,7 +16,7 @@ export const RecognizedBy = ({ data }: { data?: RecognizedByData }) => {
           
           {/* Left Text Content */}
           <div className="flex items-center gap-6 lg:w-[40%] shrink-0 lg:border-r border-gray-200 lg:pr-8">
-            <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#12424b] flex items-center justify-center text-white text-4xl shrink-0 shadow-lg">
+            <div className="w-24 h-24 md:w-28 md:h-28 rounded-full bg-[#12424b] flex items-center justify-center text-white text-5xl shrink-0 shadow-lg">
               <FaMedal />
             </div>
             <div>
@@ -39,11 +39,11 @@ export const RecognizedBy = ({ data }: { data?: RecognizedByData }) => {
           </div>
 
           {/* Right Logos Content */}
-          <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-4 w-full justify-items-center">
+          <div className="flex-1 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 w-full justify-items-center">
             {data.logos.map((logo) => (
               <div 
                 key={logo.id} 
-                className="bg-white rounded-2xl w-full max-w-[140px] aspect-[4/3] flex items-center justify-center p-3 md:p-4 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
+                className="bg-white rounded-2xl w-full aspect-[4/3] flex items-center justify-center p-2 shadow-sm border border-gray-100 hover:shadow-md transition-shadow"
               >
                 <div className="relative w-full h-full">
                   {/* We use an image if present, or generic text fallback */}

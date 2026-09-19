@@ -52,7 +52,7 @@ export const SitemapPageContent = ({ data }: { data?: SitemapData }) => {
           
           {/* Home Node (Root) */}
           <div className="relative z-10 flex flex-col items-center">
-            <Link href="/" className="bg-[var(--color-primary)] border-2 border-[var(--color-primary)] rounded-full py-4 px-12 shadow-xl flex items-center gap-3 hover:bg-white hover:text-[var(--color-primary)] transition-all group text-white font-bold text-xl md:text-2xl relative z-20">
+            <Link href="/" className="bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] rounded-full py-4 px-12 shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] flex items-center gap-3 hover:-translate-y-1 transition-all group text-white font-bold text-xl md:text-2xl relative z-20">
               <FaHome className="text-2xl md:text-3xl group-hover:text-[var(--color-primary)] transition-colors" />
               Home
             </Link>

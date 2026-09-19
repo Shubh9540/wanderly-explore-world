@@ -24,7 +24,7 @@ export const AboutUs = ({ data, hideButton = false }: { data?: AboutUsData, hide
       {/* Global Background Image */}
       <div className="absolute inset-0 z-0 pointer-events-none hidden lg:block">
         <Image
-          src="/about/bbg.png"
+          src="/about/bbg2.png"
           alt="About Us Background"
           fill
           className="object-cover object-center"
@@ -76,7 +76,7 @@ export const AboutUs = ({ data, hideButton = false }: { data?: AboutUsData, hide
               {data.button && (
                 <Link
                   href={data.button.url}
-                  className="bg-[var(--color-primary)] text-white font-semibold px-6 py-3 rounded-full inline-flex items-center gap-3 hover:bg-[var(--color-accent)] transition-colors duration-300 w-fit text-sm shadow-xl z-20 relative"
+                  className="bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] text-white font-bold px-6 py-3 rounded-full inline-flex items-center gap-3 shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] hover:scale-105 transition-all duration-300 w-fit text-sm z-20 relative"
                 >
                   {data.button.text} <FaArrowRight className="text-[12px]" />
                 </Link>

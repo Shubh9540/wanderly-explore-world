@@ -25,7 +25,7 @@ const renderIcon = (iconName: string) => {
 export const TourDetail = ({ data }: { data?: TourDetailData }) => {
   const [activeDay, setActiveDay] = useState<string | null>('day-1');
   const [activeImageIndex, setActiveImageIndex] = useState(0);
-  const [bottomGalleryIndex, setBottomGalleryIndex] = useState(0);
+
 
   if (!data) return null;
 
@@ -285,35 +285,6 @@ export const TourDetail = ({ data }: { data?: TourDetailData }) => {
               </div>
             </div>
 
-            {/* Bottom Gallery */}
-            <div>
-              <h3 className="text-2xl font-bold text-[#12424b] mb-4">Gallery</h3>
-              <div className="relative">
-                <div className="grid grid-cols-5 gap-2 md:gap-4 overflow-hidden">
-                  {data.bottomGallery.slice(bottomGalleryIndex, bottomGalleryIndex + 5).map((img, i) => (
-                    <div key={i} className="relative h-[80px] md:h-[120px] rounded-lg overflow-hidden cursor-pointer">
-                      <Image src={img} alt={`Gallery ${i}`} fill className="object-cover" />
-                    </div>
-                  ))}
-                </div>
-                {bottomGalleryIndex > 0 && (
-                  <div 
-                    onClick={() => setBottomGalleryIndex(prev => prev - 1)}
-                    className="absolute top-1/2 -translate-y-1/2 -left-4 w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#12424b] cursor-pointer shadow-md z-10 hover:bg-gray-50 transition-colors"
-                  >
-                    <FaAngleLeft />
-                  </div>
-                )}
-                {bottomGalleryIndex < data.bottomGallery.length - 5 && (
-                  <div 
-                    onClick={() => setBottomGalleryIndex(prev => prev + 1)}
-                    className="absolute top-1/2 -translate-y-1/2 -right-4 w-8 h-8 rounded-full bg-white flex items-center justify-center text-[#12424b] cursor-pointer shadow-md z-10 hover:bg-gray-50 transition-colors"
-                  >
-                    <FaAngleRight />
-                  </div>
-                )}
-              </div>
-            </div>
 
           </div>
 

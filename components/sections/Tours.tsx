@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ToursData } from '@/types/templates.types';
-import { FaStar, FaArrowRight } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { Button } from '@/components/ui/Button';
 
@@ -58,17 +58,7 @@ export const Tours = ({ data }: { data?: ToursData }) => {
                   {tour.title}
                 </h4>
 
-                {/* Rating */}
-                <div className="flex items-center gap-2 mb-4">
-                  <div className="flex text-[var(--color-accent)] text-sm">
-                    {[...Array(5)].map((_, i) => (
-                      <FaStar key={i} />
-                    ))}
-                  </div>
-                  <span className="text-xs text-gray-500 font-medium">
-                    {tour.ratingText}
-                  </span>
-                </div>
+
 
                 {/* Price */}
                 <div className="mb-4 flex items-baseline gap-1">

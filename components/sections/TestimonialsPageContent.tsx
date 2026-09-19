@@ -15,9 +15,9 @@ export const TestimonialsPageContent = ({ data }: { data?: TestimonialsData }) =
 
         <SectionHeading 
           subtitle={data.subtitle} 
-          title={data.title as string} 
+          title={(data.title || data.titlePart1) as string} 
           description={data.description} 
-          showPlaneTrack={true} 
+          showPlaneTrack={false} 
         />
 
         {/* Testimonials Grid */}

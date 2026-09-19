@@ -133,7 +133,7 @@ export const WhyChooseUs = ({ data }: { data?: WhyChooseUsData }) => {
               ))}
             </div>
 
-            <Link href={data.buttonLink} className="inline-flex items-center gap-3 bg-[var(--color-primary)] text-white px-8 py-4 rounded-full font-semibold hover:bg-[var(--color-accent)] transition-colors duration-300">
+            <Link href={data.buttonLink} className="inline-flex items-center gap-3 bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-light)] text-white px-8 py-4 rounded-full font-bold shadow-[0_8px_20px_-6px_rgba(248,161,20,0.5)] hover:shadow-[0_12px_25px_-6px_rgba(248,161,20,0.6)] hover:scale-105 transition-all duration-300">
               <FaHeadset className="w-5 h-5" />
               {data.buttonText}
               <FaArrowRight className="w-4 h-4 ml-2" />

@@ -40,9 +40,10 @@ export const Services = ({ data, hideButton }: { data?: ServicesData, hideButton
         {/* Services Grid */}
         <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 w-full items-start ${hideButton ? '' : 'mb-8'}`}>
           {data.services.map((service) => (
-            <div 
+            <Link 
+              href={service.url}
               key={service.id} 
-              className="bg-white p-3 rounded-[20px] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col group border border-gray-100 hover:-translate-y-2 transition-transform duration-300 relative"
+              className="bg-white p-3 rounded-[20px] shadow-[0_8px_30px_rgb(0,0,0,0.04)] flex flex-col group border border-gray-100 hover:-translate-y-2 transition-transform duration-300 relative block"
             >
               {/* Image & Icon Wrapper (overflow visible for the overlapping icon) */}
               <div className="relative w-full h-[130px] lg:h-[140px] mb-6">
@@ -73,15 +74,14 @@ export const Services = ({ data, hideButton }: { data?: ServicesData, hideButton
                 </p>
 
                 <div className="mt-auto">
-                  <Link 
-                    href={service.url}
-                    className="inline-flex items-center text-[#086a7a] hover:text-[var(--color-primary)] transition-colors duration-300"
+                  <div 
+                    className="inline-flex items-center text-[#086a7a] group-hover:text-[var(--color-primary)] transition-colors duration-300"
                   >
                     <FaArrowRight className="text-xs" />
-                  </Link>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
 

@@ -7,7 +7,7 @@ export const PartnerContent = ({ data }: { data?: PartnerData }) => {
   if (!data || !data.logos || data.logos.length === 0) return null;
 
   return (
-    <section className="pt-16 lg:pt-12 pb-10 bg-white relative">
+    <section className="pt-16 lg:pt-12 pb-0 bg-white relative">
       <div className="max-w-[1250px] mx-auto px-4 md:px-6 relative z-10">
 
         {/* Standard Global Heading */}

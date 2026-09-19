@@ -43,7 +43,7 @@ export const TravelAdvantages = ({ data }: { data?: TravelAdvantagesData }) => {
             >
               
               {/* Icon Circle */}
-              <div className="w-24 h-24 rounded-full bg-[#eaf4f3] flex items-center justify-center text-4xl mb-6 relative">
+              <div className="w-24 h-24 rounded-full bg-[#eaf4f3] flex items-center justify-center text-5xl mb-6 relative">
                 {/* Specific Colors based on index for the mockup look */}
                 <div className={`${index % 2 === 0 ? 'text-[#fbbc04]' : 'text-[#0971b8]'}`}>
                   {renderIcon(item.icon)}
